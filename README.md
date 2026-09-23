@@ -161,7 +161,7 @@ Bir üniversite veya fakültenin ne derece feodal bir yapıya teslim olduğunu g
 
 ---
 
-## 🚪 Sosyal Emniyet Sübvansiyonları (Tahliye Vanaları)
+## 🚪 Sosyal Emniyet Sübvansiyonları (Tahliye Vanaları): "Taş Olsa Çatlardı"
 
 <div align="center">
 
@@ -169,11 +169,38 @@ Bir üniversite veya fakültenin ne derece feodal bir yapıya teslim olduğunu g
 
 </div>
 
-Türkiye'de üniversitelerdeki yoğun baskı ve haksızlıklara rağmen kitlesel karşı çıkışların doğmamasının nedeni sistemin sunduğu dolaylı tahliye vanalarıdır:
-1. **Açıköğretim Esnekliği (AÖF & AUZEF):** Hocasız ve merkezi çoktan seçmeli sınavlarla anında diploma ve askerlik tecili kaçışı.
-2. **Kesintisiz KYK Kredisi:** Dersten kalınsa dahi paranın kesilmemesi ve maddi açlığın ötelenmesi.
-3. **Periyodik Öğrenci Afları:** "Nasılsa af çıkar dönerim" algısı üreterek hak arama öfkesini zamana yayma.
-4. Ayrıntılı analiz için: [`analizler/03_sosyal-tahliye-vanalari-aof-ve-kyk.md`](analizler/03_sosyal-tahliye-vanalari-aof-ve-kyk.md).
+> *"Bir sistemde hiyerarşi bu kadar katı, denetimsizlik bu kadar mutlak ve mobbing bu kadar pervasızsa; normalde taş olsa çatlardı, kampüslerde her dönem büyük toplumsal patlamalar ve boykotlar yaşanırdı. Peki neden yaşanmıyor?"*
+
+Türkiye yükseköğretim sisteminde yaşanan ağır mobbing ve haksızlıklara rağmen kitlesel bir isyanın doğmamasının sırrı; devletin ve sistemin inşa ettiği **"4 Büyük Emniyet / Tahliye Vanası"**nda gizlidir. Devlet, kürsünün zorbalığını denetlemez; ancak kurbanın patlama noktasına gelen öfkesini ustalıkla dağıtan kaçış kapıları sunar:
+
+```text
+       ┌─────────────────────────────────────────────────────────────────┐
+       │   AKADEMİK BASKI, KEYFİ NOT & AĞIR MOBBİNG ("Taş Olsa Çatlardı") │
+       └────────────────────────────────┬────────────────────────────────┘
+                                        │
+                                        ▼
+       ┌─────────────────────────────────────────────────────────────────┐
+       │                SİSTEMİN 4 BÜYÜK TAHLİYE VANASI                  │
+       ├─────────────────────────────────────────────────────────────────┤
+       │ 1. AÖF & AUZEF      ──► Hocasız, İntikamsız Diploma & Tecil     │
+       │ 2. Kesintisiz KYK   ──► Kredi & Yurt Hakkının Sürmesi (Tampon)  │
+       │ 3. Ek Madde 1       ──► Hocayla Muhatap Olmadan Sessiz Firar    │
+       │ 4. Periyodik Aflar  ──► "Nasılsa Af Çıkar" Uyuşturucusu         │
+       └────────────────────────────────┬────────────────────────────────┘
+                                        │
+                                        ▼
+       ┌─────────────────────────────────────────────────────────────────┐
+       │          SONUÇ: BİREYSELLEŞMİŞ, SÖNÜMLENMİŞ VE ATOMİZE ÖFKE     │
+       │            Sıfır Kurumsal Çatışma • Sessizce Terk               │
+       └─────────────────────────────────────────────────────────────────┘
+```
+
+1. **Açıköğretim (AÖF & AUZEF) Kaçışı:** Örgün fakültede hocanın kaprisiyle mezuniyeti engellenen ve askerlik tehlikesiyle karşılaşan öğrenci; tek tıkla AÖF'e kaydolarak bilgisayarın okuduğu çoktan seçmeli sınavlarla diplomasını ve tecilini alır. Hocayla savaşmak yerine hocasız sisteme kaçar.
+2. **KYK Kredisi ve Yurt Hakkının Kesilmemesi (Maddi Açlık Tamponu):** Öğrenci dersten kalsa, dönem uzatsa dahi KYK kredisi ve devlet yurdu hakkı kesilmez. Bu durum öğrencinin sokakta aç ve evsiz kalmasını önleyerek hayatta kalma krizinin sokak eylemine dönüşmesini engeller.
+3. **Ek Madde 1 ile Merkezi Yatay Geçiş:** Hocasıyla kanlı bıçaklı olan öğrenci, hocanın veya dekanlığın iznine gerek duymaksızın üniversiteye giriş puanıyla başka bir şehre sessizce kaçabilir. Çatışma kurumsal bir hesap sormaya dönüşmeden coğrafi olarak ötelenir.
+4. **Periyodik Öğrenci Afları:** 3-4 yılda bir çıkarılan genel öğrenci afları, mağdurun zihninde *"nasılsa af çıkar, diplomamı alırım"* rehaveti yaratarak organize bir adalet arayışını ve kolektif öfkeyi zamana yayarak eritir.
+
+Ayrıntılı kuramsal inceleme için: [`analizler/03_sosyal-tahliye-vanalari-aof-ve-kyk.md`](analizler/03_sosyal-tahliye-vanalari-aof-ve-kyk.md).
 
 ---
 
