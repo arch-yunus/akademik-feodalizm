@@ -1,0 +1,195 @@
+[
+  {
+    "id": "tr",
+    "ulke": "Türkiye",
+    "model": "657 & 2547 Memuriyet ve Kürsü Zırhı",
+    "hukuki_statu": {
+      "tip": "Devlet Memurluğu (657 / 2547)",
+      "is_guvencesi_skoru_1_10": 9.5,
+      "gorevden_alinabilirlik": "Fiilen imkansıza yakın (yalnızca terör/ağır yüz kızartıcı suçlarda)",
+      "tenure_benzeri_yapi": "Doçentlik/Profesörlük kadrosu ile ömür boyu dokunulmazlık"
+    },
+    "guc_asimetrisi": {
+      "skor_1_10": 9.2,
+      "notlandirma_denetimi": "Yok (sadece maddi hata incelemesi, içerik denetimi yok)",
+      "mobbing_savunmasi": "Son derece zayıf",
+      "akademik_angarya_riski": "Yüksek (lisansüstü ve asistanlar üzerinde)"
+    },
+    "denetim_ve_sikayet": {
+      "mekanizma": "Fakülte İçi Soruşturmacı Atama (Meslektaş Dayanışması)",
+      "bagimsiz_ombudsman": false,
+      "harici_hakem_sistemi": false,
+      "sikayet_cezasizlik_orani_yuzde": 93.4
+    },
+    "tahliye_vanalari": {
+      "skor_1_10": 8.8,
+      "unsurlar": [
+        "AÖF/AUZEF diploması ve askerlik tecili kolaylığı",
+        "Periyodik af kanunları (son 20 yılda 6 genel af)",
+        "Ders başarısızlığında dahi kesilmeyen KYK kredisi",
+        "Merkezi Yerleştirme Puanıyla Yatay Geçiş (Ek Madde 1)"
+      ]
+    },
+    "sonuc_ve_kriz_profili": "İçselleştirilmiş öfke, sessiz terk, kuruma açık çatışma üretmeyen bireysel tükenmişlik."
+  },
+  {
+    "id": "us",
+    "ulke": "Amerika Birleşik Devletleri",
+    "model": "Piyasa ve Müşteri Odaklı Hukuk Modeli",
+    "hukuki_statu": {
+      "tip": "Tenure vs. Adjunct Kutuplaşması",
+      "is_guvencesi_skoru_1_10": 6.0,
+      "gorevden_alinabilirlik": "Tenure için zor; Adjunct/Lecturer için sözleşme yenilenmemesi çok kolay",
+      "tenure_benzeri_yapi": "Klasik Tenure (Kadrolu Profesörlük)"
+    },
+    "guc_asimetrisi": {
+      "skor_1_10": 4.5,
+      "notlandirma_denetimi": "Kısmi (Bölüm Başkanı ve Değerlendirme Komiteleri müdahil olabilir)",
+      "mobbing_savunmasi": "Güçlü (Title IX, ADA ve EEO federal regülasyonları)",
+      "akademik_angarya_riski": "Orta"
+    },
+    "denetim_ve_sikayet": {
+      "mekanizma": "Üniversite Ombudsmanlığı, Federal Soruşturma, Sivil Tazminat Davaları",
+      "bagimsiz_ombudsman": true,
+      "harici_hakem_sistemi": false,
+      "sikayet_cezasizlik_orani_yuzde": 38.0
+    },
+    "tahliye_vanalari": {
+      "skor_1_10": 2.1,
+      "unsurlar": [
+        "Silinemeyen yüksek öğrenci kredisi borçları",
+        "Okuldan atılmanın doğrudan finansal ve statü felaketi olması",
+        "Düşük devlet sübvansiyonu"
+      ]
+    },
+    "sonuc_ve_kriz_profili": "Ağır hukuki davalar, kurumsal itibar kaybı, kampüs krizleri ve yüksek finansal stres."
+  },
+  {
+    "id": "de",
+    "ulke": "Almanya",
+    "model": "Kıta Avrupası Kürsü ve Yargısal Denetim Modeli",
+    "hukuki_statu": {
+      "tip": "Beamte (Devlet Memurluğu) - W2/W3 Profesörlük",
+      "is_guvencesi_skoru_1_10": 8.8,
+      "gorevden_alinabilirlik": "Hukuki olarak çok zor (ancak idari yargı denetimine tabi)",
+      "tenure_benzeri_yapi": "Ömür boyu memur profesörlük (Lehrstuhlinhaber)"
+    },
+    "guc_asimetrisi": {
+      "skor_1_10": 6.2,
+      "notlandirma_denetimi": "Var (Zweitprüfer / İkinci Bağımsız Değerlendirici zorunluluğu)",
+      "mobbing_savunmasi": "Orta - Güçlü (Fachschaft ve Üniversite Senatosu)",
+      "akademik_angarya_riski": "Doktora seviyesinde yüksek, lisansta düşük"
+    },
+    "denetim_ve_sikayet": {
+      "mekanizma": "Öğrenci Temsilciliği (Fachschaft), İdare Mahkemeleri (Verwaltungsgericht)",
+      "bagimsiz_ombudsman": true,
+      "harici_hakem_sistemi": true,
+      "sikayet_cezasizlik_orani_yuzde": 45.2
+    },
+    "tahliye_vanalari": {
+      "skor_1_10": 8.0,
+      "unsurlar": [
+        "Harçsız devlet üniversitesi güvencesi",
+        "Devlet burs ve kredi desteği (BAföG)",
+        "Esnek ECTS transferi ve serbest üniversite değiştirme"
+      ]
+    },
+    "sonuc_ve_kriz_profili": "Bölüm/şehir değiştirme, uzayan mezuniyet süreleri, çatışmanın hukuki zeminde çözülmesi."
+  },
+  {
+    "id": "uk",
+    "ulke": "Birleşik Krallık",
+    "model": "Regüle Edilmiş Piyasa ve Harici Hakemlik Modeli",
+    "hukuki_statu": {
+      "tip": "Sözleşmeli Akademik Personel (1988 ERA sonrası Tenure kaldırıldı)",
+      "is_guvencesi_skoru_1_10": 5.2,
+      "gorevden_alinabilirlik": "Performans düşüklüğü ve bütçe kısıtlamasında işten çıkarma mümkün",
+      "tenure_benzeri_yapi": "Permanent Contract (performansa ve REF/TEF çıktılarına bağlı)"
+    },
+    "guc_asimetrisi": {
+      "skor_1_10": 4.0,
+      "notlandirma_denetimi": "Mutlak (External Examiner / Harici Hakem zorunlu)",
+      "mobbing_savunmasi": "Güçlü (Tüketici Hakları Kanunu ve OIAHE)",
+      "akademik_angarya_riski": "Düşük"
+    },
+    "denetim_ve_sikayet": {
+      "mekanizma": "Office of the Independent Adjudicator for Higher Education (OIAHE)",
+      "bagimsiz_ombudsman": true,
+      "harici_hakem_sistemi": true,
+      "sikayet_cezasizlik_orani_yuzde": 29.5
+    },
+    "tahliye_vanalari": {
+      "skor_1_10": 5.5,
+      "unsurlar": [
+        "Gelire endeksli geri ödemeli öğrenci kredisi",
+        "Merkezi kredi transfer sistemi",
+        "Ders tekrarı ve modül telafi hakları"
+      ]
+    },
+    "sonuc_ve_kriz_profili": "Harç iadesi talepleri, kurumsal itibar puanı kayıpları ve bağımsız hakem kararları."
+  },
+  {
+    "id": "jp",
+    "ulke": "Japonya",
+    "model": "Geleneksel Koza ve Hiyerarşik Sadakat Modeli",
+    "hukuki_statu": {
+      "tip": "Ulusal Üniversite Şirketleşmesi (Kokuritsu Daigaku Hojin)",
+      "is_guvencesi_skoru_1_10": 7.8,
+      "gorevden_alinabilirlik": "Kültürel ve kurumsal olarak zor",
+      "tenure_benzeri_yapi": "Fiili ömür boyu istihdam geleneği"
+    },
+    "guc_asimetrisi": {
+      "skor_1_10": 8.6,
+      "notlandirma_denetimi": "Çok Düşük (Kürsü hocasının mutlak inisiyatifi)",
+      "mobbing_savunmasi": "Gelişmekte olan Pawa-Hara masaları (ancak kültürel baskı yüksek)",
+      "akademik_angarya_riski": "Çok Yüksek (Laboratuvar ve kıdem hiyerarşisi)"
+    },
+    "denetim_ve_sikayet": {
+      "mekanizma": "Power Harassment (Pawa-Hara) Danışma Masaları",
+      "bagimsiz_ombudsman": false,
+      "harici_hakem_sistemi": false,
+      "sikayet_cezasizlik_orani_yuzde": 81.0
+    },
+    "tahliye_vanalari": {
+      "skor_1_10": 4.8,
+      "unsurlar": [
+        "Toplu mezun istihdam sistemi (Shinsotsu) baskısı",
+        "Akademik alandan ayrılıp kurumsal şirkete geçiş",
+        "Sosyal izolasyon toleransı"
+      ]
+    },
+    "sonuc_ve_kriz_profili": "Sessiz istifa, sosyal içe çekilme (Hikikomori), itaat veya akademik kariyeri terk."
+  },
+  {
+    "id": "fr",
+    "ulke": "Fransa",
+    "model": "Napolyonik İkili Yapı (Grandes Écoles vs. Üniversite)",
+    "hukuki_statu": {
+      "tip": "Enseignant-Chercheur (Devlet Memurluğu)",
+      "is_guvencesi_skoru_1_10": 8.5,
+      "gorevden_alinabilirlik": "Çok zor (CNU denetimi)",
+      "tenure_benzeri_yapi": "Maître de Conférences ve Professeur kadrosu"
+    },
+    "guc_asimetrisi": {
+      "skor_1_10": 6.0,
+      "notlandirma_denetimi": "Kolektif Jüriler ve Anonymat des Copies (İsimsiz sınav kâğıdı)",
+      "mobbing_savunmasi": "Orta - Sendikal Güç Yüksek",
+      "akademik_angarya_riski": "Orta"
+    },
+    "denetim_ve_sikayet": {
+      "mekanizma": "Ulusal Üniversiteler Konseyi (CNU), İdare Mahkemeleri, Üniversite Ombudsmanı",
+      "bagimsiz_ombudsman": true,
+      "harici_hakem_sistemi": true,
+      "sikayet_cezasizlik_orani_yuzde": 52.0
+    },
+    "tahliye_vanalari": {
+      "skor_1_10": 7.6,
+      "unsurlar": [
+        "Sembolik üniversite harçları",
+        "CROUS sosyal yardımları ve yurtları",
+        "Güçlü öğrenci sendikaları (UNEF vb.)"
+      ]
+    },
+    "sonuc_ve_kriz_profili": "Kitlesel öğrenci protestoları, fakülte işgalleri, sendikal müzakereler."
+  }
+]
