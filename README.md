@@ -1,7 +1,7 @@
 <div align="center">
 
 # Akademik Feodalizm ve Güç Asimetrisi
-### Yapısal Çöküş, Kuramsal Analiz ve Bütüncül Çözüm Manifestosu
+### Türkiye Yükseköğretiminde Yapısal Çöküş, Kuramsal Analiz ve Demokratik Üniversite Manifestosu
 
 [![Veri ve Şema Doğrulama CI](https://github.com/arch-yunus/akademik-feodalizm/actions/workflows/validate.yml/badge.svg)](https://github.com/arch-yunus/akademik-feodalizm/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -10,7 +10,7 @@
 
 <br/>
 
-![Akademik Feodalizm Ana Banner](assets/images/hero-banner.jpg)
+![Akademik Feodalizm ve Aydınlanma Mücadelesi](assets/images/01-milli-hero-banner.jpg)
 
 <br/>
 
@@ -23,18 +23,20 @@
 ## 📑 İçindekiler Tablosu
 
 1. [Genel Bakış ve Problem Tanımı](#-genel-bakış-ve-problem-tanımı)
-2. [Tarihsel Kökenler: Orta Çağ Loncalarından 1981 YÖK Rejimine](#-tarihsel-kökenler-orta-çağ-loncalarından-1981-yök-rejimine)
+2. [Tarihsel Kökenler: Medreselerden 1981 YÖK Rejimine](#-tarihsel-kökenler-medreselerden-1981-yök-rejimine)
 3. [Genişletilmiş Düşünürler Arşivi (18 Filozof & Sosyolog)](#-genişletilmiş-düşünürler-arşivi)
 4. [Akademik Feodalizmin 10 Yapısal Belirtisi](#-akademik-feodalizmin-10-yapısal-belirtisi)
 5. [Sorunun Anatomisi: 6 Yapısal Boyut](#-sorunun-anatomisi-6-yapısal-boyut)
-6. [Karşılaştırmalı Yükseköğretim Güç Matrisi](#-karşılaştırmalı-yükseköğretim-güç-matrisi)
-7. [En İyi Sistem Hangi Ülkede ve Nasıl Sağladılar? (Hollanda & İskandinavya Modeli)](#-en-iyi-sistem-hangi-ülkede-ve-nasıl-sağladılar)
-8. [Bütüncül Reform Paketi ve Somut Yasa Taslağı Önerisi](#-bütüncül-reform-paketi-ve-somut-yasa-taslağı-önerisi)
-9. [Hak Arama, Direnç ve Belgeleme Stratejileri](#-hak-arama-direnç-ve-belgeleme-stratejileri)
-10. [Dilekçe Şablonları ve Hak Arama Kütüphanesi](#-dilekçe-şablonları-ve-hak-arama-kütüphanesi)
-11. [Dizin Yapısı ve Belge Kütüphanesi](#-dizin-yapısı-ve-belge-kütüphanesi)
-12. [Veri Doğrulama ve Yerel Portal Çalıştırma](#-veri-doğrulama-ve-yerel-portal-çalıştırma)
-13. [Katkıda Bulunma ve Lisans](#-katkıda-bulunma-ve-lisans)
+6. [Asistanlık Sistemi ve 50/d Kadro Şantajı](#-asistanlık-sistemi-ve-50d-kadro-şantajı)
+7. [Sosyal Emniyet Sübvansiyonları (Tahliye Vanaları)](#-sosyal-emniyet-sübvansiyonları-tahliye-vanaları)
+8. [Karşılaştırmalı Yükseköğretim Güç Matrisi](#-karşılaştırmalı-yükseköğretim-güç-matrisi)
+9. [En İyi Sistem Hangi Ülkede ve Nasıl Sağladılar? (Hollanda & İskandinavya Modeli)](#-en-iyi-sistem-hangi-ülkede-ve-nasıl-sağladılar)
+10. [Bütüncül Reform Paketi ve Somut Yasa Taslağı Önerisi](#-bütüncül-reform-paketi-ve-somut-yasa-taslağı-önerisi)
+11. [Hak Arama, Direnç ve Belgeleme Stratejileri](#-hak-arama-direnç-ve-belgeleme-stratejileri)
+12. [Dilekçe Şablonları ve Hak Arama Kütüphanesi](#-dilekçe-şablonları-ve-hak-arama-kütüphanesi)
+13. [Dizin Yapısı ve Belge Kütüphanesi](#-dizin-yapısı-ve-belge-kütüphanesi)
+14. [Veri Doğrulama ve Yerel Portal Çalıştırma](#-veri-doğrulama-ve-yerel-portal-çalıştırma)
+15. [Katkıda Bulunma ve Lisans](#-katkıda-bulunma-ve-lisans)
 
 ---
 
@@ -62,12 +64,12 @@ Modern üniversite ideali, Aydınlanma'dan bu yana **hakikatin arandığı, ele�
 
 ---
 
-## 🏛️ Tarihsel Kökenler: Orta Çağ Loncalarından 1981 YÖK Rejimine
+## 🏛️ Tarihsel Kökenler: Medreselerden 1981 YÖK Rejimine
 
 Akademideki güç tekelini anlamak için kurumun tarihsel evrimini iki ana eksende incelemek gerekir:
 
-### 1. Orta Çağ Lonca Mantığının Mirası
-İlk Avrupa üniversiteleri (Bologna, Paris, Oxford), meslek loncaları (*universitas magistrorum et scholarium*) biçiminde örgütlenmişti. Usta-çırak ilişkisi üzerine kurulu bu yapıda "üstat" (magister/doktor), mesleğe kimin kabul edileceğine tek başına karar verirdi. Batı akademisi zamanla bu lonca tekelini bağımsız kurullar, sınav komisyonları ve öğrenci meclisleriyle demokratikleştirirken; Türkiye yükseköğretimi loncanın **keyfi icazet ve sadakat** kültürünü bürokratik devlet güvencesiyle birleştirmiştir.
+### 1. Lonca ve İcazet Geleneği
+İlk Avrupa üniversiteleri ve geleneksel medreseler, usta-çırak ilişkisi üzerine kurulu lonca yapılarıydı (*universitas magistrorum et scholarium*). Bu yapıda üstat (müderris/doktor), mesleğe kimin kabul edileceğine tek başına karar verirdi. Batı akademisi zamanla bu lonca tekelini bağımsız kurullar, çift körleme sınav komisyonları ve öğrenci meclisleriyle demokratikleştirirken; Türkiye yükseköğretimi loncanın **keyfi icazet ve sadakat** kültürünü bürokratik devlet güvencesiyle birleştirmiştir.
 
 ### 2. 12 Eylül 1980 Askeri Darbesi ve 2547 Sayılı YÖK Kanunu
 Türkiye'de akademik feodalizmin modern yasal altyapısı, 1981 yılında yürürlüğe giren **2547 Sayılı Yükseköğretim Kanunu** ile kurulmuştur:
@@ -106,63 +108,7 @@ Türkiye'de akademik feodalizmin modern yasal altyapısı, 1981 yılında yürü
 └───────────────────────┴──────────────────────────┴───────────────────────────────┘
 ```
 
-### 1. Max Weber – Bürokratik Kast Zırhı
-> "Bürokrasi, rasyonel bir yönetim biçimi olarak tasarlanmasına rağmen, bilginin ve mevzuatın tekelleştirildiği yerde kendi başına buyruk bir 'kast sistemine' dönüşür. Resmi memuriyet zırhı, liyakat denetimini imkânsız hale getiren en kusursuz maskedir."
-
-### 2. Immanuel Kant – Ergin Olmayış Durumu ve Vesayet Rejimi
-> "Aydınlanma, insanın kendi suçu ile düşmüş olduğu bir ergin olamayış durumundan çıkmasıdır. Bu durum, başkasının kılavuzluğu olmaksızın kendi aklını kullanamayışıdır. Ne var ki kürsüler ve dogmalar, öğrencileri sürekli vesayet altında tutarak onların erginleşmesini engeller; düşünmeyi tehlikeli, itaati ise erdem olarak sunar."
-
-### 3. Arthur Schopenhauer – Üniversite Profesörleri ve Kürsü Tüccarlığı
-> "Felsefeyi ve bilimi geçim kaynağı haline getiren üniversite profesörleri için hakikat en son kaygıdır; onların birinci kaygısı unvanlarını, kürsülerini, maaşlarını ve bakanlığın lütfunu korumaktır. Bağımsız ve eleştirel bir zihnin ortaya çıkışı, kürsü vasatlığının en büyük kabusudur; bu yüzden onu elbirliğiyle boğarlar."
-> — *Üniversitelerdeki Felsefe Üzerine*
-
-### 4. Jürgen Habermas – İletişimsel Akıl ve Tahakkümsüz Üniversite
-> "Üniversite, tahakkümden arındırılmış bir kamusal iletişim alanı (*herrschaftsfreier Diskurs*) olmak zorundadır. Karşılıklı argüman denetiminin yerini unvan hiyerarşisi ve 'ben öyle uygun gördüm' keyfiyeti aldığında, kurum bilim yuvası olmaktan çıkar, totaliter bir güç merkezine dönüşür."
-
-### 5. Pierre Bourdieu – Simgesel Şiddet ve *Homo Academicus*
-> "Akademik alan, salt bir bilgi üretim mekânı değil; simgesel sermayenin, unvanların ve akademik asalet rütbelerinin korunduğu ve yeniden üretildiği bir iktidar sahasıdır. Profesörün kürsüsü, sadece pedagojik bir mevki değil; astların ve öğrencilerin itaatini meşrulaştıran bir simgesel şiddet aygıtıdır."
-
-### 6. Michel Foucault – Kapalı Devre Disiplin ve Otosansür
-> "Disiplinci iktidarın en büyük zaferi, cezalandırmaktan ziyade bireyi sürekli bir gözetim ve cezalandırılabilirlik tehdidi altında tutarak kendi kendine otosansür uygulamasını sağlamaktır. Hiyerarşik gözetim mekanizması kurum içi yargılamayı tekeline aldığında kurban için dışarıya sesini duyurmak imkânsızlaşır."
-
-### 7. Paulo Freire – Ezilenlerin Pedagojisi ve Gardiyan Refleksi
-> "Otoriter eğitim modelinde öğretmen bilir, öğrenciler hiçbir şey bilmez; öğretmen anlatır, öğrenciler yutar. Ezilen, sistemin doğasını sorgulayamadığı müddetçe, sistemdeki yegâne ideali 'ezene dönüşmek' ve kürsüye çıkıp aynı zulmü bir sonrakine devretmektir."
-
-### 8. Antonio Gramsci – Hegemonya ve Geleneksel Aydınlar
-> "Hegemonya, yalnızca kaba kuvvetle değil; rıza üretimi ve alternatif hak arama yollarının felç edilmesiyle sürdürülür. Geleneksel aydınlar, kürsülerini korumak uğruna kurumun çürümüşlüğünü 'akademik gelenek ve saygınlık' ambalajıyla kutsarlar."
-
-### 9. Edward Said – Entelektüel Dürüstlük vs. Mikro Despotizm
-> "Akademisyenin temel görevi iktidara hakikati söylemektir (*speaking truth to power*). Ancak bir akademisyen, kendi mikro-alanında öğrenciye karşı denetimsiz bir iktidar odağı haline geldiğinde, entelektüel kimliğini kaybeder ve kurumun küçük bir derebeyine dönüşür."
-
-### 10. Karl Marx – Akademik Emeğin Gaspı ve Yabancılaşma
-> "Üretim araçlarına sahip olan sınıf, emeği nasıl mülkiyetsizleştiriyorsa; akademik unvan ve kadro tekeline sahip olan kürsü de genç araştırmacının zihinsel emeğini, makalesini ve buluşunu zorla kendi mülküne katarak onu emeğine yabancılaştırır."
-
-### 11. Friedrich Nietzsche – Memur Yetiştirme Kışlaları
-> "Üniversiteler, hakikati arayan özgür ruhlar yetiştirmek yerine; devlete ve bürokratik hiyerarşiye sadık, sorgulamayan, konformist memurlar üreten eğitim kışlalarına dönüştürülmüştür."
-
-### 12. Baruch Spinoza – Düşünce ve İfade Hürriyetinin Dokunulmazlığı
-> "Devletin ve kamu kurumlarının nihai amacı tahakküm kurmak veya insanları korkuyla sindirmek değil; bireyin zihnini ve bedenini güven içinde geliştirmesini sağlamaktır. Düşünceyi ve muhalefeti cezalandıran her kürsü, tiranlığın mikro laboratuvarıdır."
-> — *Tractatus Theologico-Politicus*
-
-### 13. Jacques Derrida – Koşulsuz Üniversite (*L'Université sans condition*)
-> "Gerçek bir üniversite, hiçbir dış iktidarın, hiçbir dogmanın ve hiçbir feodal unvanın sınırlandıramayacağı koşulsuz bir hakikati söyleme ve sorgulama hakkına sahip olmalıdır. Notla, unvanla veya disiplin cezasıyla tehdit edilen zihin üniversitede değil, esaret altındadır."
-
-### 14. Jean-François Lyotard – Performativite ve Bilginin Metalaşması
-> "Postmodern çağda üniversite, 'Bu doğru mu?' sorusunu terk edip 'Bu satılabilir mi veya iktidara yarar mı?' sorusuna teslim olmuştur. Bu dönüşüm, akademisyeni hakikat arayıcısından çıkarıp kurumsal hedefleri tutturmaya çalışan pragmatist bir teknokrata dönüştürür."
-> — *Postmodern Durum*
-
-### 15. Noam Chomsky – İtaatkar Entelektüeller ve Sistemin Bekçiliği
-> "Üniversiteler, kurulu düzeni sorgulayan zihinler üretmekten ziyade; sisteme sorun çıkarmayacak, kurumsal baskıyı kanıksamış itaatkâr uzmanlar yetiştirme işlevi görür."
-> — *Entelektüellerin Sorumluluğu*
-
-### 16. Ivan Illich – Diplomanın İtaat Belgesine Dönüşmesi
-> "Okullar ve üniversiteler, bilginin tekelleştirildiği ve bireylerin kurumsal bağımlılığa mahkûm edildiği yerler haline gelmiştir. Diploma, yetkinliğin değil; tahakküm altındaki bir hiyerarşiye boyun eğmiş olmanın resmi vesikasıdır."
-
-### 17. Byung-Chul Han – Psikopolitika ve Şiddetin Topolojisi
-> "Modern tahakküm, doğrudan fiziksel baskı uygulamak yerine bireyi 'ben yetersizim, ben başaramadım' yanılgısıyla kendi kendini suçlamaya ve depresyona iter. Akademik mobbing mağduru öğrenci, kurumun yapısal adaletsizliğini değil, kendi yetersizliğini sorgulayarak sessizce içe çöker."
-
-### 18. Korkut Boratav – Türkiye'de Üniversitenin Memurlaştırılması
-> "1980 sonrası kurulan YÖK düzeni, üniversiteyi bilimin üretildiği özerk bir kurum olmaktan çıkarıp, rektörün mutlak vali gibi davrandığı hiyerarşik bir devlet dairesine dönüştürmüştür."
+Ayrıntılı felsefi ve sosyolojik metinler için [`alintilar-ve-dokumanlar/burokratik-tahakkum-literaturu.md`](alintilar-ve-dokumanlar/burokratik-tahakkum-literaturu.md) dosyasını inceleyebilirsiniz.
 
 ---
 
@@ -187,7 +133,7 @@ Bir üniversite veya fakültenin ne derece feodal bir yapıya teslim olduğunu g
 
 <div align="center">
 
-![Güç Asimetrisi ve Cezasızlık Zırhı](assets/images/power-asymmetry-banner.jpg)
+![Güç Asimetrisi ve 2547 Bürokrasi Zırhı](assets/images/02-milli-guc-asimetrisi-banner.jpg)
 
 </div>
 
@@ -197,6 +143,37 @@ Bir üniversite veya fakültenin ne derece feodal bir yapıya teslim olduğunu g
 4. **Akademik Angarya ve Hayalet Yazarlık:** 50/d kadro şantajı ve genç akademisyen sömürüsü. ([Detaylı Analiz 07](analizler/07_asistanlik-ve-arastirma-gorevlisi-somurusu.md))
 5. **Psikolojik Şiddet ve Öğrenilmiş Çaresizlik:** *Gaslighting*, akademik depresyon ve intihar vakaları. ([Detaylı Analiz 05](analizler/05_psikopolitika-ve-ogrenilmis-caresizlik.md))
 6. **Sosyal Emniyet Sübvansiyonları (Tahliye Vanaları):** AÖF, periyodik aflar ve KYK ile öfke sönümleme. ([Detaylı Analiz 03](analizler/03_sosyal-tahliye-vanalari-aof-ve-kyk.md))
+
+---
+
+## 🔬 Asistanlık Sistemi ve 50/d Kadro Şantajı
+
+<div align="center">
+
+![Genç Araştırmacı ve Emek Gaspı](assets/images/03-milli-asistan-emek-banner.jpg)
+
+</div>
+
+2547 Sayılı Kanun'un **50/d maddesi**, lisansüstü eğitim gören araştırma görevlilerini güvencesiz ve geçici sözleşmelere mahkûm ederek kürsü başkanlarının şahsi hizmetkârına dönüştürmüştür. Doktora bittiğinde işsiz kalma korkusu yaşayan genç akademisyen:
+* Hocanın şahsi angaryalarını ve evrak hamallığını yapmak zorunda kalır.
+* Kendi yazdığı makalelere hocanın adını zorla birinci yazar olarak ekler (*gift/coercive authorship*).
+* Ayrıntılı analiz için: [`analizler/07_asistanlik-ve-arastirma-gorevlisi-somurusu.md`](analizler/07_asistanlik-ve-arastirma-gorevlisi-somurusu.md).
+
+---
+
+## 🚪 Sosyal Emniyet Sübvansiyonları (Tahliye Vanaları)
+
+<div align="center">
+
+![Türk Yükseköğretiminde Sosyal Tahliye Vanaları](assets/images/04-milli-tahliye-vanalari-banner.jpg)
+
+</div>
+
+Türkiye'de üniversitelerdeki yoğun baskı ve haksızlıklara rağmen kitlesel karşı çıkışların doğmamasının nedeni sistemin sunduğu dolaylı tahliye vanalarıdır:
+1. **Açıköğretim Esnekliği (AÖF & AUZEF):** Hocasız ve merkezi çoktan seçmeli sınavlarla anında diploma ve askerlik tecili kaçışı.
+2. **Kesintisiz KYK Kredisi:** Dersten kalınsa dahi paranın kesilmemesi ve maddi açlığın ötelenmesi.
+3. **Periyodik Öğrenci Afları:** "Nasılsa af çıkar dönerim" algısı üreterek hak arama öfkesini zamana yayma.
+4. Ayrıntılı analiz için: [`analizler/03_sosyal-tahliye-vanalari-aof-ve-kyk.md`](analizler/03_sosyal-tahliye-vanalari-aof-ve-kyk.md).
 
 ---
 
@@ -215,12 +192,6 @@ Bir üniversite veya fakültenin ne derece feodal bir yapıya teslim olduğunu g
 
 ## 🏆 En İyi Sistem Hangi Ülkede ve Nasıl Sağladılar?
 
-<div align="center">
-
-![Demokratik Üniversite ve Reform Modeli](assets/images/democratic-reform-banner.jpg)
-
-</div>
-
 Dünya genelinde akademik özgürlük ile öğrenci haklarını en kusursuz dengeleyen yapı **Hollanda ve İskandinav Ülkeleri (Danimarka, İsveç, Norveç, Finlandiya)** modelidir.
 
 1. **Danimarka Yükseköğretim Ombudsmanlığı (*Uddannelsesombudsmanden*):** Rektör ve dekanlardan bağımsız, öğrenci şikâyetlerinde hocayı doğrudan görevden alabilen Ulusal Ombudsmanlık.
@@ -233,6 +204,12 @@ Ayrıntılı inceleme için [`mevzuat-arsivi/nl-dk-ombudsmanlik-ve-cbe-mevzuati.
 ---
 
 ## 🛠️ Bütüncül Reform Paketi ve Somut Yasa Taslağı Önerisi
+
+<div align="center">
+
+![Geleceğin Demokratik ve Şeffaf Türk Üniversitesi](assets/images/05-milli-demokratik-reform-banner.jpg)
+
+</div>
 
 Türkiye yükseköğretim sistemindeki feodal tahakkümü sona erdirmek için hazırlanan **5 Maddelik Kanun Teklifi**:
 
@@ -278,10 +255,12 @@ Akademik mobbinge veya haksızlığa uğrayan bir öğrenci/araştırmacının i
 ## 📁 Dizin Yapısı ve Belge Kütüphanesi
 
 ```text
-├── assets/images/                                    # Yüksek Çözünürlüklü Bannerlar & Görseller
-│   ├── hero-banner.jpg                               # Ana Başlık Banner'ı
-│   ├── power-asymmetry-banner.jpg                    # Güç Asimetrisi Görseli
-│   └── democratic-reform-banner.jpg                  # Demokratik Üniversite Görseli
+├── assets/images/                                    # 5 Adet Yüksek Çözünürlüklü Milli Banner
+│   ├── 01-milli-hero-banner.jpg                      # Ana Başlık & İstanbul Üniv. Kapısı Banner'ı
+│   ├── 02-milli-guc-asimetrisi-banner.jpg            # Güç Asimetrisi, Terazi & 2547 Zırhı
+│   ├── 03-milli-asistan-emek-banner.jpg              # Asistan, 50/d & Emek Gaspı
+│   ├── 04-milli-tahliye-vanalari-banner.jpg          # AÖF, KYK & Af Tahliye Vanaları
+│   └── 05-milli-demokratik-reform-banner.jpg         # Geleceğin Demokratik Türk Üniversitesi
 ├── dilekce-sablonlari/                               # Hukuken Geçerli Resmi Dilekçe Şablonları
 │   ├── 01_sinav-kagidi-ve-barem-inceleme-talebi.md
 │   ├── 02_bagimsiz-dis-juri-itiraz-dilekcesi.md
@@ -299,7 +278,7 @@ Akademik mobbinge veya haksızlığa uğrayan bir öğrenci/araştırmacının i
 ├── veriler/
 │   ├── ulke-akademik-mevzuatlari.json                # Karşılaştırmalı ülke parametreleri
 │   ├── sorusturma-sonuclari-ve-ihrac-oranlari.csv    # Soruşturma ve cezasızlık istatistikleri
-│   └── ogrenci-terk-ve-af-istatistikleri.csv         # Terk, AÖF ve af verileri
+│   ├── ogrenci-terk-ve-af-istatistikleri.csv         # Terk, AÖF ve af verileri
 │   └── universite-akademik-mobbing-ve-intihar-kronolojisi.csv # Olay kronolojisi
 ├── alintilar-ve-dokumanlar/
 │   ├── burokratik-tahakkum-literaturu.md             # Kuramsal metinler ve sosyolojik analizler
