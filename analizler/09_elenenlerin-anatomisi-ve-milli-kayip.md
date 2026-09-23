@@ -8,6 +8,25 @@ Modern bir araştırma üniversitesinde aranan özellikler; **eleştirel akıl, 
 
 ---
 
+## 📖 Konu Hakkında Tarihsel ve Bilimsel Alıntılar
+
+> "Türkiye'de üniversiteler bilim üretmek için değil; unvan sahiplerinin kendi feodal beyliklerini koruması için dizayn edilmiştir. Gerçek bir dâhi veya parlak bir genç bu sisteme girdiğinde, ilk iş olarak onun sivriliklerini budarlar; budayamazlarsa sistemin dışına fırlatıp atarlar."
+> — **Prof. Dr. Oktay Sinanoğlu**, *Bye Bye Türkçe ve Hedef Türkiye*
+
+> "Bana Amerika'da neden kaldığımı soruyorlar. Çünkü orada bana 'Sen kimsin, hocana nasıl karşı çıkarsın?' demediler; 'Ne buldun, teorin ne?' dediler. Liyakat ve dürüstlük olmayan bir yerde bilim yeşermez; sadece dalkavukluk yeşerir."
+> — **Prof. Dr. Aziz Sancar**, *Nobel Kimya Ödülü Konuşması ve Mülakatları*
+
+> "Bir ülkede matematik ve temel bilimler geriliyorsa, suç gençlerde değil; gençlerin hevesini kıran, onları kendi şahsi hırslarına kurban eden kürsü sahiplerindedir. Bilim itaat değil, cüret ister."
+> — **Prof. Dr. Cahit Arf**, *Bilim ve Anlamak Üzerine*
+
+> "Üniversitede vasatlık bir kez çoğunluğu ele geçirdiğinde, artık orada hiçbir parlak zihne yaşama hakkı tanınmaz. Çünkü vasat, kendisinden daha zeki olanın varlığını bir ölüm-kalım tehdidi olarak görür."
+> — **Prof. Dr. Celal Şengör**, *Bilgiyle Sohbet ve Üniversite Eleştirileri*
+
+> "Akademi feodal bir kast düzenine büründüğünde, unvanlar hakikatin değil; teslimiyetin ve suç ortaklığının rütbeleri haline gelir."
+> — **Pierre Bourdieu**, *Homo Academicus*
+
+---
+
 ## 1. Bu Sistemde Kimler Elenir? (Tasfiye Edilenlerin 4 Temel Özelliği)
 
 ```text
@@ -46,7 +65,7 @@ Modern bir araştırma üniversitesinde aranan özellikler; **eleştirel akıl, 
 Tasfiye mekanizması kusursuz işlediğinde geriye kimler kalır?
 1. **Biat Yeteneği Yüksek Vasatlar:** Hocasının her yanlışını alkışlayan, eleştirel aklı tamamen körelmiş, verilen her angaryayı koşulsuz yerine getiren silik tipler.
 2. **Taklitçi ve İntihalci Figürler:** Kendi özgün fikri olmayan, hocasının eski tezlerini ısıtıp yerel hatır dergilerinde yayınlayan akademisyen adayları.
-3. **Geleceğin Despot Adayları:** Freire'nin belirttiği üzere, ezilmenin intikamını yarın kürsüye çıktığında bir sonraki nesilden çıkarmak için pusuda bekleyen gardiyan ruhlu kişiler.
+3. **Geleceğin Despot Adayları:** Paulo Freire'nin belirttiği üzere, ezilmenin intikamını yarın kürsüye çıktığında bir sonraki nesilden çıkarmak için pusuda bekleyen gardiyan ruhlu kişiler.
 
 ---
 
