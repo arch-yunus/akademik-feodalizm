@@ -33,6 +33,38 @@
     "sonuc_ve_kriz_profili": "İçselleştirilmiş öfke, sessiz terk, kuruma açık çatışma üretmeyen bireysel tükenmişlik."
   },
   {
+    "id": "nl_nordic",
+    "ulke": "Hollanda & İskandinavya",
+    "model": "Demokratik Ombudsman & Çift Körleme Modeli",
+    "hukuki_statu": {
+      "tip": "Demokratik Kamu Sözleşmesi (Şeffaf Liyakat)",
+      "is_guvencesi_skoru_1_10": 7.5,
+      "gorevden_alinabilirlik": "Etik ihlal ve pedagojik yetersizlikte bağımsız kurul kararıyla mümkün",
+      "tenure_benzeri_yapi": "Hesap verebilir profesörlük kadrosu"
+    },
+    "guc_asimetrisi": {
+      "skor_1_10": 1.5,
+      "notlandirma_denetimi": "Tam (İsimsiz sınav, çift körleme ve Sınav Temyiz Kurulu - CBE)",
+      "mobbing_savunmasi": "Kusursuz (Doğrudan Bakanlığa bağlı Yükseköğretim Ombudsmanı)",
+      "akademik_angarya_riski": "Sıfıra Yakın"
+    },
+    "denetim_ve_sikayet": {
+      "mekanizma": "Ulusal Öğrenci Ombudsmanlığı, Sınav Temyiz Kurulu (CBE), Öğrenci Konseyi Vetosu",
+      "bagimsiz_ombudsman": true,
+      "harici_hakem_sistemi": true,
+      "sikayet_cezasizlik_orani_yuzde": 6.8
+    },
+    "tahliye_vanalari": {
+      "skor_1_10": 1.0,
+      "unsurlar": [
+        "Sistem şeffaf ve güvenilir işlediği için yapay vanaya gerek yok",
+        "Öğrencinin anında hak arayabilmesi",
+        "Ücretsiz ve erişilebilir kamu eğitimi"
+      ]
+    },
+    "sonuc_ve_kriz_profili": "Yüksek akademik verimlilik, güven kültürü, kurumsal şeffaflık ve dünya lideri inovasyon."
+  },
+  {
     "id": "us",
     "ulke": "Amerika Birleşik Devletleri",
     "model": "Piyasa ve Müşteri Odaklı Hukuk Modeli",
