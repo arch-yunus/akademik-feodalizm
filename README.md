@@ -319,7 +319,8 @@ Akademik mobbinge veya haksızlığa uğrayan bir öğrenci/araştırmacının i
 │   ├── 05_psikopolitika-ve-ogrenilmis-caresizlik.md   # Gaslighting, tükenmişlik ve psikolojik şiddet
 │   ├── 06_kapsamli-reform-ve-yasa-taslagi-onerisi.md # Somut kanun teklifi maddeleri
 │   ├── 07_asistanlik-ve-arastirma-gorevlisi-somurusu.md # 50/d kadro güvencesizliği ve sömürü
-│   └── 08_juri-ve-akademik-yukselme-yozlasmasi.md     # Adrese teslim kadro ve ahbap-çavuş jürileri
+│   ├── 08_juri-ve-akademik-yukselme-yozlasmasi.md     # Adrese teslim kadro ve ahbap-çavuş jürileri
+│   └── 09_elenenlerin-anatomisi-ve-milli-kayip.md    # Elenen parlak zihinler ve milli maliyet analizi
 └── mevzuat-arsivi/
     ├── tr-kanun-2547-ve-disiplin-yonetmelikleri.md   # Türkiye yükseköğretim mevzuatı
     ├── abd-title-ix-ve-ombudsmanlik-yapisi.md        # ABD Title IX, FERPA ve Ombudsmanlık
