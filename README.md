@@ -6,6 +6,7 @@
 [![Veri ve Şema Doğrulama CI](https://github.com/arch-yunus/akademik-feodalizm/actions/workflows/validate.yml/badge.svg)](https://github.com/arch-yunus/akademik-feodalizm/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Dashboard](https://img.shields.io/badge/İnteraktif-Portal-red.svg)](index.html)
+[![Rapor: 2026](https://img.shields.io/badge/Analitik-Rapor%202026-emerald.svg)](RAPOR_2026.md)
 
 <br/>
 
@@ -27,20 +28,21 @@
 4. [Karşılaştırmalı Yükseköğretim Güç Matrisi](#-karşılaştırmalı-yükseköğretim-güç-matrisi)
 5. [En İyi Sistem Hangi Ülkede ve Nasıl Sağladılar? (Hollanda & İskandinavya Modeli)](#-en-iyi-sistem-hangi-ülkede-ve-nasıl-sağladılar)
 6. [Bütüncül Reform Paketi ve Somut Yasa Taslağı Önerisi](#-bütüncül-reform-paketi-ve-somut-yasa-taslağı-önerisi)
-7. [Dizin Yapısı ve Belge Kütüphanesi](#-dizin-yapısı-ve-belge-kütüphanesi)
-8. [Veri Doğrulama ve Yerel Portal Çalıştırma](#-veri-doğrulama-ve-yerel-portal-çalıştırma)
-9. [Katkıda Bulunma ve Lisans](#-katkıda-bulunma-ve-lisans)
+7. [Dilekçe Şablonları ve Hak Arama Kütüphanesi](#-dilekçe-şablonları-ve-hak-arama-kütüphanesi)
+8. [Dizin Yapısı ve Belge Kütüphanesi](#-dizin-yapısı-ve-belge-kütüphanesi)
+9. [Veri Doğrulama ve Yerel Portal Çalıştırma](#-veri-doğrulama-ve-yerel-portal-çalıştırma)
+10. [Katkıda Bulunma ve Lisans](#-katkıda-bulunma-ve-lisans)
 
 ---
 
-## 🌐 İnteraktif Veri ve Analiz Portalı
+## 🌐 İnteraktif Veri, Test ve Analiz Portalı
 
-Bu depoda yer alan ülke matrislerini, soruşturma trendlerini ve tahliye vanaları simülatörünü görsel olarak deneyimlemek için **[`index.html`](index.html)** portalını kullanabilirsiniz:
+Bu depoda yer alan analitik araçları, risk testini ve dilekçe üreticisini kullanmak için **[`index.html`](index.html)** portalını ziyaret edebilirsiniz:
 
+- **Fakülte Feodalizm Risk Testi:** Bölümünüzdeki mobbing ve feodalizm riskini hesaplayan 5 soruluk interaktif simülatör.
+- **Canlı Dilekçe Taslağı Üretici:** Sınav kâğıdı, barem inceleme ve bağımsız dış jüri talebi için anında dilekçe oluşturma.
 - **Karşılaştırmalı Ülke Radarı:** Türkiye, ABD, Almanya, İngiltere, Hollanda, İskandinavya, Japonya ve Fransa modelleri.
 - **Trend Grafikleri:** 2018–2025 şikâyet, takipsizlik ve AÖF sığınma oranları.
-- **Emsal Kararlar:** Not iptalleri, mobbing tazminatları ve Danıştay içtihatları.
-- **Sistemik Simülatör:** Öğrenci hak arama süreçlerinin kurumsal akıbet haritası.
 
 ---
 
@@ -52,6 +54,7 @@ Modern üniversite ideali, Aydınlanma'dan bu yana **hakikatin arandığı, ele�
 * **Ölçme ve Değerlendirmede Mutlak Keyfiyet:** Sınav kâğıtlarının nesnel baremler olmaksızın, keyfi biçimde notlandırılması ve öğrencinin kendi kâğıdını inceleme hakkının "hocalık onuru" bahanesiyle engellenmesi.
 * **%93.4'lük İdari Cezasızlık Oranı:** Yapılan öğrenci şikâyetlerinin aynı fakültedeki meslektaşlardan oluşan kurullara havale edilmesi sonucu sistematik olarak örtbas edilmesi.
 * **Akademik Angarya ve Hayalet Yazarlık:** Lisansüstü öğrencilerin ve genç araştırmacıların emeğinin, tezlerinin ve makalelerinin kürsü sahipleri tarafından zorla gasp edilmesi (*coercive / gift authorship*).
+* **50/d Kadro Güvencesizliği:** Araştırma görevlilerinin iş güvencesizliği tehdidiyle şahsi hizmetkârlığa mahkûm edilmesi.
 * **Sistemsel Emniyet Vanaları ile Öfke Sönümleme:** Haksızlığa uğrayan öğrencinin hakkını aramak yerine Açıköğretim (AÖF), af kanunları veya sessiz terk mekanizmalarıyla sistem dışına itilmesi.
 
 ---
@@ -81,41 +84,7 @@ Akademik tahakküm, bilgi tekeli ve kurumsal yozlaşma olguları dünya düşün
 └───────────────────────┴──────────────────────────┴───────────────────────────────┘
 ```
 
-### 1. Max Weber – Bürokratik Kast Zırhı
-> "Bürokrasi, rasyonel bir yönetim biçimi olarak tasarlanmasına rağmen, bilginin ve mevzuatın tekelleştirildiği yerde kendi başına buyruk bir 'kast sistemine' dönüşür. Resmi memuriyet zırhı, liyakat denetimini imkânsız hale getiren en kusursuz maskedir."
-
-### 2. Immanuel Kant – Ergin Olmayış Durumu ve Vesayet
-> "Aydınlanma, insanın kendi suçu ile düşmüş olduğu bir ergin olamayış durumundan çıkmasıdır. Bu durum, başkasının kılavuzluğu olmaksızın kendi aklını kullanamayışıdır. Ne var ki kürsüler ve dogmalar, öğrencileri sürekli vesayet altında tutarak onların erginleşmesini engeller; düşünmeyi tehlikeli, itaati ise erdem olarak sunar."
-
-### 3. Jürgen Habermas – İletişimsel Akıl ve Tahakkümsüz Üniversite
-> "Üniversite, tahakkümden arındırılmış bir kamusal iletişim alanı (*herrschaftsfreier Diskurs*) olmak zorundadır. Karşılıklı argüman denetiminin yerini unvan hiyerarşisi ve 'ben öyle uygun gördüm' keyfiyeti aldığında, kurum bilim yuvası olmaktan çıkar, totaliter bir güç merkezine dönüşür."
-
-### 4. Pierre Bourdieu – Simgesel Şiddet ve *Homo Academicus*
-> "Akademik alan, salt bir bilgi üretim mekânı değil; simgesel sermayenin, unvanların ve akademik asalet rütbelerinin korunduğu ve yeniden üretildiği bir iktidar sahasıdır. Profesörün kürsüsü, sadece pedagojik bir mevki değil; astların ve öğrencilerin itaatini meşrulaştıran bir simgesel şiddet aygıtıdır."
-
-### 5. Michel Foucault – Kapalı Devre İktidar ve Otosansür
-> "Disiplinci iktidarın en büyük zaferi, cezalandırmaktan ziyade bireyi sürekli bir gözetim ve cezalandırılabilirlik tehdidi altında tutarak kendi kendine otosansür uygulamasını sağlamaktır. Hiyerarşik gözetim mekanizması kurum içi yargılamayı tekeline aldığında kurban için dışarıya sesini duyurmak imkânsızlaşır."
-
-### 6. Paulo Freire – Ezilenlerin Pedagojisi ve Gardiyan Refleksi
-> "Otoriter eğitim modelinde öğretmen bilir, öğrenciler hiçbir şey bilmez; öğretmen anlatır, öğrenciler yutar. Ezilen, sistemin doğasını sorgulayamadığı müddetçe, sistemdeki yegâne ideali 'ezene dönüşmek' ve kürsüye çıkıp aynı zulmü bir sonrakine devretmektir."
-
-### 7. Antonio Gramsci – Hegemonya ve Rıza İmalatı
-> "Hegemonya, yalnızca kaba kuvvetle değil; rıza üretimi ve alternatif hak arama yollarının felç edilmesiyle sürdürülür. Geleneksel aydınlar, kürsülerini korumak uğruna kurumun çürümüşlüğünü 'akademik gelenek ve saygınlık' ambalajıyla kutsarlar."
-
-### 8. Edward Said – Entelektüel Dürüstlük vs. Mikro Despotizm
-> "Akademisyenin temel görevi iktidara hakikati söylemektir (*speaking truth to power*). Ancak bir akademisyen, kendi mikro-alanında öğrenciye karşı denetimsiz bir iktidar odağı haline geldiğinde, entelektüel kimliğini kaybeder ve kurumun küçük bir derebeyine dönüşür."
-
-### 9. Karl Marx – Akademik Emeğin ve Bilginin Gaspı
-> "Üretim araçlarına sahip olan sınıf, emeği nasıl mülkiyetsizleştiriyorsa; akademik unvan ve kadro tekeline sahip olan kürsü de genç araştırmacının zihinsel emeğini, makalesini ve buluşunu zorla kendi mülküne katarak onu emeğine yabancılaştırır."
-
-### 10. Friedrich Nietzsche – Memur Yetiştirme Fabrikaları
-> "Üniversiteler, hakikati arayan özgür ruhlar yetiştirmek yerine; devlete ve bürokratik hiyerarşiye sadık, sorgulamayan, konformist memurlar üreten eğitim kışlalarına dönüştürülmüştür."
-
-### 11. Ivan Illich – Diplomanın İtaat Belgesine Dönüşmesi
-> "Okullar ve üniversiteler, bilginin tekelleştirildiği ve bireylerin kurumsal bağımlılığa mahkûm edildiği yerler haline gelmiştir. Diploma, yetkinliğin değil; tahakküm altındaki bir hiyerarşiye boyun eğmiş olmanın resmi vesikasıdır."
-
-### 12. Byung-Chul Han – Psikopolitika ve Şiddetin Topolojisi
-> "Modern tahakküm, doğrudan fiziksel baskı uygulamak yerine bireyi 'ben yetersizim, ben başaramadım' yanılgısıyla kendi kendini suçlamaya ve depresyona iter. Akademik mobbing mağduru öğrenci, kurumun yapısal adaletsizliğini değil, kendi yetersizliğini sorgulayarak sessizce içe çöker."
+Ayrıntılı felsefi ve sosyolojik metinler için [`alintilar-ve-dokumanlar/burokratik-tahakkum-literaturu.md`](alintilar-ve-dokumanlar/burokratik-tahakkum-literaturu.md) dosyasını inceleyebilirsiniz.
 
 ---
 
@@ -127,44 +96,12 @@ Akademik tahakküm, bilgi tekeli ve kurumsal yozlaşma olguları dünya düşün
 
 </div>
 
-```text
-                                  ┌────────────────────────┐
-                                  │   AKADEMİK FEODALİZM   │
-                                  └───────────┬────────────┘
-         ┌──────────────────┬─────────────────┼─────────────────┬──────────────────┐
-         ▼                  ▼                 ▼                 ▼                  ▼
-  [1. Hukuki Zırh]   [2. Not Tekeli]   [3. Meslektaş]    [4. Angarya &]     [5. Psikolojik]
-  (657 & 2547)       (Baremsizlik)     (Cezasızlık)      (Emek Gaspı)       (Mobbing & İçe)
-         │                  │                 │                 │           (Çöküş)
-         └──────────────────┴─────────────────┼─────────────────┴──────────────────┘
-                                              │
-                                              ▼
-                               [6. SOSYAL TAHLİYE VANALARI]
-                               (AÖF, KYK, Aflar, Sessiz Terk)
-```
-
-### Boyut 1: Hukuki ve İdari Dokunulmazlık Zırhı
-* 2547 sayılı Kanun'un 53/C maddesi gereğince öğretim üyeleri hakkında doğrudan savcılık soruşturması açılamaz; rektörlük iznine (*lüzum-u muhakeme*) tabidir.
-* 657 sayılı Kanun'un sağladığı ömür boyu istihdam garantisi, pedagojik liyakatsizlik ve kötü muamele için görevden almayı fiilen imkânsız kılar.
-
-### Boyut 2: Ölçme ve Değerlendirmede Mutlak Keyfiyet
-* Sınav kâğıtlarında soru başına puan değerlerini belirten nesnel baremler ilan edilmez.
-* Sınav sonucuna itiraz dilekçesi verildiğinde kâğıt bağımsız bir jüriye değil, **kâğıdı okuyan aynı öğretim üyesine** gönderilir. Hoca "maddi hata yoktur" dediğinde süreç resmen kapanır.
-
-### Boyut 3: Kapalı Devre Soruşturma ve Meslektaş Aklama
-* Dekanlık, şikâyet edilen profesörün soruşturmasını aynı koridordaki mesai arkadaşı olan başka bir profesöre verir.
-* Soruşturma raporlarında "iddiaların somut kanıta dayanmadığı" gerekçesiyle takipsizlik kararı verilir (%93.4 cezasızlık).
-
-### Boyut 4: Akademik Angarya ve Hayalet Yazarlık (*Coercive Authorship*)
-* Lisansüstü öğrencilerin tez çalışmaları, projeleri ve analizleri hocanın adına birinci yazar olarak yayınlanır.
-* İtiraz eden öğrencinin tezi uzatılır, jürilerde engellenir veya kadro hakkı yakılır.
-
-### Boyut 5: Psikolojik Yıkım, Gaslighting ve Öğrenilmiş Çaresizlik
-* Öğrenciye sistemli olarak yetersiz olduğu telkin edilir (*gaslighting*).
-* Hak arama yollarının tıkalı olduğunu gören öğrenci **öğrenilmiş çaresizlik** içine girerek ya depresyona sürüklenir ya da intihar vakalarına varan ağır psikolojik travmalar yaşar.
-
-### Boyut 6: Sosyal Emniyet Sübvansiyonları (Tahliye Vanaları)
-* Sistem, açık isyanları önlemek için kaçış kapıları sunar: AÖF (askerlik tecili ve diploma), periyodik aflar (öfkeyi zamana yayma) ve kesintisiz KYK kredileri.
+1. **Hukuki ve İdari Dokunulmazlık Zırhı:** 2547 s.K. m. 53/C (*men-i muhakeme*) ve 657 ile sağlanan yargısal dokunulmazlık. ([Detaylı Analiz 02](analizler/02_turkiyede-2547-zirhi-ve-cezasizlik.md))
+2. **Ölçme ve Değerlendirmede Mutlak Keyfiyet:** Baremsiz sınavlar ve itirazın kâğıdı okuyan aynı hocaya gönderilmesi açmazı.
+3. **Kapalı Devre Soruşturma:** %93.4'lük meslektaş aklama ve cezasızlık oranı. ([İstatistiksel Rapor](RAPOR_2026.md))
+4. **Akademik Angarya ve Hayalet Yazarlık:** 50/d kadro şantajı ve genç akademisyen sömürüsü. ([Detaylı Analiz 07](analizler/07_asistanlik-ve-arastirma-gorevlisi-somurusu.md))
+5. **Psikolojik Şiddet ve Öğrenilmiş Çaresizlik:** *Gaslighting*, akademik depresyon ve intihar vakaları. ([Detaylı Analiz 05](analizler/05_psikopolitika-ve-ogrenilmis-caresizlik.md))
+6. **Sosyal Emniyet Sübvansiyonları (Tahliye Vanaları):** AÖF, periyodik aflar ve KYK ile öfke sönümleme. ([Detaylı Analiz 03](analizler/03_sosyal-tahliye-vanalari-aof-ve-kyk.md))
 
 ---
 
@@ -191,77 +128,38 @@ Akademik tahakküm, bilgi tekeli ve kurumsal yozlaşma olguları dünya düşün
 
 Dünya genelinde akademik özgürlük ile öğrenci haklarını en kusursuz dengeleyen yapı **Hollanda ve İskandinav Ülkeleri (Danimarka, İsveç, Norveç, Finlandiya)** modelidir.
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────────┐
-│                   İSKANDİNAV VE HOLLANDA REFORMUNUN 5 TEMEL DİREĞİ               │
-├──────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                  │
-│  1. Tam İsimsizleştirilmiş (Double-Blind) Sınav Değerlendirmesi                  │
-│     • Sınav kâğıtlarında öğrencinin adı, cinsiyeti, numarası yer almaz (barkod). │
-│     • Kâğıt birbirinden bağımsız 2 farklı öğretim görevlisi tarafından okunur.   │
-│                                                                                  │
-│  2. Üniversiteden Bağımsız Ulusal Öğrenci Ombudsmanlığı                          │
-│     • Rektöre veya dekanlığa bağlı değildir; doğrudan parlamentoya rapor verir.  │
-│     • Üniversite kararlarını iptal etme ve hocayı görevden alma yetkisi vardır. │
-│                                                                                  │
-│  3. Sınav Temyiz Kurulu (CBE - College van Beroep voor de Examens)              │
-│     • Not itirazlarına hoca değil, bağımsız hukukçu ve akademisyenler bakar.    │
-│     • Barem uyuşmazlığında kurul notu doğrudan değiştirme yetkisine sahiptir.    │
-│                                                                                  │
-│  4. Yönetim Kurullarında Öğrenci Veto Yetkisi                                   │
-│     • Fakülte yönetim kurullarının en az %30-50'si seçilmiş öğrencilerden oluşur.│
-│     • Müfredat ve sınav kuralları öğrenci onayı olmadan yürürlüğe giremez.       │
-│                                                                                  │
-│  5. Güçlü Misilleme Karşıtı Koruma (Anti-Retaliation Protection)                 │
-│     • Şikâyette bulunan öğrenciye yönelik en ufak akademik baskı ağır tazminat  │
-│       ve hocanın derhal görevden uzaklaştırılması sebebidir.                    │
-└──────────────────────────────────────────────────────────────────────────────────┘
-```
+1. **Danimarka Yükseköğretim Ombudsmanlığı (*Uddannelsesombudsmanden*):** Rektör ve dekanlardan bağımsız, öğrenci şikâyetlerinde hocayı doğrudan görevden alabilen Ulusal Ombudsmanlık.
+2. **Hollanda CBE Sistemi (*College van Beroep voor de Examens*):** Yargıç ve bağımsız akademisyenlerden oluşan, hocanın not takdirini resen iptal edip notu düzelten Sınav Temyiz Kurulu.
+3. **İsveç HAN Kurulu (*Högskolans Avskiljande Nämnd*):** Meslektaş dayanışmasını engellemek için yüksek yargıç başkanlığında çalışan Ulusal İhraç Kurulu.
+4. **Çift Körleme & İsimsiz Sınav (*Double-Blind Grading*):** Sınavlarda karekod kullanımı ve iki bağımsız değerlendirici zorunluluğu.
 
-### Somut Kurumsal Başarı Örnekleri:
-1. **Danimarka Yükseköğretim Ombudsmanlığı (*Uddannelsesombudsmanden*):** Her öğrencinin doğrudan e-devlet üzerinden rektörü aradan çıkararak başvurabildiği, kararları bağlayıcı bağımsız adli kurum.
-2. **Hollanda CBE Sistemi:** Not itirazını 15 gün içinde bağlayıcı karara bağlayan, süreci hocanın inisiyatifinden tamamen çıkaran uzmanlaşmış mahkeme benzeri yapı.
-3. **İsveç HAN Kurulu (*Högskolans Avskiljande Nämnd*):** Taciz ve mobbing yapan akademisyenlerin meslekten ihracını rektörlere bırakmayan, kıdemli bir yüksek yargıç başkanlığındaki ulusal kurul.
+Ayrıntılı inceleme için [`mevzuat-arsivi/nl-dk-ombudsmanlik-ve-cbe-mevzuati.md`](mevzuat-arsivi/nl-dk-ombudsmanlik-ve-cbe-mevzuati.md) sayfasına bakabilirsiniz.
 
 ---
 
 ## 🛠️ Bütüncül Reform Paketi ve Somut Yasa Taslağı Önerisi
 
-Türkiye yükseköğretim sistemindeki feodal tahakkümü sona erdirmek için gereken **5 Aşamalı Yasa ve Uygulama Paketi**:
+Türkiye yükseköğretim sistemindeki feodal tahakkümü sona erdirmek için hazırlanan **5 Maddelik Kanun Teklifi**:
 
-```text
-               ┌────────────────────────────────────────────────────────┐
-               │         YÜKSEKÖĞRETİM DEMOKRATİKLEŞME REFORMU          │
-               └───────────────────────────┬────────────────────────────┘
-         ┌───────────────────┬─────────────┴─────────────┬────────────────────┐
-         ▼                   ▼                           ▼                    ▼
-   [ YASAL REFORM ]   [ ÖLÇME DEVRİMİ ]         [ LİSANSÜSTÜ HAKLAR ]   [ OMBUDSMANLIK ]
-   • 53/C İptali      • İsimsiz Sınav           • Anti-Coercive Auth.   • Bağımsız Kurul
-   • Yargı Yolu       • Çift Bağımsız Okuma     • Danışman Değişimi     • Veto Yetkisi
-   • Sicil Affı Sonu  • Kamuya Açık Barem       • Sendikal Statü        • Koruma Kalkanı
-```
+1. **Madde 1:** İsimsiz sınav (karekod) ve 24 saat içinde dijital barem ilan zorunluluğu.
+2. **Madde 2:** Sınav itirazlarının kâğıdı okuyan hocaya değil, 3 kişilik dış bağımsız hakem heyetine verilmesi.
+3. **Madde 3:** 2547 sayılı Kanun Madde 53/C'nin (*Men-i Muhakeme*) kaldırılarak doğrudan genel savcılık yolunun açılması.
+4. **Madde 4:** TBMM Kamu Denetçiliği bünyesinde Yükseköğretim Başdenetçiliği ve yasal *Misilleme Yasağı (Anti-Retaliation)* getirilmesi.
+5. **Madde 5:** Lisansüstü tez yayınlarında öğrencinin birinci isim hakkı ve hayalet yazarlık yapan hocanın intihalden unvanının alınması.
 
-### 1. Kanun Değişiklikleri (2547 ve 657)
-* **Madde 53/C'nin Kaldırılması:** Öğretim üyelerinin öğrencilere ve asistanlara karşı işlediği suçlarda rektörlük izin şartı kaldırılmalı; doğrudan Cumhuriyet Başsavcılıkları yetkili kılınmalıdır.
-* **Akademik Görevden Çıkarma Sebeplerinin Genişletilmesi:** Sistematik mobbing, intihal, hayalet yazarlık ve keyfi notlandırma "kamu görevinden çıkarma" gerekçesi olarak kanuna eklenmelidir.
-* **Sicil Affı Yasağı:** Akademik mobbing ve görevi kötüye kullanma cezaları genel memuriyet sicil afları kapsamı dışına çıkarılmalıdır.
+Kanun gerekçeleri ve tam metin için: [`analizler/06_kapsamli-reform-ve-yasa-taslagi-onerisi.md`](analizler/06_kapsamli-reform-ve-yasa-taslagi-onerisi.md).
 
-### 2. Ölçme ve Değerlendirme Devrimi
-* **Karekodlu / İsimsiz Sınav Kâğıdı:** Sınavlarda öğrenci kimliğini gizleyen barkod sistemi zorunlu hale getirilmelidir.
-* **Dış Hakem (*External Examiner*) Zorunluluğu:** Mezuniyet ve bütünleme sınav kâğıtlarının %20'si rastgele örneklemle başka bir üniversitenin öğretim üyelerine ikinci değerlendirme için gönderilmelidir.
-* **Dijital Barem İlanı:** Sınav sorularının ayrıntılı cevap anahtarı ve puan baremleri sınav bitiminden itibaren 24 saat içinde OBS'de kamuya açılmalıdır.
+---
 
-### 3. Bağımsız Üniversite Ombudsmanlığı Kanunu
-* TBMM Kamu Denetçiliği Kurumu bünyesinde **Yükseköğretim Ombudsmanlığı Başdenetçiliği** kurulmalıdır.
-* Şikâyet başvuruları doğrudan bu kuruma yapılacak; soruşturmacılar üniversite dışındaki bağımsız hukukçulardan atanacaktır.
+## 📝 Dilekçe Şablonları ve Hak Arama Kütüphanesi
 
-### 4. Lisansüstü ve Araştırmacı Hakları Şartı
-* Tez danışmanı değiştirme talepleri bölüm kurulunun veya danışmanın onayına bağlı olmaktan çıkarılmalı; öğrencinin tek taraflı beyanıyla doğrudan enstitüce yerine getirilmelidir.
-* Tezden üretilen makalelerde öğrencinin rızası ve birinci isim hakkı yasal güvenceye bağlanmalı; zorla yazar olan hoca hakkında intihal soruşturması açılmalıdır.
+Öğrenciler ve araştırmacılar için hazırlanmış hukuken geçerli resmi dilekçe taslakları:
 
-### 5. Yasal Misilleme Koruma Kalkanı (*Anti-Retaliation Protocol*)
-* Şikâyette bulunan öğrenci hakkında şikâyet edilen öğretim üyesi hiçbir değerlendirme (sınav, jüri, tez izleme) yapamayacaktır.
-* Öğrencinin akademik güvenliği rektörlük dışındaki bağımsız ombudsman gözetimine devredilecektir.
+- 📄 [`01_sinav-kagidi-ve-barem-inceleme-talebi.md`](dilekce-sablonlari/01_sinav-kagidi-ve-barem-inceleme-talebi.md)
+- 📄 [`02_bagimsiz-dis-juri-itiraz-dilekcesi.md`](dilekce-sablonlari/02_bagimsiz-dis-juri-itiraz-dilekcesi.md)
+- 📄 [`03_akademik-mobbing-ve-gorevi-kotuye-kullanma-sikayeti.md`](dilekce-sablonlari/03_akademik-mobbing-ve-gorevi-kotuye-kullanma-sikayeti.md)
+- 📄 [`04_tez-danismani-degisikligi-talep-dilekcesi.md`](dilekce-sablonlari/04_tez-danismani-degisikligi-talep-dilekcesi.md)
+- 📄 [`05_savcilik-suc-duyurusu-taslagi.md`](dilekce-sablonlari/05_savcilik-suc-duyurusu-taslagi.md)
 
 ---
 
@@ -272,16 +170,25 @@ Türkiye yükseköğretim sistemindeki feodal tahakkümü sona erdirmek için ge
 │   ├── hero-banner.jpg                               # Ana Başlık Banner'ı
 │   ├── power-asymmetry-banner.jpg                    # Güç Asimetrisi Görseli
 │   └── democratic-reform-banner.jpg                  # Demokratik Üniversite Görseli
-├── index.html                                        # İnteraktif Web Portalı & Veri Görselleştirme
+├── dilekce-sablonlari/                               # Hukuken Geçerli Resmi Dilekçe Şablonları
+│   ├── 01_sinav-kagidi-ve-barem-inceleme-talebi.md
+│   ├── 02_bagimsiz-dis-juri-itiraz-dilekcesi.md
+│   ├── 03_akademik-mobbing-ve-gorevi-kotuye-kullanma-sikayeti.md
+│   ├── 04_tez-danismani-degisikligi-talep-dilekcesi.md
+│   └── 05_savcilik-suc-duyurusu-taslagi.md
+├── index.html                                        # İnteraktif Web Portalı & Risk Testi
+├── RAPOR_2026.md                                     # Otomatik İstatistiksel Analitik Rapor
 ├── KATKI.md                                          # Katkı Kılavuzu ve Araştırma Etiği
 ├── LICENSE                                           # MIT Lisansı
 ├── .github/workflows/validate.yml                   # Otomatik Veri Doğrulama CI
 ├── scripts/
+│   ├── generate_report.py                            # Rapor Üretici Betik
 │   └── validate_data.py                              # JSON/CSV Doğrulama Betiği
 ├── veriler/
 │   ├── ulke-akademik-mevzuatlari.json                # Karşılaştırmalı ülke parametreleri
 │   ├── sorusturma-sonuclari-ve-ihrac-oranlari.csv    # Soruşturma ve cezasızlık istatistikleri
-│   └── ogrenci-terk-ve-af-istatistikleri.csv         # Terk, AÖF ve af verileri
+│   ├── ogrenci-terk-ve-af-istatistikleri.csv         # Terk, AÖF ve af verileri
+│   └── universite-akademik-mobbing-ve-intihar-kronolojisi.csv # Olay kronolojisi
 ├── alintilar-ve-dokumanlar/
 │   ├── burokratik-tahakkum-literaturu.md             # Kuramsal metinler ve sosyolojik analizler
 │   ├── ogrenci-dilekce-ornekleri-ve-akibeti.md        # Anonimleştirilmiş dilekçe vakaları
@@ -292,7 +199,9 @@ Türkiye yükseköğretim sistemindeki feodal tahakkümü sona erdirmek için ge
 │   ├── 03_sosyal-tahliye-vanalari-aof-ve-kyk.md       # Emniyet vanaları ve öfke sönümleme
 │   ├── 04_anglosakson-ve-kita-avrupasi-kiyaslamasi.md# Küresel modellerin karşılaştırması
 │   ├── 05_psikopolitika-ve-ogrenilmis-caresizlik.md   # Gaslighting, tükenmişlik ve psikolojik şiddet
-│   └── 06_kapsamli-reform-ve-yasa-taslagi-onerisi.md # Somut kanun teklifi maddeleri
+│   ├── 06_kapsamli-reform-ve-yasa-taslagi-onerisi.md # Somut kanun teklifi maddeleri
+│   ├── 07_asistanlik-ve-arastirma-gorevlisi-somurusu.md # 50/d kadro güvencesizliği ve sömürü
+│   └── 08_juri-ve-akademik-yukselme-yozlasmasi.md     # Adrese teslim kadro ve ahbap-çavuş jürileri
 └── mevzuat-arsivi/
     ├── tr-kanun-2547-ve-disiplin-yonetmelikleri.md   # Türkiye yükseköğretim mevzuatı
     ├── abd-title-ix-ve-ombudsmanlik-yapisi.md        # ABD Title IX, FERPA ve Ombudsmanlık
@@ -310,10 +219,15 @@ Veri setlerinin bütünlüğünü ve şema geçerliliğini doğrulamak için:
 python scripts/validate_data.py
 ```
 
+Rapor üretmek için:
+
+```bash
+python scripts/generate_report.py
+```
+
 İnteraktif web portalını yerel tarayıcınızda açmak için:
 
 ```bash
-# Python ile yerel sunucu başlatma
 python -m http.server 8000
 ```
 Tarayıcınızda `http://localhost:8000` adresine gidin.

@@ -71,11 +71,14 @@ def main():
     json_path = os.path.join(veriler_dir, "ulke-akademik-mevzuatlari.json")
     csv1_path = os.path.join(veriler_dir, "sorusturma-sonuclari-ve-ihrac-oranlari.csv")
     csv2_path = os.path.join(veriler_dir, "ogrenci-terk-ve-af-istatistikleri.csv")
+    csv3_path = os.path.join(veriler_dir, "universite-akademik-mobbing-ve-intihar-kronolojisi.csv")
     
     success = True
     success &= validate_json_file(json_path)
     success &= validate_csv_file(csv1_path, 9)
     success &= validate_csv_file(csv2_path, 8)
+    if os.path.exists(csv3_path):
+        success &= validate_csv_file(csv3_path, 7)
     
     if not success:
         print("\n[FAIL] Validation FAILED.")

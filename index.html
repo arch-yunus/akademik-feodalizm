@@ -54,9 +54,9 @@
       </div>
       <div class="flex items-center space-x-4">
         <a href="#karsilastirma" class="text-xs sm:text-sm text-gray-300 hover:text-white transition">Ülke Matrisi</a>
-        <a href="#istatistikler" class="text-xs sm:text-sm text-gray-300 hover:text-white transition">Veriler</a>
+        <a href="#test-araci" class="text-xs sm:text-sm text-gray-300 hover:text-white transition">Risk Testi</a>
+        <a href="#dilekce-uretici" class="text-xs sm:text-sm text-gray-300 hover:text-white transition">Dilekçe Üretici</a>
         <a href="#cozumler" class="text-xs sm:text-sm text-gray-300 hover:text-white transition">Reform Paketi</a>
-        <a href="#tahliye-vanalari" class="text-xs sm:text-sm text-gray-300 hover:text-white transition">Tahliye Vanaları</a>
         <a href="https://github.com/arch-yunus/akademik-feodalizm" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gray-800 hover:bg-gray-700 text-xs text-gray-200 border border-gray-700 transition">
           <i data-lucide="github" class="w-4 h-4"></i> GitHub
         </a>
@@ -114,12 +114,11 @@
           <p class="text-xs text-gray-400">İş güvencesi, güç asimetrisi, cezasızlık oranı ve emniyet sübvansiyonları</p>
         </div>
         <div class="flex flex-wrap items-center gap-2" id="countrySelector">
-          <!-- Butonlar JS ile dinamik yönetilecek -->
+          <!-- Dinamik Butonlar -->
         </div>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-        <!-- Radar Chart -->
         <div class="lg:col-span-5 glass-card p-5 rounded-xl flex flex-col justify-between">
           <h4 class="text-sm font-semibold text-gray-200 mb-2">Güç ve Koruma Dinamikleri Radarı</h4>
           <div class="relative w-full aspect-square max-h-[340px] flex items-center justify-center">
@@ -128,14 +127,81 @@
           <div class="text-[11px] text-gray-400 mt-2 text-center">Değerler 1-10 üzerinden normalleştirilmiştir.</div>
         </div>
 
-        <!-- Ülke Detay Kartı -->
         <div class="lg:col-span-7 glass-card p-6 rounded-xl flex flex-col justify-between space-y-4" id="countryDetailCard">
           <!-- Dinamik içerik -->
         </div>
       </div>
     </section>
 
-    <!-- Bütüncül Reform Paketi & Görsel -->
+    <!-- İnteraktif Feodalizm Risk Testi -->
+    <section id="test-araci" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6 border border-amber-900/30">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-amber-950/70 text-amber-300 border border-amber-800/60 mb-2">
+          <i data-lucide="calculator" class="w-3.5 h-3.5"></i> Öz Değerlendirme Simülatörü
+        </div>
+        <h3 class="text-2xl font-bold text-white">Fakülteniz Ne Kadar Feodal? (Risk Hesaplama)</h3>
+        <p class="text-xs text-gray-400">Aşağıdaki kriterleri işaretleyerek bölümünüzdeki kürsü dokunulmazlığı ve güç asimetrisi skorunu hesaplayın</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs" id="quizContainer">
+        <label class="p-3 bg-gray-900/80 rounded-lg border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-gray-700">
+          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-red-500" value="20" onchange="calculateRisk()">
+          <span>Sınav kâğıtları açık cevap anahtarı ve puan baremi olmaksızın okunuyor ve kâğıt gösterilmiyor. (+20 Puan)</span>
+        </label>
+        <label class="p-3 bg-gray-900/80 rounded-lg border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-gray-700">
+          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-red-500" value="25" onchange="calculateRisk()">
+          <span>Şikâyet edilen öğretim üyesini aynı fakültedeki mesai arkadaşı profesörler soruşturuyor. (+25 Puan)</span>
+        </label>
+        <label class="p-3 bg-gray-900/80 rounded-lg border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-gray-700">
+          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-red-500" value="20" onchange="calculateRisk()">
+          <span>Asistanlar ve öğrenciler hocanın şahsi işleri/angaryaları için baskı altında çalıştırılıyor. (+20 Puan)</span>
+        </label>
+        <label class="p-3 bg-gray-900/80 rounded-lg border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-gray-700">
+          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-red-500" value="15" onchange="calculateRisk()">
+          <span>Kadro ilanlarında tek bir adayın tez başlığını tarif eden kişiye özel şartlar yer alıyor. (+15 Puan)</span>
+        </label>
+        <label class="p-3 bg-gray-900/80 rounded-lg border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-gray-700">
+          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-red-500" value="20" onchange="calculateRisk()">
+          <span>Öğrenciler hak aradıklarında "dersi geçemezsin / mezun olamazsın" misillemesiyle tehdit ediliyor. (+20 Puan)</span>
+        </label>
+      </div>
+
+      <div class="p-4 rounded-xl bg-gray-900 border border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div>
+          <div class="text-xs text-gray-400">Hesaplanan Feodalizm Endeksi:</div>
+          <div class="text-3xl font-black" id="riskScoreDisplay">0 / 100</div>
+        </div>
+        <div class="text-xs sm:text-right" id="riskVerdictDisplay">
+          <span class="text-emerald-400 font-bold">Demokratik / Düşük Riskli Ortam</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- İnteraktif Dilekçe Taslağı Üretici -->
+    <section id="dilekce-uretici" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6 border border-blue-900/30">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-950/70 text-blue-300 border border-blue-800/60 mb-2">
+          <i data-lucide="file-edit" class="w-3.5 h-3.5"></i> Hızlı Hak Arama Aracı
+        </div>
+        <h3 class="text-2xl font-bold text-white">Resmi Sınav & Barem İtiraz Dilekçesi Üretici</h3>
+        <p class="text-xs text-gray-400">Bilgilerinizi girerek mevzuata uygun, Danıştay içtihatlarına dayalı dilekçenizi anında oluşturun</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+        <input type="text" id="pUni" placeholder="Üniversite Adı (Örn: Ankara Üniversitesi)" class="p-2.5 rounded-lg bg-gray-900 border border-gray-800 text-gray-200 focus:outline-none focus:border-blue-500" />
+        <input type="text" id="pFak" placeholder="Fakülte Adı (Örn: Hukuk Fakültesi)" class="p-2.5 rounded-lg bg-gray-900 border border-gray-800 text-gray-200 focus:outline-none focus:border-blue-500" />
+        <input type="text" id="pDers" placeholder="Ders Kodu ve Adı (Örn: HUK101 Anayasa)" class="p-2.5 rounded-lg bg-gray-900 border border-gray-800 text-gray-200 focus:outline-none focus:border-blue-500" />
+      </div>
+
+      <div class="relative">
+        <textarea id="petitionOutput" readonly class="w-full h-44 p-4 rounded-xl bg-gray-950 border border-gray-800 text-xs font-mono text-gray-300 focus:outline-none leading-relaxed"></textarea>
+        <button onclick="copyPetition()" class="absolute top-3 right-3 px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-xs font-semibold text-white flex items-center gap-1.5 shadow transition">
+          <i data-lucide="copy" class="w-3.5 h-3.5"></i> Kopyala
+        </button>
+      </div>
+    </section>
+
+    <!-- Bütüncül Reform Paketi -->
     <section id="cozumler" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6 border border-emerald-900/30">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
         <div class="lg:col-span-8 space-y-2">
@@ -228,58 +294,6 @@
           <div class="w-full h-64">
             <canvas id="safetyValveTrendChart"></canvas>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Tahliye Vanaları Simülatörü & Akış -->
-    <section id="tahliye-vanalari" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6">
-      <div>
-        <h3 class="text-xl font-bold text-white flex items-center gap-2">
-          <i data-lucide="git-branch" class="w-5 h-5 text-emerald-400"></i> Çatışma Sönümleme ve Sosyal Tahliye Vanaları Mekanizması
-        </h3>
-        <p class="text-xs text-gray-400">Baskı altındaki öğrencinin kuruma açık direnç göstermek yerine neden sistemsel kaçış kanallarını kullandığının mantığı</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="flex items-center gap-2 text-emerald-400 font-semibold text-sm">
-            <i data-lucide="book-open" class="w-4 h-4"></i> AÖF / AUZEF
-          </div>
-          <p class="text-xs text-gray-300">
-            Örgün üniversitede hocanın keyfi notlandırmasıyla karşılaşan öğrenci; çoktan seçmeli merkezi sınavla askerlik tecili ve diploma güvencesi alır.
-          </p>
-          <span class="inline-block px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-300 border border-emerald-800">Tecil ve Diploma Tamponu</span>
-        </div>
-
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="flex items-center gap-2 text-blue-400 font-semibold text-sm">
-            <i data-lucide="banknote" class="w-4 h-4"></i> Kesintisiz KYK Kredisi
-          </div>
-          <p class="text-xs text-gray-300">
-            Tüm derslerden kalınsa dahi öğrenim kredisinin kesilmeden yatması, anlık maddi iflası ve sokak direncini engeller.
-          </p>
-          <span class="inline-block px-2 py-0.5 rounded text-[10px] bg-blue-950 text-blue-300 border border-blue-800">Finansal Tampon</span>
-        </div>
-
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="flex items-center gap-2 text-amber-400 font-semibold text-sm">
-            <i data-lucide="history" class="w-4 h-4"></i> Periyodik Öğrenci Afları
-          </div>
-          <p class="text-xs text-gray-300">
-            Düzenli aralıklarla çıkarılan aflar, öğrencinin hukuki mücadele yerine "nasılsa af gelir" diyerek pasifleşmesini ve öfkeyi zamana yaymasını sağlar.
-          </p>
-          <span class="inline-block px-2 py-0.5 rounded text-[10px] bg-amber-950 text-amber-300 border border-amber-800">Zaman Aşımı Uyuşturucusu</span>
-        </div>
-
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="flex items-center gap-2 text-purple-400 font-semibold text-sm">
-            <i data-lucide="arrow-right-left" class="w-4 h-4"></i> Ek Madde 1 Yatay Geçiş
-          </div>
-          <p class="text-xs text-gray-300">
-            Hocayla veya bölümle yaşanan krizde hesap sormak yerine üniversiteye giriş puanıyla başka üniversiteye sessizce firar edebilme imkânı.
-          </p>
-          <span class="inline-block px-2 py-0.5 rounded text-[10px] bg-purple-950 text-purple-300 border border-purple-800">Sessiz Kaçış</span>
         </div>
       </div>
     </section>
@@ -440,8 +454,38 @@
       radarChartInstance.update();
     }
 
+    function calculateRisk() {
+      const checks = document.querySelectorAll('.quiz-check:checked');
+      let score = 0;
+      checks.forEach(ch => score += parseInt(ch.value));
+      document.getElementById('riskScoreDisplay').textContent = `${score} / 100`;
+      
+      const v = document.getElementById('riskVerdictDisplay');
+      if (score >= 70) {
+        v.innerHTML = '<span class="text-red-500 font-bold">⚠️ Aşırı Feodal & Yüksek Mobbing Riski!</span>';
+      } else if (score >= 40) {
+        v.innerHTML = '<span class="text-amber-400 font-bold">⚠️ Orta Derece Keyfiyet & Bürokrasi Zırhı</span>';
+      } else {
+        v.innerHTML = '<span class="text-emerald-400 font-bold">✅ Demokratik / Düşük Riskli Ortam</span>';
+      }
+    }
+
+    function updatePetitionText() {
+      const u = document.getElementById('pUni').value || '[Üniversite Adı]';
+      const f = document.getElementById('pFak').value || '[Fakülte Adı]';
+      const d = document.getElementById('pDers').value || '[Ders Adı ve Kodu]';
+      
+      const text = `T.C. ${u.toUpperCase()}\n${f.toUpperCase()} DEKANLIĞINA\n\nFakülteniz öğrencisiyim. Almış olduğum "${d}" dersinin sınav değerlendirmesine ilişkin olarak;\nAnayasa m. 36 (Hak Arama Hürriyeti) ve Danıştay emsal kararları uyarınca;\n1. Detaylı puan bareminin ve cevap anahtarının tarafıma gösterilmesini,\n2. Sınav kâğıdımın dersi okuyan öğretim üyesi dışında bağımsız 3 kişilik bir hakem heyetince incelenerek notumun düzeltilmesini saygılarımla arz ve talep ederim.\n\nTarih: ${new Date().toLocaleDateString('tr-TR')}\nİmza: .................................`;
+      document.getElementById('petitionOutput').value = text;
+    }
+
+    function copyPetition() {
+      const el = document.getElementById('petitionOutput');
+      navigator.clipboard.writeText(el.value);
+      alert('Dilekçe metni panoya kopyalandı!');
+    }
+
     function initStaticCharts() {
-      // Şikayet ve Ceza Trendi
       const ctx1 = document.getElementById('complaintsChart').getContext('2d');
       new Chart(ctx1, {
         type: 'line',
@@ -477,7 +521,6 @@
         }
       });
 
-      // Örgün Terk vs AÖF Trendi
       const ctx2 = document.getElementById('safetyValveTrendChart').getContext('2d');
       new Chart(ctx2, {
         type: 'bar',
@@ -513,6 +556,10 @@
     window.addEventListener('DOMContentLoaded', () => {
       loadData();
       initStaticCharts();
+      updatePetitionText();
+      ['pUni', 'pFak', 'pDers'].forEach(id => {
+        document.getElementById(id).addEventListener('input', updatePetitionText);
+      });
     });
   </script>
 </body>
