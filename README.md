@@ -23,15 +23,18 @@
 ## 📑 İçindekiler Tablosu
 
 1. [Genel Bakış ve Problem Tanımı](#-genel-bakış-ve-problem-tanımı)
-2. [Kuramsal Çerçeve ve Düşünürler Arşivi (12 Filozof/Sosyolog)](#-kuramsal-çerçeve-ve-düşünürler-arşivi)
-3. [Sorunun Anatomisi: 6 Yapısal Boyut](#-sorunun-anatomisi-6-yapısal-boyut)
-4. [Karşılaştırmalı Yükseköğretim Güç Matrisi](#-karşılaştırmalı-yükseköğretim-güç-matrisi)
-5. [En İyi Sistem Hangi Ülkede ve Nasıl Sağladılar? (Hollanda & İskandinavya Modeli)](#-en-iyi-sistem-hangi-ülkede-ve-nasıl-sağladılar)
-6. [Bütüncül Reform Paketi ve Somut Yasa Taslağı Önerisi](#-bütüncül-reform-paketi-ve-somut-yasa-taslağı-önerisi)
-7. [Dilekçe Şablonları ve Hak Arama Kütüphanesi](#-dilekçe-şablonları-ve-hak-arama-kütüphanesi)
-8. [Dizin Yapısı ve Belge Kütüphanesi](#-dizin-yapısı-ve-belge-kütüphanesi)
-9. [Veri Doğrulama ve Yerel Portal Çalıştırma](#-veri-doğrulama-ve-yerel-portal-çalıştırma)
-10. [Katkıda Bulunma ve Lisans](#-katkıda-bulunma-ve-lisans)
+2. [Tarihsel Kökenler: Orta Çağ Loncalarından 1981 YÖK Rejimine](#-tarihsel-kökenler-orta-çağ-loncalarından-1981-yök-rejimine)
+3. [Genişletilmiş Düşünürler Arşivi (18 Filozof & Sosyolog)](#-genişletilmiş-düşünürler-arşivi)
+4. [Akademik Feodalizmin 10 Yapısal Belirtisi](#-akademik-feodalizmin-10-yapısal-belirtisi)
+5. [Sorunun Anatomisi: 6 Yapısal Boyut](#-sorunun-anatomisi-6-yapısal-boyut)
+6. [Karşılaştırmalı Yükseköğretim Güç Matrisi](#-karşılaştırmalı-yükseköğretim-güç-matrisi)
+7. [En İyi Sistem Hangi Ülkede ve Nasıl Sağladılar? (Hollanda & İskandinavya Modeli)](#-en-iyi-sistem-hangi-ülkede-ve-nasıl-sağladılar)
+8. [Bütüncül Reform Paketi ve Somut Yasa Taslağı Önerisi](#-bütüncül-reform-paketi-ve-somut-yasa-taslağı-önerisi)
+9. [Hak Arama, Direnç ve Belgeleme Stratejileri](#-hak-arama-direnç-ve-belgeleme-stratejileri)
+10. [Dilekçe Şablonları ve Hak Arama Kütüphanesi](#-dilekçe-şablonları-ve-hak-arama-kütüphanesi)
+11. [Dizin Yapısı ve Belge Kütüphanesi](#-dizin-yapısı-ve-belge-kütüphanesi)
+12. [Veri Doğrulama ve Yerel Portal Çalıştırma](#-veri-doğrulama-ve-yerel-portal-çalıştırma)
+13. [Katkıda Bulunma ve Lisans](#-katkıda-bulunma-ve-lisans)
 
 ---
 
@@ -59,9 +62,22 @@ Modern üniversite ideali, Aydınlanma'dan bu yana **hakikatin arandığı, ele�
 
 ---
 
-## 📖 Kuramsal Çerçeve ve Düşünürler Arşivi
+## 🏛️ Tarihsel Kökenler: Orta Çağ Loncalarından 1981 YÖK Rejimine
 
-Akademik tahakküm, bilgi tekeli ve kurumsal yozlaşma olguları dünya düşünce tarihinin önde gelen düşünürleri tarafından farklı boyutlarıyla analiz edilmiştir:
+Akademideki güç tekelini anlamak için kurumun tarihsel evrimini iki ana eksende incelemek gerekir:
+
+### 1. Orta Çağ Lonca Mantığının Mirası
+İlk Avrupa üniversiteleri (Bologna, Paris, Oxford), meslek loncaları (*universitas magistrorum et scholarium*) biçiminde örgütlenmişti. Usta-çırak ilişkisi üzerine kurulu bu yapıda "üstat" (magister/doktor), mesleğe kimin kabul edileceğine tek başına karar verirdi. Batı akademisi zamanla bu lonca tekelini bağımsız kurullar, sınav komisyonları ve öğrenci meclisleriyle demokratikleştirirken; Türkiye yükseköğretimi loncanın **keyfi icazet ve sadakat** kültürünü bürokratik devlet güvencesiyle birleştirmiştir.
+
+### 2. 12 Eylül 1980 Askeri Darbesi ve 2547 Sayılı YÖK Kanunu
+Türkiye'de akademik feodalizmin modern yasal altyapısı, 1981 yılında yürürlüğe giren **2547 Sayılı Yükseköğretim Kanunu** ile kurulmuştur:
+* **Merkeziyetçi Kışla Modeli:** Üniversite özerkliği ve fakülte kurullarının yetkileri budanarak tüm yetki tek adama (Rektör ve Dekan) devredilmiştir.
+* **Ceza Dokunulmazlığı (Madde 53/C):** Akademisyenlerin öğrencilere karşı işledikleri fiiller doğrudan adli yargı denetiminden kaçırılarak üniversite yönetiminin "iznine" (*men-i muhakeme*) bağlanmıştır.
+* **Demokratik Öğrenci Temsilinin Tasfiyesi:** Öğrencilerin üniversite senatosu ve fakülte yönetim kurullarındaki karar ve oy hakları tamamen sıfırlanmıştır.
+
+---
+
+## 📖 Genişletilmiş Düşünürler Arşivi (18 Filozof & Sosyolog)
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────────┐
@@ -71,6 +87,7 @@ Akademik tahakküm, bilgi tekeli ve kurumsal yozlaşma olguları dünya düşün
 ├───────────────────────┼──────────────────────────┼───────────────────────────────┤
 │ Max Weber             │ Bürokrasi ve Otorite     │ Bürokratik Kast Zırhı         │
 │ Immanuel Kant         │ Aydınlanma Nedir?        │ Kendi Aklını Kullanma Korkusu │
+│ Arthur Schopenhauer   │ Üniversite Felsefesi     │ Kürsü Tüccarlığı & Hakikat Boğma│
 │ Jürgen Habermas       │ İletişimsel Eylem        │ Tahakkümsüz Kamusal Alan      │
 │ Pierre Bourdieu       │ Homo Academicus          │ Simgesel Şiddet & Akademik Kast│
 │ Michel Foucault       │ Hapishanenin Doğuşu      │ Kapalı Devre Gözetim & Disiplin│
@@ -79,12 +96,90 @@ Akademik tahakküm, bilgi tekeli ve kurumsal yozlaşma olguları dünya düşün
 │ Edward Said           │ Entelektüel              │ Mikro-Alanda Despotlaşma      │
 │ Karl Marx             │ Yabancılaşma El Yazmaları│ Akademik Emeğin Gaspı         │
 │ Friedrich Nietzsche   │ Eğitim Kurumları Üzerine │ Memur Yetiştirme Fabrikası    │
+│ Baruch Spinoza        │ Tractatus Theologico     │ Düşünce Özgürlüğünün Gaspı    │
+│ Jacques Derrida       │ Koşulsuz Üniversite      │ Şartsız Sorgulama Hakkı       │
+│ Jean-François Lyotard │ Postmodern Durum         │ Performativite & İktidar Yozlaşması│
+│ Noam Chomsky          │ Rızanın İmalatı          │ İtaatkar Entelektüel Üretimi  │
 │ Ivan Illich           │ Okulsuz Toplum           │ Diplomanın İtaat Belgesi Oluşu│
 │ Byung-Chul Han        │ Psikopolitika            │ İçselleştirilmiş Şiddet/Tükeniş│
+│ Korkut Boratav        │ Üniversite ve Aydınlar   │ Darbe Rejimi & Memurlaşma     │
 └───────────────────────┴──────────────────────────┴───────────────────────────────┘
 ```
 
-Ayrıntılı felsefi ve sosyolojik metinler için [`alintilar-ve-dokumanlar/burokratik-tahakkum-literaturu.md`](alintilar-ve-dokumanlar/burokratik-tahakkum-literaturu.md) dosyasını inceleyebilirsiniz.
+### 1. Max Weber – Bürokratik Kast Zırhı
+> "Bürokrasi, rasyonel bir yönetim biçimi olarak tasarlanmasına rağmen, bilginin ve mevzuatın tekelleştirildiği yerde kendi başına buyruk bir 'kast sistemine' dönüşür. Resmi memuriyet zırhı, liyakat denetimini imkânsız hale getiren en kusursuz maskedir."
+
+### 2. Immanuel Kant – Ergin Olmayış Durumu ve Vesayet Rejimi
+> "Aydınlanma, insanın kendi suçu ile düşmüş olduğu bir ergin olamayış durumundan çıkmasıdır. Bu durum, başkasının kılavuzluğu olmaksızın kendi aklını kullanamayışıdır. Ne var ki kürsüler ve dogmalar, öğrencileri sürekli vesayet altında tutarak onların erginleşmesini engeller; düşünmeyi tehlikeli, itaati ise erdem olarak sunar."
+
+### 3. Arthur Schopenhauer – Üniversite Profesörleri ve Kürsü Tüccarlığı
+> "Felsefeyi ve bilimi geçim kaynağı haline getiren üniversite profesörleri için hakikat en son kaygıdır; onların birinci kaygısı unvanlarını, kürsülerini, maaşlarını ve bakanlığın lütfunu korumaktır. Bağımsız ve eleştirel bir zihnin ortaya çıkışı, kürsü vasatlığının en büyük kabusudur; bu yüzden onu elbirliğiyle boğarlar."
+> — *Üniversitelerdeki Felsefe Üzerine*
+
+### 4. Jürgen Habermas – İletişimsel Akıl ve Tahakkümsüz Üniversite
+> "Üniversite, tahakkümden arındırılmış bir kamusal iletişim alanı (*herrschaftsfreier Diskurs*) olmak zorundadır. Karşılıklı argüman denetiminin yerini unvan hiyerarşisi ve 'ben öyle uygun gördüm' keyfiyeti aldığında, kurum bilim yuvası olmaktan çıkar, totaliter bir güç merkezine dönüşür."
+
+### 5. Pierre Bourdieu – Simgesel Şiddet ve *Homo Academicus*
+> "Akademik alan, salt bir bilgi üretim mekânı değil; simgesel sermayenin, unvanların ve akademik asalet rütbelerinin korunduğu ve yeniden üretildiği bir iktidar sahasıdır. Profesörün kürsüsü, sadece pedagojik bir mevki değil; astların ve öğrencilerin itaatini meşrulaştıran bir simgesel şiddet aygıtıdır."
+
+### 6. Michel Foucault – Kapalı Devre Disiplin ve Otosansür
+> "Disiplinci iktidarın en büyük zaferi, cezalandırmaktan ziyade bireyi sürekli bir gözetim ve cezalandırılabilirlik tehdidi altında tutarak kendi kendine otosansür uygulamasını sağlamaktır. Hiyerarşik gözetim mekanizması kurum içi yargılamayı tekeline aldığında kurban için dışarıya sesini duyurmak imkânsızlaşır."
+
+### 7. Paulo Freire – Ezilenlerin Pedagojisi ve Gardiyan Refleksi
+> "Otoriter eğitim modelinde öğretmen bilir, öğrenciler hiçbir şey bilmez; öğretmen anlatır, öğrenciler yutar. Ezilen, sistemin doğasını sorgulayamadığı müddetçe, sistemdeki yegâne ideali 'ezene dönüşmek' ve kürsüye çıkıp aynı zulmü bir sonrakine devretmektir."
+
+### 8. Antonio Gramsci – Hegemonya ve Geleneksel Aydınlar
+> "Hegemonya, yalnızca kaba kuvvetle değil; rıza üretimi ve alternatif hak arama yollarının felç edilmesiyle sürdürülür. Geleneksel aydınlar, kürsülerini korumak uğruna kurumun çürümüşlüğünü 'akademik gelenek ve saygınlık' ambalajıyla kutsarlar."
+
+### 9. Edward Said – Entelektüel Dürüstlük vs. Mikro Despotizm
+> "Akademisyenin temel görevi iktidara hakikati söylemektir (*speaking truth to power*). Ancak bir akademisyen, kendi mikro-alanında öğrenciye karşı denetimsiz bir iktidar odağı haline geldiğinde, entelektüel kimliğini kaybeder ve kurumun küçük bir derebeyine dönüşür."
+
+### 10. Karl Marx – Akademik Emeğin Gaspı ve Yabancılaşma
+> "Üretim araçlarına sahip olan sınıf, emeği nasıl mülkiyetsizleştiriyorsa; akademik unvan ve kadro tekeline sahip olan kürsü de genç araştırmacının zihinsel emeğini, makalesini ve buluşunu zorla kendi mülküne katarak onu emeğine yabancılaştırır."
+
+### 11. Friedrich Nietzsche – Memur Yetiştirme Kışlaları
+> "Üniversiteler, hakikati arayan özgür ruhlar yetiştirmek yerine; devlete ve bürokratik hiyerarşiye sadık, sorgulamayan, konformist memurlar üreten eğitim kışlalarına dönüştürülmüştür."
+
+### 12. Baruch Spinoza – Düşünce ve İfade Hürriyetinin Dokunulmazlığı
+> "Devletin ve kamu kurumlarının nihai amacı tahakküm kurmak veya insanları korkuyla sindirmek değil; bireyin zihnini ve bedenini güven içinde geliştirmesini sağlamaktır. Düşünceyi ve muhalefeti cezalandıran her kürsü, tiranlığın mikro laboratuvarıdır."
+> — *Tractatus Theologico-Politicus*
+
+### 13. Jacques Derrida – Koşulsuz Üniversite (*L'Université sans condition*)
+> "Gerçek bir üniversite, hiçbir dış iktidarın, hiçbir dogmanın ve hiçbir feodal unvanın sınırlandıramayacağı koşulsuz bir hakikati söyleme ve sorgulama hakkına sahip olmalıdır. Notla, unvanla veya disiplin cezasıyla tehdit edilen zihin üniversitede değil, esaret altındadır."
+
+### 14. Jean-François Lyotard – Performativite ve Bilginin Metalaşması
+> "Postmodern çağda üniversite, 'Bu doğru mu?' sorusunu terk edip 'Bu satılabilir mi veya iktidara yarar mı?' sorusuna teslim olmuştur. Bu dönüşüm, akademisyeni hakikat arayıcısından çıkarıp kurumsal hedefleri tutturmaya çalışan pragmatist bir teknokrata dönüştürür."
+> — *Postmodern Durum*
+
+### 15. Noam Chomsky – İtaatkar Entelektüeller ve Sistemin Bekçiliği
+> "Üniversiteler, kurulu düzeni sorgulayan zihinler üretmekten ziyade; sisteme sorun çıkarmayacak, kurumsal baskıyı kanıksamış itaatkâr uzmanlar yetiştirme işlevi görür."
+> — *Entelektüellerin Sorumluluğu*
+
+### 16. Ivan Illich – Diplomanın İtaat Belgesine Dönüşmesi
+> "Okullar ve üniversiteler, bilginin tekelleştirildiği ve bireylerin kurumsal bağımlılığa mahkûm edildiği yerler haline gelmiştir. Diploma, yetkinliğin değil; tahakküm altındaki bir hiyerarşiye boyun eğmiş olmanın resmi vesikasıdır."
+
+### 17. Byung-Chul Han – Psikopolitika ve Şiddetin Topolojisi
+> "Modern tahakküm, doğrudan fiziksel baskı uygulamak yerine bireyi 'ben yetersizim, ben başaramadım' yanılgısıyla kendi kendini suçlamaya ve depresyona iter. Akademik mobbing mağduru öğrenci, kurumun yapısal adaletsizliğini değil, kendi yetersizliğini sorgulayarak sessizce içe çöker."
+
+### 18. Korkut Boratav – Türkiye'de Üniversitenin Memurlaştırılması
+> "1980 sonrası kurulan YÖK düzeni, üniversiteyi bilimin üretildiği özerk bir kurum olmaktan çıkarıp, rektörün mutlak vali gibi davrandığı hiyerarşik bir devlet dairesine dönüştürmüştür."
+
+---
+
+## 🚩 Akademik Feodalizmin 10 Yapısal Belirtisi
+
+Bir üniversite veya fakültenin ne derece feodal bir yapıya teslim olduğunu gösteren **10 Tanı Kriteri**:
+
+1. **Baremsiz ve Kapalı Sınav Sistemi:** Soruların puanlama kriterleri ilan edilmez; öğrenciye kendi kâğıdı inceletilmez.
+2. **Kişiye Özel Kadro İlanları:** İlan şartları doğrudan kürsü hocasının asistanının tez başlığına göre yazılır.
+3. **Zoraki ve Hayalet Yazarlık (*Gift/Coercive Authorship*):** Hocanın adının asistanın ve öğrencinin makalelerine zorla birinci yazar yapılması.
+4. **Fakülte İçi Ön İnceleme Tiyatrosu:** Şikâyet edilen hocanın aynı çay odasını paylaştığı mesai arkadaşı tarafından aklanması.
+5. **Kişisel Hizmet ve Angarya:** Lisansüstü öğrencilerin hocanın şahsi işleri, özel projeleri veya evrak hamallığı için kullanılması.
+6. **Sözlü Sınavlarda Kayıt Tutulmaması:** Mülakat, jüri ve yeterlik sınavlarının ses/video kaydı olmaksızın keyfiyetle yapılması.
+7. **Misilleme Tehdidi (*Retaliation*):** Hakkını arayan öğrenciye "dersi geçemezsin, mezun olamazsın" şantajı uygulanması.
+8. **Öğrenci Temsilinin Sıfırlanması:** Fakülte ve üniversite yönetim kurullarında öğrencinin oy ve söz hakkının bulunmaması.
+9. **Kürsüde Mutlak İtaat Dili:** Akademik eleştirinin "hocalık makamına saygısızlık" olarak kriminalize edilmesi.
+10. **Sessiz Terk ve Beyin Göçü:** Başarılı gençlerin hak aramak yerine bölüm değiştirmesi, açıköğretime kaçması veya yurtdışına gitmesi.
 
 ---
 
@@ -151,6 +246,23 @@ Kanun gerekçeleri ve tam metin için: [`analizler/06_kapsamli-reform-ve-yasa-ta
 
 ---
 
+## 🛡️ Hak Arama, Direnç ve Belgeleme Stratejileri
+
+Akademik mobbinge veya haksızlığa uğrayan bir öğrenci/araştırmacının izlemesi gereken **5 Adımlı Savunma Rehberi**:
+
+```text
+[1. Dijital Belgeleme] ──► [2. Resmi İtiraz] ──► [3. İdare Mahkemesi] ──► [4. KDK / Ombudsman] ──► [5. Savcılık]
+ (E-posta, OBS, Baremler)   (Şablon Dilekçeler)   (60 Gün İçinde Dava)     (E-Devlet Başvurusu)      (TCK Suç Duyurusu)
+```
+
+1. **Yazılı İletişim İlkesi:** Hocayla yapılan tüm kritik görüşmeleri e-posta üzerinden yürütün ("Bugünkü görüşmemizde belirttiğiniz üzere..." formatında teyit mailleri atın).
+2. **Sınav Kâğıdı ve Barem Talep Edin:** Sınav ilanından itibaren ilk 5 gün içinde resmi dilekçeyle ([Şablon 01](dilekce-sablonlari/01_sinav-kagidi-ve-barem-inceleme-talebi.md)) cevap anahtarını ve baremi yazılı isteyin.
+3. **60 Günlük İdari Dava Süresini Kaçırmayın:** Fakülte ret yazısının tebliğinden itibaren 60 gün içinde İdare Mahkemesi'nde yürütmeyi durdurma talepli iptal davası açın.
+4. **Kamu Denetçiliği Kurumu (KDK) Başvurusu:** E-Devlet üzerinden ücretsiz ve harçsız olarak KDK'ya başvurun; KDK'nın üniversite aleyhine verdiği tavsiye kararlarını mahkemeye delil sunun.
+5. **Danışman Şantajında Enstitü Değişimi:** [Şablon 04](dilekce-sablonlari/04_tez-danismani-degisikligi-talep-dilekcesi.md) ile danışman değişikliği dilekçesi vererek süreci yazılı kayda bağlayın.
+
+---
+
 ## 📝 Dilekçe Şablonları ve Hak Arama Kütüphanesi
 
 Öğrenciler ve araştırmacılar için hazırlanmış hukuken geçerli resmi dilekçe taslakları:
@@ -187,7 +299,7 @@ Kanun gerekçeleri ve tam metin için: [`analizler/06_kapsamli-reform-ve-yasa-ta
 ├── veriler/
 │   ├── ulke-akademik-mevzuatlari.json                # Karşılaştırmalı ülke parametreleri
 │   ├── sorusturma-sonuclari-ve-ihrac-oranlari.csv    # Soruşturma ve cezasızlık istatistikleri
-│   ├── ogrenci-terk-ve-af-istatistikleri.csv         # Terk, AÖF ve af verileri
+│   └── ogrenci-terk-ve-af-istatistikleri.csv         # Terk, AÖF ve af verileri
 │   └── universite-akademik-mobbing-ve-intihar-kronolojisi.csv # Olay kronolojisi
 ├── alintilar-ve-dokumanlar/
 │   ├── burokratik-tahakkum-literaturu.md             # Kuramsal metinler ve sosyolojik analizler
@@ -228,6 +340,7 @@ python scripts/generate_report.py
 İnteraktif web portalını yerel tarayıcınızda açmak için:
 
 ```bash
+# Python ile yerel sunucu başlatma
 python -m http.server 8000
 ```
 Tarayıcınızda `http://localhost:8000` adresine gidin.
