@@ -1,14 +1,21 @@
-# Akademik Feodalizm ve Güç Asimetrisi: Yapısal Çöküş, Kuramsal Analiz ve Bütüncül Çözüm Manifestosu
+<div align="center">
 
-Yükseköğretim kurumlarındaki yapısal güç asimetrileri, kürsü dokunulmazlığı, idari cezasızlık kültürü, akademik angarya, simgesel şiddet ve öğrenci haklarının ülkeler bazında karşılaştırmalı analitik arşivi.
+# Akademik Feodalizm ve Güç Asimetrisi
+### Yapısal Çöküş, Kuramsal Analiz ve Bütüncül Çözüm Manifestosu
 
 [![Veri ve Şema Doğrulama CI](https://github.com/arch-yunus/akademik-feodalizm/actions/workflows/validate.yml/badge.svg)](https://github.com/arch-yunus/akademik-feodalizm/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Dashboard](https://img.shields.io/badge/İnteraktif-Portal-red.svg)](index.html)
 
----
+<br/>
+
+![Akademik Feodalizm Ana Banner](assets/images/hero-banner.jpg)
+
+<br/>
 
 > *"Bir kurumda denetim ve hesap verebilirlik mekanizmaları ortadan kalktığında, oradaki bilgi üretimi kaçınılmaz olarak yerini feodal bir sadakat, biat ve tahakküm hiyerarşisine bırakır."*
+
+</div>
 
 ---
 
@@ -23,6 +30,17 @@ Yükseköğretim kurumlarındaki yapısal güç asimetrileri, kürsü dokunulmaz
 7. [Dizin Yapısı ve Belge Kütüphanesi](#-dizin-yapısı-ve-belge-kütüphanesi)
 8. [Veri Doğrulama ve Yerel Portal Çalıştırma](#-veri-doğrulama-ve-yerel-portal-çalıştırma)
 9. [Katkıda Bulunma ve Lisans](#-katkıda-bulunma-ve-lisans)
+
+---
+
+## 🌐 İnteraktif Veri ve Analiz Portalı
+
+Bu depoda yer alan ülke matrislerini, soruşturma trendlerini ve tahliye vanaları simülatörünü görsel olarak deneyimlemek için **[`index.html`](index.html)** portalını kullanabilirsiniz:
+
+- **Karşılaştırmalı Ülke Radarı:** Türkiye, ABD, Almanya, İngiltere, Hollanda, İskandinavya, Japonya ve Fransa modelleri.
+- **Trend Grafikleri:** 2018–2025 şikâyet, takipsizlik ve AÖF sığınma oranları.
+- **Emsal Kararlar:** Not iptalleri, mobbing tazminatları ve Danıştay içtihatları.
+- **Sistemik Simülatör:** Öğrenci hak arama süreçlerinin kurumsal akıbet haritası.
 
 ---
 
@@ -103,6 +121,12 @@ Akademik tahakküm, bilgi tekeli ve kurumsal yozlaşma olguları dünya düşün
 
 ## 🧬 Sorunun Anatomisi: 6 Yapısal Boyut
 
+<div align="center">
+
+![Güç Asimetrisi ve Cezasızlık Zırhı](assets/images/power-asymmetry-banner.jpg)
+
+</div>
+
 ```text
                                   ┌────────────────────────┐
                                   │   AKADEMİK FEODALİZM   │
@@ -158,6 +182,12 @@ Akademik tahakküm, bilgi tekeli ve kurumsal yozlaşma olguları dünya düşün
 ---
 
 ## 🏆 En İyi Sistem Hangi Ülkede ve Nasıl Sağladılar?
+
+<div align="center">
+
+![Demokratik Üniversite ve Reform Modeli](assets/images/democratic-reform-banner.jpg)
+
+</div>
 
 Dünya genelinde akademik özgürlük ile öğrenci haklarını en kusursuz dengeleyen yapı **Hollanda ve İskandinav Ülkeleri (Danimarka, İsveç, Norveç, Finlandiya)** modelidir.
 
@@ -238,6 +268,10 @@ Türkiye yükseköğretim sistemindeki feodal tahakkümü sona erdirmek için ge
 ## 📁 Dizin Yapısı ve Belge Kütüphanesi
 
 ```text
+├── assets/images/                                    # Yüksek Çözünürlüklü Bannerlar & Görseller
+│   ├── hero-banner.jpg                               # Ana Başlık Banner'ı
+│   ├── power-asymmetry-banner.jpg                    # Güç Asimetrisi Görseli
+│   └── democratic-reform-banner.jpg                  # Demokratik Üniversite Görseli
 ├── index.html                                        # İnteraktif Web Portalı & Veri Görselleştirme
 ├── KATKI.md                                          # Katkı Kılavuzu ve Araştırma Etiği
 ├── LICENSE                                           # MIT Lisansı

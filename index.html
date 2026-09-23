@@ -66,35 +66,40 @@
 
   <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
 
-    <!-- Hero / Özet -->
-    <section class="glass-card rounded-2xl p-6 sm:p-8 relative overflow-hidden border border-red-900/30">
-      <div class="max-w-3xl space-y-4">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-red-950/70 text-red-300 border border-red-800/60">
-          <i data-lucide="shield-alert" class="w-3.5 h-3.5"></i> Bütüncül Araştırma & Reform Manifestosu
+    <!-- Hero / Özet & Banner -->
+    <section class="glass-card rounded-2xl overflow-hidden border border-red-900/30">
+      <div class="relative w-full h-64 sm:h-80 overflow-hidden">
+        <img src="assets/images/hero-banner.jpg" alt="Akademik Feodalizm" class="w-full h-full object-cover opacity-60" />
+        <div class="absolute inset-0 bg-gradient-to-t from-[#111827] via-[#111827]/60 to-transparent"></div>
+        <div class="absolute bottom-6 left-6 right-6 space-y-2">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-red-950/90 text-red-300 border border-red-800/80 backdrop-blur-md">
+            <i data-lucide="shield-alert" class="w-3.5 h-3.5"></i> Bütüncül Araştırma & Reform Manifestosu
+          </div>
+          <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight leading-tight">
+            Kürsü Derebeyliğinden Demokratik Üniversiteye
+          </h2>
+          <p class="text-xs sm:text-sm text-gray-300 max-w-2xl">
+            Yükseköğretimde mutlak güç asimetrisini, <strong>%93.4'lük idari cezasızlık oranını</strong> ve İskandinavya/Hollanda'nın <strong>bağımsız ombudsmanlık</strong> modelini belgeleyen açık kaynak veri arşivi.
+          </p>
         </div>
-        <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
-          Kürsü Derebeyliğinden Demokratik Üniversiteye
-        </h2>
-        <p class="text-sm sm:text-base text-gray-300 leading-relaxed">
-          Bu araştırma portalı; yükseköğretim sistemlerinde hoca-öğrenci asimetrisini, <strong>%93.4'lük idari cezasızlık oranını</strong>, psikopolitik tükenmişliği ve Hollanda/İskandinavya ülkelerinin kürsü feodalizmini tasfiye eden <strong>bağımsız ombudsmanlık ve çift kör sınav</strong> modellerini belgeler.
-        </p>
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 border-t border-gray-800">
-          <div>
-            <div class="text-2xl sm:text-3xl font-black text-red-500">%93.4</div>
-            <div class="text-xs text-gray-400">TR Cezasızlık Oranı</div>
-          </div>
-          <div>
-            <div class="text-2xl sm:text-3xl font-black text-emerald-400">%6.8</div>
-            <div class="text-xs text-gray-400">İskandinav Cezasızlık</div>
-          </div>
-          <div>
-            <div class="text-2xl sm:text-3xl font-black text-amber-400">12 Düşünür</div>
-            <div class="text-xs text-gray-400">Kuramsal Literatür</div>
-          </div>
-          <div>
-            <div class="text-2xl sm:text-3xl font-black text-blue-400">5 Maddelik</div>
-            <div class="text-xs text-gray-400">Somut Kanun Taslağı</div>
-          </div>
+      </div>
+
+      <div class="p-6 grid grid-cols-2 sm:grid-cols-4 gap-4 border-t border-gray-800">
+        <div>
+          <div class="text-2xl sm:text-3xl font-black text-red-500">%93.4</div>
+          <div class="text-xs text-gray-400">TR Cezasızlık Oranı</div>
+        </div>
+        <div>
+          <div class="text-2xl sm:text-3xl font-black text-emerald-400">%6.8</div>
+          <div class="text-xs text-gray-400">İskandinav Cezasızlık</div>
+        </div>
+        <div>
+          <div class="text-2xl sm:text-3xl font-black text-amber-400">12 Düşünür</div>
+          <div class="text-xs text-gray-400">Kuramsal Külliyat</div>
+        </div>
+        <div>
+          <div class="text-2xl sm:text-3xl font-black text-blue-400">5 Maddelik</div>
+          <div class="text-xs text-gray-400">Somut Kanun Taslağı</div>
         </div>
       </div>
     </section>
@@ -130,14 +135,19 @@
       </div>
     </section>
 
-    <!-- Bütüncül Reform Paketi -->
+    <!-- Bütüncül Reform Paketi & Görsel -->
     <section id="cozumler" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6 border border-emerald-900/30">
-      <div>
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-950/70 text-emerald-300 border border-emerald-800/60 mb-2">
-          <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i> Çözüm ve Kanun Taslağı
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+        <div class="lg:col-span-8 space-y-2">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-950/70 text-emerald-300 border border-emerald-800/60">
+            <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i> Çözüm ve Kanun Taslağı
+          </div>
+          <h3 class="text-2xl font-bold text-white">5 Aşamalı Demokratik Üniversite Reform Paketi</h3>
+          <p class="text-xs text-gray-400">Kürsü derebeyliğini ve cezasızlığı ortadan kaldırmak için somut yasal mekanizmalar</p>
         </div>
-        <h3 class="text-2xl font-bold text-white">5 Aşamalı Demokratik Üniversite Reform Paketi</h3>
-        <p class="text-xs text-gray-400">Kürsü derebeyliğini ve cezasızlığı ortadan kaldırmak için somut yasal mekanizmalar</p>
+        <div class="lg:col-span-4 rounded-xl overflow-hidden border border-emerald-800/40 shadow-lg">
+          <img src="assets/images/democratic-reform-banner.jpg" alt="Demokratik Üniversite" class="w-full h-32 object-cover" />
+        </div>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
