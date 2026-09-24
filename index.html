@@ -34,6 +34,9 @@
     body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; background-color: #0b0f19; color: #f3f4f6; }
     .glass-card { background: rgba(17, 24, 39, 0.85); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); }
     .glow { box-shadow: 0 0 25px rgba(239, 68, 68, 0.15); }
+    .scrollbar-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+    .scrollbar-thin::-webkit-scrollbar-thumb { background: #374151; border-radius: 4px; }
+    .scrollbar-thin::-webkit-scrollbar-track { background: #111827; }
   </style>
 </head>
 <body class="min-h-screen flex flex-col">
@@ -49,57 +52,67 @@
           <h1 class="font-bold text-lg leading-none tracking-tight text-white flex items-center gap-2">
             Akademik Feodalizm <span class="text-xs px-2 py-0.5 rounded bg-red-950 text-red-300 border border-red-800">Veri & Analiz Portalı</span>
           </h1>
-          <p class="text-xs text-gray-400 mt-0.5">Yükseköğretimde Güç Asimetrileri, Kürsü Dokunulmazlığı ve Demokratik Üniversite</p>
+          <p class="text-xs text-gray-400 mt-0.5 hidden sm:block">Yükseköğretimde Güç Asimetrileri, Kürsü Dokunulmazlığı ve Demokratik Üniversite</p>
         </div>
       </div>
-      <div class="flex items-center space-x-4">
-        <a href="#karsilastirma" class="text-xs sm:text-sm text-gray-300 hover:text-white transition">Ülke Matrisi</a>
-        <a href="#test-araci" class="text-xs sm:text-sm text-gray-300 hover:text-white transition">Risk Testi</a>
-        <a href="#dilekce-uretici" class="text-xs sm:text-sm text-gray-300 hover:text-white transition">Dilekçe Üretici</a>
-        <a href="#cozumler" class="text-xs sm:text-sm text-gray-300 hover:text-white transition">Reform Paketi</a>
-        <a href="https://github.com/arch-yunus/akademik-feodalizm" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gray-800 hover:bg-gray-700 text-xs text-gray-200 border border-gray-700 transition">
+      <div class="flex items-center space-x-3 sm:space-x-4 overflow-x-auto">
+        <a href="#karsilastirma" class="text-xs sm:text-sm text-gray-300 hover:text-white transition whitespace-nowrap">Ülke Matrisi</a>
+        <a href="#test-araci" class="text-xs sm:text-sm text-gray-300 hover:text-white transition whitespace-nowrap">Risk Testi</a>
+        <a href="#dilekce-studyosu" class="text-xs sm:text-sm text-gray-300 hover:text-white transition whitespace-nowrap">Dilekçe Stüdyosu</a>
+        <a href="#kronoloji-bolumu" class="text-xs sm:text-sm text-gray-300 hover:text-white transition whitespace-nowrap">Vaka Kronolojisi</a>
+        <a href="#reform-simulatoru" class="text-xs sm:text-sm text-gray-300 hover:text-white transition whitespace-nowrap">Reform Simülatörü</a>
+        <a href="#sozluk-bolumu" class="text-xs sm:text-sm text-gray-300 hover:text-white transition whitespace-nowrap">Sözlük</a>
+        <a href="https://github.com/arch-yunus/akademik-feodalizm" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gray-800 hover:bg-gray-700 text-xs text-gray-200 border border-gray-700 transition shrink-0">
           <i data-lucide="github" class="w-4 h-4"></i> GitHub
         </a>
       </div>
     </div>
   </header>
 
-  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
 
     <!-- Hero / Özet & Milli Banner -->
-    <section class="glass-card rounded-2xl overflow-hidden border border-red-900/30">
+    <section class="glass-card rounded-2xl overflow-hidden border border-red-900/30 shadow-2xl">
       <div class="relative w-full h-72 sm:h-96 overflow-hidden">
         <img src="assets/images/01-milli-hero-banner.jpg" alt="Akademik Feodalizm ve Aydınlanma" class="w-full h-full object-cover opacity-70" />
-        <div class="absolute inset-0 bg-gradient-to-t from-[#111827] via-[#111827]/60 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-[#111827] via-[#111827]/65 to-transparent"></div>
         <div class="absolute bottom-6 left-6 right-6 space-y-2">
           <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-red-950/90 text-red-300 border border-red-800/80 backdrop-blur-md">
-            <i data-lucide="shield-alert" class="w-3.5 h-3.5"></i> Demokratik Üniversite Manifestosu
+            <i data-lucide="shield-alert" class="w-3.5 h-3.5"></i> Demokratik Üniversite & Açık Bilim Platformu
           </div>
           <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight leading-tight">
             Kürsü Derebeyliğinden Demokratik Türk Üniversitesine
           </h2>
-          <p class="text-xs sm:text-sm text-gray-300 max-w-2xl">
-            Türkiye yükseköğretiminde güç asimetrisini, <strong>%93.4'lük idari cezasızlık oranını</strong> ve <strong>bağımsız ombudsmanlık & çift kör sınav</strong> reformunu belgeleyen açık kaynak araştırma platformu.
+          <p class="text-xs sm:text-sm text-gray-300 max-w-3xl leading-relaxed">
+            Türkiye yükseköğretiminde güç asimetrisini, <strong>%93.4'lük idari cezasızlık oranını</strong>, <strong>sistematik beyin göçünü</strong> ve <strong>bağımsız ombudsmanlık & isimsiz çift kör sınav</strong> reformunu belgeleyen açık kaynak veri ve araştırma arşivi.
           </p>
         </div>
       </div>
 
-      <div class="p-6 grid grid-cols-2 sm:grid-cols-4 gap-4 border-t border-gray-800">
-        <div>
+      <div class="p-6 grid grid-cols-2 sm:grid-cols-6 gap-4 border-t border-gray-800 bg-gray-950/40">
+        <div class="p-3 bg-gray-900/60 rounded-xl border border-gray-800/80">
           <div class="text-2xl sm:text-3xl font-black text-red-500">%93.4</div>
-          <div class="text-xs text-gray-400">TR Cezasızlık Oranı</div>
+          <div class="text-[11px] text-gray-400 mt-1 font-medium">TR Cezasızlık Oranı</div>
         </div>
-        <div>
+        <div class="p-3 bg-gray-900/60 rounded-xl border border-gray-800/80">
           <div class="text-2xl sm:text-3xl font-black text-emerald-400">%6.8</div>
-          <div class="text-xs text-gray-400">İskandinav Cezasızlık</div>
+          <div class="text-[11px] text-gray-400 mt-1 font-medium">İskandinav Cezasızlık</div>
         </div>
-        <div>
-          <div class="text-2xl sm:text-3xl font-black text-amber-400">18 Düşünür</div>
-          <div class="text-xs text-gray-400">Felsefi & Sosyolojik Külliyat</div>
+        <div class="p-3 bg-gray-900/60 rounded-xl border border-gray-800/80">
+          <div class="text-2xl sm:text-3xl font-black text-amber-400">62.400+</div>
+          <div class="text-[11px] text-gray-400 mt-1 font-medium">Giden Doktora / Postdoc</div>
         </div>
-        <div>
-          <div class="text-2xl sm:text-3xl font-black text-blue-400">5 Maddelik</div>
-          <div class="text-xs text-gray-400">Somut Yasa Taslağı</div>
+        <div class="p-3 bg-gray-900/60 rounded-xl border border-gray-800/80">
+          <div class="text-2xl sm:text-3xl font-black text-blue-400">9 Ülke</div>
+          <div class="text-[11px] text-gray-400 mt-1 font-medium">Karşılaştırmalı Model</div>
+        </div>
+        <div class="p-3 bg-gray-900/60 rounded-xl border border-gray-800/80">
+          <div class="text-2xl sm:text-3xl font-black text-purple-400">6 Şablon</div>
+          <div class="text-[11px] text-gray-400 mt-1 font-medium">Hukuki Dilekçe Arşivi</div>
+        </div>
+        <div class="p-3 bg-gray-900/60 rounded-xl border border-gray-800/80">
+          <div class="text-2xl sm:text-3xl font-black text-cyan-400">10 Analiz</div>
+          <div class="text-[11px] text-gray-400 mt-1 font-medium">Kapsamlı Araştırma Metni</div>
         </div>
       </div>
     </section>
@@ -108,23 +121,27 @@
     <section id="karsilastirma" class="space-y-6">
       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h3 class="text-xl font-bold text-white flex items-center gap-2">
-            <i data-lucide="globe" class="w-5 h-5 text-blue-400"></i> Karşılaştırmalı Ülke Göstergeleri
-          </h3>
-          <p class="text-xs text-gray-400">İş güvencesi, güç asimetrisi, cezasızlık oranı ve emniyet sübvansiyonları</p>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-950/70 text-blue-300 border border-blue-800/60 mb-2">
+            <i data-lucide="globe" class="w-3.5 h-3.5"></i> Uluslararası Hukuk & Model Kıyaslaması
+          </div>
+          <h3 class="text-2xl font-bold text-white">Karşılaştırmalı Ülke Göstergeleri</h3>
+          <p class="text-xs text-gray-400">İş güvencesi, güç asimetrisi, cezasızlık oranı ve denetim mimarisi (9 Ülke)</p>
         </div>
-        <div class="flex flex-wrap items-center gap-2" id="countrySelector">
+        <div class="flex flex-wrap items-center gap-1.5" id="countrySelector">
           <!-- Dinamik Butonlar -->
         </div>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
         <div class="lg:col-span-5 glass-card p-5 rounded-xl flex flex-col justify-between">
-          <h4 class="text-sm font-semibold text-gray-200 mb-2">Güç ve Koruma Dinamikleri Radarı</h4>
+          <div class="flex items-center justify-between mb-2">
+            <h4 class="text-sm font-semibold text-gray-200">Güç ve Koruma Dinamikleri Radarı</h4>
+            <span class="text-[11px] text-gray-400">1-10 Normalizasyon</span>
+          </div>
           <div class="relative w-full aspect-square max-h-[340px] flex items-center justify-center">
             <canvas id="radarChart"></canvas>
           </div>
-          <div class="text-[11px] text-gray-400 mt-2 text-center">Değerler 1-10 üzerinden normalleştirilmiştir.</div>
+          <div class="text-[11px] text-gray-400 mt-2 text-center">Metrikler: İş Güvencesi, Asimetri, Cezasızlık, Vana, Denetimsizlik</div>
         </div>
 
         <div class="lg:col-span-7 glass-card p-6 rounded-xl flex flex-col justify-between space-y-4" id="countryDetailCard">
@@ -137,220 +154,283 @@
     <section id="test-araci" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6 border border-amber-900/30">
       <div>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-amber-950/70 text-amber-300 border border-amber-800/60 mb-2">
-          <i data-lucide="calculator" class="w-3.5 h-3.5"></i> Öz Değerlendirme Simülatörü
+          <i data-lucide="calculator" class="w-3.5 h-3.5"></i> Öz Değerlendirme & Teşhis Aracı
         </div>
         <h3 class="text-2xl font-bold text-white">Fakülteniz Ne Kadar Feodal? (Risk Hesaplama)</h3>
         <p class="text-xs text-gray-400">Aşağıdaki kriterleri işaretleyerek bölümünüzdeki kürsü dokunulmazlığı ve güç asimetrisi skorunu hesaplayın</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs" id="quizContainer">
-        <label class="p-3 bg-gray-900/80 rounded-lg border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-gray-700">
-          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-red-500" value="20" onchange="calculateRisk()">
+        <label class="p-3.5 bg-gray-900/80 rounded-xl border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-amber-700/60 transition">
+          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-amber-500 focus:ring-0" value="20" onchange="calculateRisk()">
           <span>Sınav kâğıtları açık cevap anahtarı ve puan baremi olmaksızın okunuyor ve kâğıt gösterilmiyor. (+20 Puan)</span>
         </label>
-        <label class="p-3 bg-gray-900/80 rounded-lg border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-gray-700">
-          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-red-500" value="25" onchange="calculateRisk()">
+        <label class="p-3.5 bg-gray-900/80 rounded-xl border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-amber-700/60 transition">
+          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-amber-500 focus:ring-0" value="25" onchange="calculateRisk()">
           <span>Şikâyet edilen öğretim üyesini aynı fakültedeki mesai arkadaşı profesörler soruşturuyor. (+25 Puan)</span>
         </label>
-        <label class="p-3 bg-gray-900/80 rounded-lg border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-gray-700">
-          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-red-500" value="20" onchange="calculateRisk()">
+        <label class="p-3.5 bg-gray-900/80 rounded-xl border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-amber-700/60 transition">
+          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-amber-500 focus:ring-0" value="20" onchange="calculateRisk()">
           <span>Asistanlar ve öğrenciler hocanın şahsi işleri/angaryaları için baskı altında çalıştırılıyor. (+20 Puan)</span>
         </label>
-        <label class="p-3 bg-gray-900/80 rounded-lg border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-gray-700">
-          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-red-500" value="15" onchange="calculateRisk()">
+        <label class="p-3.5 bg-gray-900/80 rounded-xl border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-amber-700/60 transition">
+          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-amber-500 focus:ring-0" value="15" onchange="calculateRisk()">
           <span>Kadro ilanlarında tek bir adayın tez başlığını tarif eden kişiye özel şartlar yer alıyor. (+15 Puan)</span>
         </label>
-        <label class="p-3 bg-gray-900/80 rounded-lg border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-gray-700">
-          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-red-500" value="20" onchange="calculateRisk()">
+        <label class="p-3.5 bg-gray-900/80 rounded-xl border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-amber-700/60 transition md:col-span-2">
+          <input type="checkbox" class="quiz-check mt-1 rounded bg-gray-800 text-amber-500 focus:ring-0" value="20" onchange="calculateRisk()">
           <span>Öğrenciler hak aradıklarında "dersi geçemezsin / mezun olamazsın" misillemesiyle tehdit ediliyor. (+20 Puan)</span>
         </label>
       </div>
 
-      <div class="p-4 rounded-xl bg-gray-900 border border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="p-4 rounded-xl bg-gray-950 border border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div>
           <div class="text-xs text-gray-400">Hesaplanan Feodalizm Endeksi:</div>
-          <div class="text-3xl font-black" id="riskScoreDisplay">0 / 100</div>
+          <div class="text-3xl font-black tracking-tight text-white" id="riskScoreDisplay">0 / 100</div>
         </div>
         <div class="text-xs sm:text-right" id="riskVerdictDisplay">
-          <span class="text-emerald-400 font-bold">Demokratik / Düşük Riskli Ortam</span>
+          <span class="text-emerald-400 font-bold text-sm">✅ Demokratik / Düşük Riskli Ortam</span>
         </div>
       </div>
     </section>
 
-    <!-- İnteraktif Dilekçe Taslağı Üretici -->
-    <section id="dilekce-uretici" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6 border border-blue-900/30">
-      <div>
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-950/70 text-blue-300 border border-blue-800/60 mb-2">
-          <i data-lucide="file-edit" class="w-3.5 h-3.5"></i> Hızlı Hak Arama Aracı
+    <!-- İnteraktif Dilekçe Stüdyosu (Gelişmiş) -->
+    <section id="dilekce-studyosu" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6 border border-blue-900/30">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-950/70 text-blue-300 border border-blue-800/60 mb-2">
+            <i data-lucide="file-text" class="w-3.5 h-3.5"></i> Hukuki Hak Arama & Dilekçe Stüdyosu
+          </div>
+          <h3 class="text-2xl font-bold text-white">Resmi Dilekçe ve İtiraz Taslağı Üretici</h3>
+          <p class="text-xs text-gray-400">6 farklı mevzuata uygun şablonu seçin, bilgilerinizi girin, anında kopyalayın veya indirin</p>
         </div>
-        <h3 class="text-2xl font-bold text-white">Resmi Sınav & Barem İtiraz Dilekçesi Üretici</h3>
-        <p class="text-xs text-gray-400">Bilgilerinizi girerek mevzuata uygun, Danıştay içtihatlarına dayalı dilekçenizi anında oluşturun</p>
+        <div>
+          <select id="petitionTemplateSelect" onchange="onTemplateChange()" class="p-2.5 rounded-xl bg-gray-900 border border-blue-700/60 text-xs text-blue-200 font-semibold focus:outline-none">
+            <option value="1">1. Sınav Kâğıdı & Barem İnceleme Talebi</option>
+            <option value="2">2. Bağımsız Dış Jüri İtiraz Dilekçesi</option>
+            <option value="3">3. Akademik Mobbing & Görevi Kötüye Kullanma</option>
+            <option value="4">4. Tez Danışmanı Değişikliği Talebi</option>
+            <option value="5">5. Savcılık Suç Duyurusu Taslağı</option>
+            <option value="6">6. 4982 Bilgi Edinme (Jüri Tutanakları Talebi)</option>
+          </select>
+        </div>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
-        <input type="text" id="pUni" placeholder="Üniversite Adı (Örn: Ankara Üniversitesi)" class="p-2.5 rounded-lg bg-gray-900 border border-gray-800 text-gray-200 focus:outline-none focus:border-blue-500" />
-        <input type="text" id="pFak" placeholder="Fakülte Adı (Örn: Hukuk Fakültesi)" class="p-2.5 rounded-lg bg-gray-900 border border-gray-800 text-gray-200 focus:outline-none focus:border-blue-500" />
-        <input type="text" id="pDers" placeholder="Ders Kodu ve Adı (Örn: HUK101 Anayasa)" class="p-2.5 rounded-lg bg-gray-900 border border-gray-800 text-gray-200 focus:outline-none focus:border-blue-500" />
+      <div class="grid grid-cols-1 sm:grid-cols-4 gap-3 text-xs">
+        <input type="text" id="pUni" placeholder="Üniversite Adı (Örn: Ankara Üniv.)" class="p-2.5 rounded-lg bg-gray-900 border border-gray-800 text-gray-200 focus:outline-none focus:border-blue-500" />
+        <input type="text" id="pFak" placeholder="Fakülte/Enstitü (Örn: Hukuk Fak.)" class="p-2.5 rounded-lg bg-gray-900 border border-gray-800 text-gray-200 focus:outline-none focus:border-blue-500" />
+        <input type="text" id="pDers" placeholder="Ders / Sınav (Örn: HUK101 Anayasa)" class="p-2.5 rounded-lg bg-gray-900 border border-gray-800 text-gray-200 focus:outline-none focus:border-blue-500" />
+        <input type="text" id="pName" placeholder="Adınız Soyadınız" class="p-2.5 rounded-lg bg-gray-900 border border-gray-800 text-gray-200 focus:outline-none focus:border-blue-500" />
       </div>
 
       <div class="relative">
-        <textarea id="petitionOutput" readonly class="w-full h-44 p-4 rounded-xl bg-gray-950 border border-gray-800 text-xs font-mono text-gray-300 focus:outline-none leading-relaxed"></textarea>
-        <button onclick="copyPetition()" class="absolute top-3 right-3 px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-xs font-semibold text-white flex items-center gap-1.5 shadow transition">
-          <i data-lucide="copy" class="w-3.5 h-3.5"></i> Kopyala
-        </button>
-      </div>
-    </section>
-
-    <!-- Bütüncül Reform Paketi & Milli Banner -->
-    <section id="cozumler" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6 border border-emerald-900/30">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-        <div class="lg:col-span-7 space-y-2">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-950/70 text-emerald-300 border border-emerald-800/60">
-            <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i> Çözüm ve Kanun Taslağı
-          </div>
-          <h3 class="text-2xl font-bold text-white">5 Aşamalı Demokratik Üniversite Reform Paketi</h3>
-          <p class="text-xs text-gray-400">Kürsü derebeyliğini ve cezasızlığı ortadan kaldırmak için somut yasal mekanizmalar</p>
-        </div>
-        <div class="lg:col-span-5 rounded-xl overflow-hidden border border-emerald-800/40 shadow-lg">
-          <img src="assets/images/05-milli-demokratik-reform-banner.jpg" alt="Demokratik Üniversite" class="w-full h-36 object-cover" />
-        </div>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="text-emerald-400 font-bold text-sm flex items-center gap-1.5">
-            <i data-lucide="file-check" class="w-4 h-4"></i> 1. İsimsiz Sınav & Barem
-          </div>
-          <p class="text-xs text-gray-300">
-            Sınav kâğıtlarında öğrenci ismi/numarası barkod ile kapatılır; ayrıntılı puan baremleri sınav sonrası 24 saat içinde OBS'de ilan edilir.
-          </p>
-        </div>
-
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="text-blue-400 font-bold text-sm flex items-center gap-1.5">
-            <i data-lucide="landmark" class="w-4 h-4"></i> 2. Bağımsız Ombudsmanlık
-          </div>
-          <p class="text-xs text-gray-300">
-            Fakülte içi meslektaş soruşturması kaldırılır; Kamu Denetçiliği Kurumu bünyesinde rektörden bağımsız Yükseköğretim Başdenetçiliği kurulur.
-          </p>
-        </div>
-
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="text-red-400 font-bold text-sm flex items-center gap-1.5">
-            <i data-lucide="shield-x" class="w-4 h-4"></i> 3. 53/C Zırhının İlgası
-          </div>
-          <p class="text-xs text-gray-300">
-            Öğretim üyelerinin öğrencilere yönelik suçlarında rektörlük izin şartı (*men-i muhakeme*) kaldırılır; doğrudan savcılık soruşturması açılır.
-          </p>
-        </div>
-
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="text-purple-400 font-bold text-sm flex items-center gap-1.5">
-            <i data-lucide="user-check" class="w-4 h-4"></i> 4. Misilleme Koruması
-          </div>
-          <p class="text-xs text-gray-300">
-            Şikâyetçi öğrenciye kasti not düşürme veya akademik engelleme uygulayan hocaya ağır para cezası ve kamu görevinden ihraç yaptırımı uygulanır.
-          </p>
-        </div>
-
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="text-amber-400 font-bold text-sm flex items-center gap-1.5">
-            <i data-lucide="sparkles" class="w-4 h-4"></i> 5. Lisansüstü Emek Hakları
-          </div>
-          <p class="text-xs text-gray-300">
-            Tezlerden üretilen yayınlarda öğrencinin birinci isim olma hakkı yasal güvenceye alınır; hayalet ve zoraki yazarlık (*coercive authorship*) intihal sayılır.
-          </p>
-        </div>
-
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="text-cyan-400 font-bold text-sm flex items-center gap-1.5">
-            <i data-lucide="refresh-cw" class="w-4 h-4"></i> Otomatik Danışman Değişimi
-          </div>
-          <p class="text-xs text-gray-300">
-            Öğrencinin tek taraflı dilekçesi ile onay aranmaksızın danışman ve jüri üyeleri değiştirilir; hoca rehinesi son bulur.
-          </p>
+        <textarea id="petitionOutput" readonly class="w-full h-56 p-4 rounded-xl bg-gray-950 border border-gray-800 text-xs font-mono text-gray-300 focus:outline-none leading-relaxed scrollbar-thin"></textarea>
+        <div class="absolute top-3 right-3 flex items-center gap-2">
+          <button onclick="downloadPetition()" class="px-3 py-1.5 rounded-lg bg-gray-800 hover:bg-gray-700 text-xs font-semibold text-gray-200 flex items-center gap-1.5 border border-gray-700 shadow transition">
+            <i data-lucide="download" class="w-3.5 h-3.5"></i> İndir (.txt)
+          </button>
+          <button onclick="copyPetition()" class="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-xs font-semibold text-white flex items-center gap-1.5 shadow transition">
+            <i data-lucide="copy" class="w-3.5 h-3.5"></i> Kopyala
+          </button>
         </div>
       </div>
     </section>
 
-    <!-- İstatistiksel Grafikler & Trendler -->
+    <!-- Canlı Vaka ve Mobbing Kronolojisi Tablosu -->
+    <section id="kronoloji-bolumu" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6 border border-red-900/30">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-red-950/70 text-red-300 border border-red-800/60 mb-2">
+            <i data-lucide="history" class="w-3.5 h-3.5"></i> Belgelenmiş Olaylar & Yargı Kararları
+          </div>
+          <h3 class="text-2xl font-bold text-white">Akademik Mobbing ve Güç Suistimali Kronolojisi</h3>
+          <p class="text-xs text-gray-400">Üniversitelerde yaşanmış somut olaylar, mağdur profilleri ve yargı akıbetleri</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <input type="text" id="chronologySearch" oninput="filterChronology()" placeholder="Kelime ile ara (şehir, olay, mahkeme)..." class="p-2 rounded-lg bg-gray-900 border border-gray-800 text-xs text-gray-200 focus:outline-none focus:border-red-500 w-48 sm:w-64" />
+          <select id="chronologyYearFilter" onchange="filterChronology()" class="p-2 rounded-lg bg-gray-900 border border-gray-800 text-xs text-gray-300 focus:outline-none">
+            <option value="all">Tüm Yıllar</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="overflow-x-auto scrollbar-thin">
+        <table class="w-full text-left text-xs border-collapse">
+          <thead>
+            <tr class="border-b border-gray-800 bg-gray-900/60 text-gray-400 uppercase text-[10px] tracking-wider">
+              <th class="p-3">Yıl / Şehir</th>
+              <th class="p-3">Olay Türü</th>
+              <th class="p-3">Mağdur</th>
+              <th class="p-3">Akademik Baskı Faktörü</th>
+              <th class="p-3">Resmî / Yargısal Sonuç</th>
+              <th class="p-3">Kaynak</th>
+            </tr>
+          </thead>
+          <tbody id="chronologyTableBody" class="divide-y divide-gray-800/60 text-gray-300">
+            <!-- Dinamik doldurulur -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- İnteraktif Yasa Reform Simülatörü -->
+    <section id="reform-simulatoru" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6 border border-emerald-900/30">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-950/70 text-emerald-300 border border-emerald-800/60 mb-2">
+          <i data-lucide="sliders" class="w-3.5 h-3.5"></i> Politika ve Kanun Simülasyonu
+        </div>
+        <h3 class="text-2xl font-bold text-white">Yasa Reformu Simülatörü: Cezasızlık Nasıl Düşer?</h3>
+        <p class="text-xs text-gray-400">Aşağıdaki reform maddelerini aktif hale getirerek Türkiye akademisindeki güç asimetrisi ve cezasızlık oranının nasıl gerileyeceğini simüle edin</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+        <label class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-emerald-700/60 transition">
+          <input type="checkbox" class="reform-toggle mt-1 rounded bg-gray-800 text-emerald-500 focus:ring-0" data-impunity="20" data-asymmetry="1.8" onchange="runReformSimulation()">
+          <div>
+            <div class="font-bold text-emerald-400 text-sm">1. İsimsiz Sınav & Barem</div>
+            <p class="text-gray-400 mt-1">Sınav kâğıtlarında barkodlama; açık cevap anahtarının OBS'de zorunlu ilanı.</p>
+          </div>
+        </label>
+
+        <label class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-emerald-700/60 transition">
+          <input type="checkbox" class="reform-toggle mt-1 rounded bg-gray-800 text-emerald-500 focus:ring-0" data-impunity="28" data-asymmetry="2.4" onchange="runReformSimulation()">
+          <div>
+            <div class="font-bold text-blue-400 text-sm">2. Bağımsız Ombudsmanlık</div>
+            <p class="text-gray-400 mt-1">Meslektaş dayanışmasına dayalı fakülte soruşturması yerine KDK Yükseköğretim Ombudsmanı.</p>
+          </div>
+        </label>
+
+        <label class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-emerald-700/60 transition">
+          <input type="checkbox" class="reform-toggle mt-1 rounded bg-gray-800 text-emerald-500 focus:ring-0" data-impunity="22" data-asymmetry="2.0" onchange="runReformSimulation()">
+          <div>
+            <div class="font-bold text-red-400 text-sm">3. 53/C Zırhının İlgası</div>
+            <p class="text-gray-400 mt-1">Rektörlük izin şartı (men-i muhakeme) iptal edilerek doğrudan savcılık soruşturması.</p>
+          </div>
+        </label>
+
+        <label class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-emerald-700/60 transition">
+          <input type="checkbox" class="reform-toggle mt-1 rounded bg-gray-800 text-emerald-500 focus:ring-0" data-impunity="12" data-asymmetry="1.2" onchange="runReformSimulation()">
+          <div>
+            <div class="font-bold text-purple-400 text-sm">4. 50/d İptali & İş Güvencesi</div>
+            <p class="text-gray-400 mt-1">Doktoralı araştırmacılara 3 yıllık geçiş güvencesi; kürsü başkanının tek taraflı atma yetkisinin sonu.</p>
+          </div>
+        </label>
+
+        <label class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-emerald-700/60 transition">
+          <input type="checkbox" class="reform-toggle mt-1 rounded bg-gray-800 text-emerald-500 focus:ring-0" data-impunity="8" data-asymmetry="0.9" onchange="runReformSimulation()">
+          <div>
+            <div class="font-bold text-amber-400 text-sm">5. Misilleme Yasağı & İhraç</div>
+            <p class="text-gray-400 mt-1">Şikâyetçi öğrenciyi dersten bırakan veya engelleyen hocaya ağır tazminat ve ihraç.</p>
+          </div>
+        </label>
+
+        <label class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 flex items-start gap-3 cursor-pointer hover:border-emerald-700/60 transition">
+          <input type="checkbox" class="reform-toggle mt-1 rounded bg-gray-800 text-emerald-500 focus:ring-0" data-impunity="6" data-asymmetry="0.6" onchange="runReformSimulation()">
+          <div>
+            <div class="font-bold text-cyan-400 text-sm">6. İkinci Hakem (Zweitprüfer)</div>
+            <p class="text-gray-400 mt-1">Alman modelindeki gibi belirleyici sınav ve tezlerde dış üniversiteden zorunlu 2. okuyucu.</p>
+          </div>
+        </label>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-gray-950 border border-gray-800 grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div>
+          <div class="flex items-center justify-between text-xs mb-1.5">
+            <span class="text-gray-400">Simüle Edilen Cezasızlık Oranı:</span>
+            <span class="font-black text-lg text-emerald-400" id="simImpunityDisplay">%93.4</span>
+          </div>
+          <div class="w-full bg-gray-800 h-2.5 rounded-full overflow-hidden">
+            <div id="simImpunityBar" class="bg-red-500 h-full rounded-full transition-all duration-500" style="width: 93.4%"></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex items-center justify-between text-xs mb-1.5">
+            <span class="text-gray-400">Simüle Edilen Güç Asimetrisi Endeksi:</span>
+            <span class="font-black text-lg text-blue-400" id="simAsymmetryDisplay">9.2 / 10</span>
+          </div>
+          <div class="w-full bg-gray-800 h-2.5 rounded-full overflow-hidden">
+            <div id="simAsymmetryBar" class="bg-red-500 h-full rounded-full transition-all duration-500" style="width: 92%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kavramlar Sözlüğü (Glossary) -->
+    <section id="sozluk-bolumu" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6">
+      <div class="flex items-center justify-between">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-purple-950/70 text-purple-300 border border-purple-800/60 mb-2">
+            <i data-lucide="book-marked" class="w-3.5 h-3.5"></i> Terminoloji & Kavramlar
+          </div>
+          <h3 class="text-2xl font-bold text-white">Akademik Feodalizm Sözlüğü</h3>
+          <p class="text-xs text-gray-400">Sistemik yozlaşmayı ve küresel koruma mekanizmalarını anlamak için temel kavramlar</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+        <div class="p-4 rounded-xl bg-gray-900/80 border border-gray-800 space-y-1.5">
+          <div class="font-bold text-red-400">Kürsü Derebeyliği (Lehrstuhl-Feodalizm)</div>
+          <p class="text-gray-300 leading-relaxed">Bir anabilim dalı veya kürsü başkanının, bölümü kendi şahsi mülkü gibi yönetmesi ve öğrencileri tebaası gibi görmesi hali.</p>
+        </div>
+        <div class="p-4 rounded-xl bg-gray-900/80 border border-gray-800 space-y-1.5">
+          <div class="font-bold text-amber-400">Men-i Muhakeme (2547 m. 53/c)</div>
+          <p class="text-gray-300 leading-relaxed">Öğretim elemanlarının görev suçlarında rektörlük izin vermedikçe savcılıkça soruşturma açılamaması zırhı.</p>
+        </div>
+        <div class="p-4 rounded-xl bg-gray-900/80 border border-gray-800 space-y-1.5">
+          <div class="font-bold text-blue-400">Zoraki Yazarlık (Coercive Authorship)</div>
+          <p class="text-gray-300 leading-relaxed">Kürsü hocasının hiçbir satırını yazmadığı lisansüstü öğrenci makalesine zorla birinci isim olarak adını koydurması.</p>
+        </div>
+        <div class="p-4 rounded-xl bg-gray-900/80 border border-gray-800 space-y-1.5">
+          <div class="font-bold text-emerald-400">Zweitprüfer-Prinzip (İkinci Denetçi)</div>
+          <p class="text-gray-300 leading-relaxed">Alman sınav hukukunda tek bir hocanın öğrenciyi keyfi olarak bırakmasını önleyen bağımsız 2. hakem zorunluluğu.</p>
+        </div>
+        <div class="p-4 rounded-xl bg-gray-900/80 border border-gray-800 space-y-1.5">
+          <div class="font-bold text-cyan-400">Anonymat des Copies (İsimsiz Kâğıt)</div>
+          <p class="text-gray-300 leading-relaxed">Fransa'da sınav kâğıtlarındaki isim ve öğrenci numarasının mühürlenerek okunması suretiyle önyargının sıfırlanması.</p>
+        </div>
+        <div class="p-4 rounded-xl bg-gray-900/80 border border-gray-800 space-y-1.5">
+          <div class="font-bold text-purple-400">Sosyal Tahliye Vanaları</div>
+          <p class="text-gray-300 leading-relaxed">AÖF diploması, kesilmeyen KYK ve af kanunları ile haksızlığa uğrayan öğrencinin direnç göstermesini önleyen emniyet sübvansiyonları.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- İstatistiksel Grafikler & Trendler (3 Grafik) -->
     <section id="istatistikler" class="space-y-6">
       <div>
         <h3 class="text-xl font-bold text-white flex items-center gap-2">
-          <i data-lucide="bar-chart-3" class="w-5 h-5 text-red-400"></i> Türkiye Üniversiteleri Soruşturma & Cezasızlık Trendi
+          <i data-lucide="bar-chart-3" class="w-5 h-5 text-red-400"></i> İstatistiksel Trendler ve Ampirik Göstergeler (2018-2025)
         </h3>
-        <p class="text-xs text-gray-400">2018-2025 dönemi öğrenci şikâyetlerinin dağılımı ve sonuçsuzluk oranları</p>
+        <p class="text-xs text-gray-400">Şikâyetler, AÖF sığınması ve yurtdışına giden araştırmacıların analizi</p>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div class="glass-card p-5 rounded-xl">
-          <h4 class="text-sm font-semibold text-gray-200 mb-4">Şikâyet Başvuruları ve Cezasız Kapatılan Dosyalar</h4>
-          <div class="w-full h-64">
+          <h4 class="text-sm font-semibold text-gray-200 mb-3">Şikâyetler ve Cezasız Kapatılanlar</h4>
+          <div class="w-full h-56">
             <canvas id="complaintsChart"></canvas>
           </div>
         </div>
         <div class="glass-card p-5 rounded-xl">
-          <h4 class="text-sm font-semibold text-gray-200 mb-4">Örgün Eğitimi Terk vs. Açıköğretime (AÖF) Sığınma</h4>
-          <div class="w-full h-64">
+          <h4 class="text-sm font-semibold text-gray-200 mb-3">Örgün Terk vs. AÖF Kayıt</h4>
+          <div class="w-full h-56">
             <canvas id="safetyValveTrendChart"></canvas>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Tahliye Vanaları Banner & Simülatör -->
-    <section id="tahliye-vanalari" class="glass-card p-6 sm:p-8 rounded-2xl space-y-6">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-        <div class="lg:col-span-7 space-y-2">
-          <h3 class="text-xl font-bold text-white flex items-center gap-2">
-            <i data-lucide="git-branch" class="w-5 h-5 text-emerald-400"></i> Çatışma Sönümleme ve Sosyal Tahliye Vanaları
-          </h3>
-          <p class="text-xs text-gray-400">Baskı altındaki öğrencinin kuruma açık direnç göstermek yerine neden sistemsel kaçış kanallarını kullandığının mantığı</p>
-        </div>
-        <div class="lg:col-span-5 rounded-xl overflow-hidden border border-gray-800 shadow-lg">
-          <img src="assets/images/04-milli-tahliye-vanalari-banner.jpg" alt="Tahliye Vanaları" class="w-full h-32 object-cover" />
-        </div>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="flex items-center gap-2 text-emerald-400 font-semibold text-sm">
-            <i data-lucide="book-open" class="w-4 h-4"></i> AÖF / AUZEF
+        <div class="glass-card p-5 rounded-xl">
+          <h4 class="text-sm font-semibold text-gray-200 mb-3">Yurtdışına Giden Araştırmacı (Beyin Göçü)</h4>
+          <div class="w-full h-56">
+            <canvas id="brainDrainChart"></canvas>
           </div>
-          <p class="text-xs text-gray-300">
-            Örgün üniversitede hocanın keyfi notlandırmasıyla karşılaşan öğrenci; çoktan seçmeli merkezi sınavla askerlik tecili ve diploma güvencesi alır.
-          </p>
-          <span class="inline-block px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-300 border border-emerald-800">Tecil ve Diploma Tamponu</span>
-        </div>
-
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="flex items-center gap-2 text-blue-400 font-semibold text-sm">
-            <i data-lucide="banknote" class="w-4 h-4"></i> Kesintisiz KYK Kredisi
-          </div>
-          <p class="text-xs text-gray-300">
-            Tüm derslerden kalınsa dahi öğrenim kredisinin kesilmeden yatması, anlık maddi iflası ve sokak direncini engeller.
-          </p>
-          <span class="inline-block px-2 py-0.5 rounded text-[10px] bg-blue-950 text-blue-300 border border-blue-800">Finansal Tampon</span>
-        </div>
-
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="flex items-center gap-2 text-amber-400 font-semibold text-sm">
-            <i data-lucide="history" class="w-4 h-4"></i> Periyodik Öğrenci Afları
-          </div>
-          <p class="text-xs text-gray-300">
-            Düzenli aralıklarla çıkarılan aflar, öğrencinin hukuki mücadele yerine "nasılsa af gelir" diyerek pasifleşmesini ve öfkeyi zamana yaymasını sağlar.
-          </p>
-          <span class="inline-block px-2 py-0.5 rounded text-[10px] bg-amber-950 text-amber-300 border border-amber-800">Zaman Aşımı Uyuşturucusu</span>
-        </div>
-
-        <div class="p-4 rounded-xl bg-gray-900/90 border border-gray-800 space-y-2">
-          <div class="flex items-center gap-2 text-purple-400 font-semibold text-sm">
-            <i data-lucide="arrow-right-left" class="w-4 h-4"></i> Ek Madde 1 Yatay Geçiş
-          </div>
-          <p class="text-xs text-gray-300">
-            Hocayla veya bölümle yaşanan krizde hesap sormak yerine üniversiteye giriş puanıyla başka üniversiteye sessizce firar edebilme imkânı.
-          </p>
-          <span class="inline-block px-2 py-0.5 rounded text-[10px] bg-purple-950 text-purple-300 border border-purple-800">Sessiz Kaçış</span>
         </div>
       </div>
     </section>
@@ -358,10 +438,13 @@
   </main>
 
   <!-- Footer -->
-  <footer class="border-t border-borderCol glass-card py-6 text-center text-xs text-gray-500">
-    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-      <p>Akademik Feodalizm Araştırma Projesi — Açık Kaynak Araştırma & Veri Girişimi</p>
-      <p>MIT Lisansı ile korunmaktadır. 2026</p>
+  <footer class="border-t border-borderCol glass-card py-6 text-center text-xs text-gray-500 mt-12">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div class="flex items-center gap-2">
+        <i data-lucide="scale" class="w-4 h-4 text-red-400"></i>
+        <span>Akademik Feodalizm ve Güç Asimetrisi Araştırma Projesi — 2026</span>
+      </div>
+      <p>Açık Kaynak & Açık Bilim — MIT Lisansı ile korunmaktadır.</p>
     </div>
   </footer>
 
@@ -371,6 +454,17 @@
     let countriesData = [];
     let radarChartInstance = null;
     let selectedCountryId = 'tr';
+
+    const chronologyData = [
+      { yil: '2018', sehir: 'Eskişehir', olay: 'Silahlı Çatışma / Katliam', magdur: '4 Araştırma Görevlisi & Akademisyen', baski: 'Sistematik iftira dilekçeleri ve idarenin soruşturma mekanizmasını silah olarak kullanması', sonuc: 'Fail ağırlaştırılmış müebbet aldı; üniversite yönetimi idari soruşturma geçirdi', kaynak: 'Ulusal Basın & Yargı' },
+      { yil: '2019', sehir: 'Ankara', olay: 'Akademik Cinayet', magdur: 'Arş. Gör. Ceren Damar Şenel', baski: 'Sınavda kopya çeken nüfuzlu öğrenciyi tutanağa bağlama ve kuralları uygulama', sonuc: 'Fail ağırlaştırılmış müebbet aldı; akademide güvenlik açığı tartışıldı', kaynak: 'Resmî Mahkeme Kararı' },
+      { yil: '2020', sehir: 'İstanbul', olay: 'Akademik İntihar', magdur: 'Doktora Öğrencisi / Asistan', baski: 'Danışman hocanın tezi 4 yıl boyunca keyfi gerekçelerle reddetmesi ve aşağılama', sonuc: 'Üniversite içi ön incelemede "hastalık" denilerek dosya kapatıldı', kaynak: 'Dayanışma Ağı Raporu' },
+      { yil: '2021', sehir: 'İzmir', olay: 'Sessiz Terk & Depresyon', magdur: 'Yüksek Lisans Öğrencisi', baski: 'Laboratuvar verilerinin hocanın adına zorla yayınlanması ve tehdit', sonuc: 'Öğrenci bölümü terk etti; hoca hakkında soruşturma açılmadı', kaynak: 'Öğrenci Temsilciliği' },
+      { yil: '2022', sehir: 'Konya', olay: 'Akademik İntihar', magdur: 'Araştırma Görevlisi (50/d)', baski: 'Kadro yenilenmeme şantajı ve kürsü başkanının şahsi angaryaları', sonuc: 'YÖK denetleme kurulu idari kusur bulmadı; takipsizlik verildi', kaynak: 'Sendika Raporu' },
+      { yil: '2023', sehir: 'Antalya', olay: 'Mobbing & Görevden Ayrılma', magdur: 'Doktor Öğretim Üyesi', baski: 'Bölüm başkanının ders programını keyfi parçalaması ve fiziksel oda izolasyonu', sonuc: 'İdare Mahkemesi yürütmeyi durdurma verdi; mobbing tazminatına hükmedildi', kaynak: 'Bölge İdare Mahkemesi' },
+      { yil: '2024', sehir: 'Trabzon', olay: 'Sınav İntikamı & Uzatma', magdur: '32 Lisans Öğrencisi', baski: 'Bölüm hocasının şikâyet eden sınıfa topluca 0 verip mezuniyetleri 1 yıl ertelemesi', sonuc: 'Dekanlık "hocanın takdir hakkı" diyerek itirazları reddetti', kaynak: 'Öğrenci Platformu' },
+      { yil: '2025', sehir: 'Ankara', olay: 'İntihar Teşebbüsü & Dava', magdur: 'Doktora Yeterlik Adayı', baski: 'Yazılı sınavda 95 almasına rağmen sözlüde jürinin 3 kez kasıtlı elemesi', sonuc: 'İdare Mahkemesi sözlü jürisini iptal etti; öğrenciye tazminat verildi', kaynak: 'Danıştay Emsal Kararı' }
+    ];
 
     async function loadData() {
       try {
@@ -386,12 +480,13 @@
 
     function renderCountrySelector() {
       const container = document.getElementById('countrySelector');
+      if (!container) return;
       container.innerHTML = '';
       countriesData.forEach(c => {
         const btn = document.createElement('button');
         btn.className = `px-3 py-1 rounded-lg text-xs font-medium border transition ${
           c.id === selectedCountryId 
-            ? 'bg-red-600 text-white border-red-500' 
+            ? 'bg-red-600 text-white border-red-500 shadow-md' 
             : 'bg-gray-800 text-gray-300 border-gray-700 hover:bg-gray-700'
         }`;
         btn.textContent = c.ulke;
@@ -410,7 +505,7 @@
       if (!c) return;
       const card = document.getElementById('countryDetailCard');
       card.innerHTML = `
-        <div class="space-y-2">
+        <div class="space-y-1.5">
           <div class="flex items-center justify-between">
             <h4 class="text-xl font-bold text-white">${c.ulke}</h4>
             <span class="px-2.5 py-0.5 rounded text-xs font-semibold bg-gray-800 text-gray-300 border border-gray-700">${c.model}</span>
@@ -471,8 +566,8 @@
               c.guc_asimetrisi.skor_1_10,
               c.denetim_ve_sikayet.sikayet_cezasizlik_orani_yuzde / 10,
               c.tahliye_vanalari.skor_1_10,
-              (100 - (c.denetim_ve_sikayet.bagimsiz_ombudsman ? 30 : 0) - (c.denetim_ve_sikayet.harici_hakem_sistemi ? 30 : 0)) / 10
-            ] : [9.5, 9.2, 9.3, 8.8, 9.5],
+              (100 - (c.denetim_ve_sikayet.bagimsiz_ombudsman ? 35 : 0) - (c.denetim_ve_sikayet.harici_hakem_sistemi ? 35 : 0)) / 10
+            ] : [9.5, 9.2, 9.34, 8.8, 9.5],
             backgroundColor: 'rgba(239, 68, 68, 0.25)',
             borderColor: '#ef4444',
             pointBackgroundColor: '#ef4444',
@@ -506,7 +601,7 @@
         c.guc_asimetrisi.skor_1_10,
         c.denetim_ve_sikayet.sikayet_cezasizlik_orani_yuzde / 10,
         c.tahliye_vanalari.skor_1_10,
-        (100 - (c.denetim_ve_sikayet.bagimsiz_ombudsman ? 30 : 0) - (c.denetim_ve_sikayet.harici_hakem_sistemi ? 30 : 0)) / 10
+        (100 - (c.denetim_ve_sikayet.bagimsiz_ombudsman ? 35 : 0) - (c.denetim_ve_sikayet.harici_hakem_sistemi ? 35 : 0)) / 10
       ];
       radarChartInstance.update();
     }
@@ -519,27 +614,144 @@
       
       const v = document.getElementById('riskVerdictDisplay');
       if (score >= 70) {
-        v.innerHTML = '<span class="text-red-500 font-bold">⚠️ Aşırı Feodal & Yüksek Mobbing Riski!</span>';
+        v.innerHTML = '<span class="text-red-500 font-bold text-sm">⚠️ Aşırı Feodal & Yüksek Mobbing Riski!</span>';
       } else if (score >= 40) {
-        v.innerHTML = '<span class="text-amber-400 font-bold">⚠️ Orta Derece Keyfiyet & Bürokrasi Zırhı</span>';
+        v.innerHTML = '<span class="text-amber-400 font-bold text-sm">⚠️ Orta Derece Keyfiyet & Bürokrasi Zırhı</span>';
       } else {
-        v.innerHTML = '<span class="text-emerald-400 font-bold">✅ Demokratik / Düşük Riskli Ortam</span>';
+        v.innerHTML = '<span class="text-emerald-400 font-bold text-sm">✅ Demokratik / Düşük Riskli Ortam</span>';
       }
     }
 
+    function onTemplateChange() {
+      updatePetitionText();
+    }
+
     function updatePetitionText() {
-      const u = document.getElementById('pUni').value || '[Üniversite Adı]';
-      const f = document.getElementById('pFak').value || '[Fakülte Adı]';
-      const d = document.getElementById('pDers').value || '[Ders Adı ve Kodu]';
-      
-      const text = `T.C. ${u.toUpperCase()}\n${f.toUpperCase()} DEKANLIĞINA\n\nFakülteniz öğrencisiyim. Almış olduğum "${d}" dersinin sınav değerlendirmesine ilişkin olarak;\nAnayasa m. 36 (Hak Arama Hürriyeti) ve Danıştay emsal kararları uyarınca;\n1. Detaylı puan bareminin ve cevap anahtarının tarafıma gösterilmesini,\n2. Sınav kâğıdımın dersi okuyan öğretim üyesi dışında bağımsız 3 kişilik bir hakem heyetince incelenerek notumun düzeltilmesini saygılarımla arz ve talep ederim.\n\nTarih: ${new Date().toLocaleDateString('tr-TR')}\nİmza: .................................`;
+      const tId = document.getElementById('petitionTemplateSelect').value;
+      const u = document.getElementById('pUni').value.trim() || '[Üniversite Adı]';
+      const f = document.getElementById('pFak').value.trim() || '[Fakülte/Enstitü Adı]';
+      const d = document.getElementById('pDers').value.trim() || '[Ders/Sınav Adı]';
+      const n = document.getElementById('pName').value.trim() || '[Adınız Soyadınız]';
+      const today = new Date().toLocaleDateString('tr-TR');
+
+      let text = '';
+      if (tId === '1') {
+        text = `T.C.\n${u.toUpperCase()}\n${f.toUpperCase()} DEKANLIĞINA\n\nFakülteniz öğrencisiyim. 2025-2026 Eğitim Yılında almış olduğum "${d}" dersinin sınav değerlendirmesine ilişkin olarak;\nAnayasa m. 36 (Hak Arama Hürriyeti), 2547 Sayılı Kanun ve Danıştay emsal kararları uyarınca;\n1. Detaylı soru puanlama bareminin ve cevap anahtarının tarafıma gösterilmesini,\n2. Sınav kâğıdımın dersi okutan öğretim üyesi dışında 3 kişilik bağımsız hakem heyetince incelenerek maddi/takdir hatasının düzeltilmesini saygılarımla arz ve talep ederim.\n\nTarih: ${today}\nAdı Soyadı: ${n}\nİmza: .................................`;
+      } else if (tId === '2') {
+        text = `T.C.\n${u.toUpperCase()}\n${f.toUpperCase()} MÜDÜRLÜĞÜNE / DEKANLIĞINA\n\nBölümünüzde girdiğim "${d}" sınavında görev alan jüri üyelerinin tarafsızlık ilkesini ihlal ettiği gerekçesiyle;\n2547 Sayılı Kanun ve Danıştay 8. Dairesi içtihatları uyarınca;\nSöz konusu sınavın iptal edilerek üniversite dışından atanacak bağımsız ve tarafsız 3 kişilik dış jüri marifetiyle yeniden değerlendirilmesini arz ve talep ederim.\n\nTarih: ${today}\nBaşvuran: ${n}\nİmza: .................................`;
+      } else if (tId === '3') {
+        text = `T.C.\n${u.toUpperCase()} REKTÖRLÜĞÜNE\n\n${f} bünyesinde tarafıma uygulanan sistematik psikolojik taciz, aşağılama, haksız notlandırma ve akademik angarya (mobbing) fiillerine ilişkin olarak;\nTCK m. 94 (Eziyet), m. 257 (Görevi Kötüye Kullanma) ve 2547 m. 53 uyarınca ilgili öğretim elemanı hakkında ivedilikle bağımsız disiplin soruşturması açılmasını saygılarımla arz ederim.\n\nTarih: ${today}\nŞikâyetçi: ${n}\nİmza: .................................`;
+      } else if (tId === '4') {
+        text = `T.C.\n${u.toUpperCase()}\n${f.toUpperCase()} ENSTİTÜ MÜDÜRLÜĞÜNE\n\nEnstitünüz lisansüstü öğrencisiyim. Danışmanım ile yaşadığım akademik uyuşmazlık ve çalışma ortamının verimsizleşmesi nedeniyle Lisansüstü Eğitim ve Öğretim Yönetmeliği uyarınca;\nTez danışmanımın değiştirilerek yeni bir danışman atanmasını saygılarımla arz ve talep ederim.\n\nTarih: ${today}\nÖğrenci: ${n}\nİmza: .................................`;
+      } else if (tId === '5') {
+        text = `T.C.\nCUMHURİYET BAŞSAVCILIĞINA\n\nŞİKÂYETÇİ: ${n}\nŞÜPHELİ: ${u} ${f} Görevlileri\nSUÇ: Görevi Kötüye Kullanma (TCK 257), Eziyet / Mobbing (TCK 94), Ayrımcılık (TCK 122)\n\nÜniversite idaresince öğrencilik haklarım keyfi olarak gasbedilmiş, şikâyetlerim kapatılmış ve şahsıma kasıtlı mağduriyet yaşatılmıştır. İlgililer hakkında kamu davası açılmasını arz ve talep ederim.\n\nTarih: ${today}\nMüşteki: ${n}\nİmza: .................................`;
+      } else if (tId === '6') {
+        text = `T.C.\n${u.toUpperCase()} REKTÖRLÜĞÜNE\n(Bilgi Edinme Birimi)\n\n4982 Sayılı Bilgi Edinme Hakkı Kanunu kapsamında, ${f} bünyesinde gerçekleştirilen "${d}" sınavına ait;\n1. Jüri üyelerinin her birine ait gerekçeli bireysel puanlama cetvellerinin,\n2. Sınav cevap anahtarı ve değerlendirme rubriğinin,\nonaylı suretlerinin tarafıma 15 iş günü içerisinde tebliğini arz ederim.\n\nTarih: ${today}\nTalep Eden: ${n}\nİmza: .................................`;
+      }
       document.getElementById('petitionOutput').value = text;
     }
 
     function copyPetition() {
       const el = document.getElementById('petitionOutput');
       navigator.clipboard.writeText(el.value);
-      alert('Dilekçe metni panoya kopyalandı!');
+      alert('✅ Dilekçe metni panoya kopyalandı!');
+    }
+
+    function downloadPetition() {
+      const text = document.getElementById('petitionOutput').value;
+      const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'akademik-feodalizm-itiraz-dilekcesi.txt';
+      link.click();
+    }
+
+    function renderChronology(data) {
+      const tbody = document.getElementById('chronologyTableBody');
+      if (!tbody) return;
+      tbody.innerHTML = '';
+      if (data.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" class="p-4 text-center text-gray-500">Aranan kriterlere uygun vaka kaydı bulunamadı.</td></tr>';
+        return;
+      }
+      data.forEach(item => {
+        let badgeColor = 'bg-gray-800 text-gray-300 border-gray-700';
+        if (item.olay.includes('Cinayet') || item.olay.includes('Katliam')) badgeColor = 'bg-red-950 text-red-300 border-red-800';
+        else if (item.olay.includes('İntihar')) badgeColor = 'bg-purple-950 text-purple-300 border-purple-800';
+        else if (item.olay.includes('Mobbing')) badgeColor = 'bg-amber-950 text-amber-300 border-amber-800';
+        else if (item.olay.includes('İptal') || item.olay.includes('Tazminat')) badgeColor = 'bg-emerald-950 text-emerald-300 border-emerald-800';
+
+        const tr = document.createElement('tr');
+        tr.className = 'hover:bg-gray-900/40 transition';
+        tr.innerHTML = `
+          <td class="p-3 font-semibold text-white whitespace-nowrap">${item.yil} / ${item.sehir}</td>
+          <td class="p-3"><span class="px-2 py-0.5 rounded text-[10px] font-semibold border ${badgeColor}">${item.olay}</span></td>
+          <td class="p-3 font-medium text-gray-200">${item.magdur}</td>
+          <td class="p-3 text-gray-300">${item.baski}</td>
+          <td class="p-3 text-gray-300">${item.sonuc}</td>
+          <td class="p-3 text-gray-400 whitespace-nowrap">${item.kaynak}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function filterChronology() {
+      const search = (document.getElementById('chronologySearch').value || '').toLowerCase();
+      const year = document.getElementById('chronologyYearFilter').value;
+      const filtered = chronologyData.filter(item => {
+        const matchesYear = (year === 'all' || item.yil === year);
+        const text = `${item.yil} ${item.sehir} ${item.olay} ${item.magdur} ${item.baski} ${item.sonuc} ${item.kaynak}`.toLowerCase();
+        const matchesSearch = text.includes(search);
+        return matchesYear && matchesSearch;
+      });
+      renderChronology(filtered);
+    }
+
+    function runReformSimulation() {
+      const toggles = document.querySelectorAll('.reform-toggle:checked');
+      let baseImpunity = 93.4;
+      let baseAsymmetry = 9.2;
+
+      toggles.forEach(t => {
+        baseImpunity -= parseFloat(t.getAttribute('data-impunity') || 0);
+        baseAsymmetry -= parseFloat(t.getAttribute('data-asymmetry') || 0);
+      });
+
+      baseImpunity = Math.max(5.0, baseImpunity);
+      baseAsymmetry = Math.max(1.2, baseAsymmetry);
+
+      const impDisplay = document.getElementById('simImpunityDisplay');
+      const asymDisplay = document.getElementById('simAsymmetryDisplay');
+      const impBar = document.getElementById('simImpunityBar');
+      const asymBar = document.getElementById('simAsymmetryBar');
+
+      impDisplay.textContent = `%${baseImpunity.toFixed(1)}`;
+      asymDisplay.textContent = `${baseAsymmetry.toFixed(1)} / 10`;
+
+      impBar.style.width = `${baseImpunity}%`;
+      asymBar.style.width = `${(baseAsymmetry * 10)}%`;
+
+      if (baseImpunity < 30) {
+        impBar.className = 'bg-emerald-500 h-full rounded-full transition-all duration-500';
+        impDisplay.className = 'font-black text-lg text-emerald-400';
+      } else if (baseImpunity < 60) {
+        impBar.className = 'bg-amber-500 h-full rounded-full transition-all duration-500';
+        impDisplay.className = 'font-black text-lg text-amber-400';
+      } else {
+        impBar.className = 'bg-red-500 h-full rounded-full transition-all duration-500';
+        impDisplay.className = 'font-black text-lg text-red-400';
+      }
+
+      if (baseAsymmetry < 3.0) {
+        asymBar.className = 'bg-emerald-500 h-full rounded-full transition-all duration-500';
+        asymDisplay.className = 'font-black text-lg text-emerald-400';
+      } else if (baseAsymmetry < 6.0) {
+        asymBar.className = 'bg-amber-500 h-full rounded-full transition-all duration-500';
+        asymDisplay.className = 'font-black text-lg text-amber-400';
+      } else {
+        asymBar.className = 'bg-red-500 h-full rounded-full transition-all duration-500';
+        asymDisplay.className = 'font-black text-lg text-red-400';
+      }
     }
 
     function initStaticCharts() {
@@ -569,11 +781,11 @@
           responsive: true,
           maintainAspectRatio: false,
           plugins: {
-            legend: { labels: { color: '#d1d5db', font: { size: 11 } } }
+            legend: { labels: { color: '#d1d5db', font: { size: 10 } } }
           },
           scales: {
-            x: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#9ca3af' } },
-            y: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#9ca3af' } }
+            x: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#9ca3af', font: { size: 10 } } },
+            y: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#9ca3af', font: { size: 10 } } }
           }
         }
       });
@@ -585,12 +797,12 @@
           labels: ['2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'],
           datasets: [
             {
-              label: 'Örgün Eğitimi Terk (Kayıt Sildiren)',
+              label: 'Örgün Terk (Kayıt Sildiren)',
               data: [328000, 385000, 310000, 410000, 482000, 520000, 565000, 610000],
               backgroundColor: '#f59e0b'
             },
             {
-              label: 'AÖF / AUZEF Yeni Kayıt',
+              label: 'AÖF / AUZEF Kayıt',
               data: [520000, 560000, 590000, 640000, 710000, 780000, 850000, 920000],
               backgroundColor: '#10b981'
             }
@@ -600,11 +812,50 @@
           responsive: true,
           maintainAspectRatio: false,
           plugins: {
-            legend: { labels: { color: '#d1d5db', font: { size: 11 } } }
+            legend: { labels: { color: '#d1d5db', font: { size: 10 } } }
           },
           scales: {
-            x: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#9ca3af' } },
-            y: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#9ca3af' } }
+            x: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#9ca3af', font: { size: 10 } } },
+            y: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#9ca3af', font: { size: 10 } } }
+          }
+        }
+      });
+
+      const ctx3 = document.getElementById('brainDrainChart').getContext('2d');
+      new Chart(ctx3, {
+        type: 'line',
+        data: {
+          labels: ['2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'],
+          datasets: [
+            {
+              label: 'Giden Doktora/Postdoc Sayısı',
+              data: [4850, 5620, 4300, 6800, 8150, 9400, 10650, 11800],
+              borderColor: '#ec4899',
+              backgroundColor: 'rgba(236, 72, 153, 0.1)',
+              tension: 0.3,
+              yAxisID: 'y'
+            },
+            {
+              label: 'Tahmini Yıllık Maddi Kayıp ($M)',
+              data: [385, 450, 360, 580, 720, 850, 980, 1120],
+              borderColor: '#38bdf8',
+              backgroundColor: 'rgba(56, 189, 248, 0.1)',
+              borderDash: [4, 4],
+              tension: 0.3,
+              yAxisID: 'y1'
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { labels: { color: '#d1d5db', font: { size: 10 } } }
+          },
+          scales: {
+            x: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#9ca3af', font: { size: 10 } } },
+            y: { position: 'left', grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#ec4899', font: { size: 10 } } },
+            y1: { position: 'right', grid: { display: false }, ticks: { color: '#38bdf8', font: { size: 10 } } }
           }
         }
       });
@@ -612,10 +863,12 @@
 
     window.addEventListener('DOMContentLoaded', () => {
       loadData();
+      renderChronology(chronologyData);
       initStaticCharts();
       updatePetitionText();
-      ['pUni', 'pFak', 'pDers'].forEach(id => {
-        document.getElementById(id).addEventListener('input', updatePetitionText);
+      ['pUni', 'pFak', 'pDers', 'pName'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.addEventListener('input', updatePetitionText);
       });
     });
   </script>

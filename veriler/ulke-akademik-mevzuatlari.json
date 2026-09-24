@@ -65,6 +65,38 @@
     "sonuc_ve_kriz_profili": "Yüksek akademik verimlilik, güven kültürü, kurumsal şeffaflık ve dünya lideri inovasyon."
   },
   {
+    "id": "ch",
+    "ulke": "İsviçre",
+    "model": "Federal ETH Konseyi ve Çift Hakemli Liyakat",
+    "hukuki_statu": {
+      "tip": "Federal / Kantonal Kamu Hizmeti Sözleşmesi",
+      "is_guvencesi_skoru_1_10": 7.0,
+      "gorevden_alinabilirlik": "Akademik suistimal veya fon usulsüzlüğünde Federal Mahkeme yoluyla mümkün",
+      "tenure_benzeri_yapi": "Periyodik Akreditasyon ve Tenure Değerlendirmesi"
+    },
+    "guc_asimetrisi": {
+      "skor_1_10": 2.2,
+      "notlandirma_denetimi": "Tam (Kantonal Temyiz Komisyonu ve Çift İnceleme)",
+      "mobbing_savunmasi": "Çok Güçlü (Ombudsstelle ETH & Kantonal Arabuluculuk)",
+      "akademik_angarya_riski": "Çok Düşük"
+    },
+    "denetim_ve_sikayet": {
+      "mekanizma": "Bağımsız Ombudsstelle, Kantonal Rekurskommission, Şeffaf Fon Denetimi",
+      "bagimsiz_ombudsman": true,
+      "harici_hakem_sistemi": true,
+      "sikayet_cezasizlik_orani_yuzde": 11.2
+    },
+    "tahliye_vanalari": {
+      "skor_1_10": 2.4,
+      "unsurlar": [
+        "Yüksek doktora/postdoc maaşları ve sosyal güvence",
+        "Kantonlar arası tam akademik geçişkenlik",
+        "Hukuki arabuluculuk yoluyla anında çözüm"
+      ]
+    },
+    "sonuc_ve_kriz_profili": "Dünyanın en yüksek patent ve bilimsel etki üretimi, sıfır kürsü dokunulmazlığı."
+  },
+  {
     "id": "us",
     "ulke": "Amerika Birleşik Devletleri",
     "model": "Piyasa ve Müşteri Odaklı Hukuk Modeli",
@@ -161,38 +193,6 @@
     "sonuc_ve_kriz_profili": "Harç iadesi talepleri, kurumsal itibar puanı kayıpları ve bağımsız hakem kararları."
   },
   {
-    "id": "jp",
-    "ulke": "Japonya",
-    "model": "Geleneksel Koza ve Hiyerarşik Sadakat Modeli",
-    "hukuki_statu": {
-      "tip": "Ulusal Üniversite Şirketleşmesi (Kokuritsu Daigaku Hojin)",
-      "is_guvencesi_skoru_1_10": 7.8,
-      "gorevden_alinabilirlik": "Kültürel ve kurumsal olarak zor",
-      "tenure_benzeri_yapi": "Fiili ömür boyu istihdam geleneği"
-    },
-    "guc_asimetrisi": {
-      "skor_1_10": 8.6,
-      "notlandirma_denetimi": "Çok Düşük (Kürsü hocasının mutlak inisiyatifi)",
-      "mobbing_savunmasi": "Gelişmekte olan Pawa-Hara masaları (ancak kültürel baskı yüksek)",
-      "akademik_angarya_riski": "Çok Yüksek (Laboratuvar ve kıdem hiyerarşisi)"
-    },
-    "denetim_ve_sikayet": {
-      "mekanizma": "Power Harassment (Pawa-Hara) Danışma Masaları",
-      "bagimsiz_ombudsman": false,
-      "harici_hakem_sistemi": false,
-      "sikayet_cezasizlik_orani_yuzde": 81.0
-    },
-    "tahliye_vanalari": {
-      "skor_1_10": 4.8,
-      "unsurlar": [
-        "Toplu mezun istihdam sistemi (Shinsotsu) baskısı",
-        "Akademik alandan ayrılıp kurumsal şirkete geçiş",
-        "Sosyal izolasyon toleransı"
-      ]
-    },
-    "sonuc_ve_kriz_profili": "Sessiz istifa, sosyal içe çekilme (Hikikomori), itaat veya akademik kariyeri terk."
-  },
-  {
     "id": "fr",
     "ulke": "Fransa",
     "model": "Napolyonik İkili Yapı (Grandes Écoles vs. Üniversite)",
@@ -223,5 +223,69 @@
       ]
     },
     "sonuc_ve_kriz_profili": "Kitlesel öğrenci protestoları, fakülte işgalleri, sendikal müzakereler."
+  },
+  {
+    "id": "kr",
+    "ulke": "Güney Kore",
+    "model": "BK21 Performans ve Yarı-Meritokratik Baskı Modeli",
+    "hukuki_statu": {
+      "tip": "Sözleşmeli / Tenure-Track Hibrit Kamu Memurluğu",
+      "is_guvencesi_skoru_1_10": 6.8,
+      "gorevden_alinabilirlik": "Yayın kotası ve etik komite kararıyla mümkün",
+      "tenure_benzeri_yapi": "Zorlu 6 yıllık Tenure-Track Değerlendirmesi"
+    },
+    "guc_asimetrisi": {
+      "skor_1_10": 7.4,
+      "notlandirma_denetimi": "Kısmi (Eğitim Bakanlığı Şikayet Hattı ve Hakem Komisyonları)",
+      "mobbing_savunmasi": "Gapjil (Üst baskısı) Önleme Yasası ile güçlendirildi",
+      "akademik_angarya_riski": "Yüksek (Konfüçyüsçü kıdem ve lab kültürü)"
+    },
+    "denetim_ve_sikayet": {
+      "mekanizma": "Ulusal İnsan Hakları Komisyonu (NHRCK), Gapjil İhbar Merkezleri",
+      "bagimsiz_ombudsman": true,
+      "harici_hakem_sistemi": false,
+      "sikayet_cezasizlik_orani_yuzde": 58.4
+    },
+    "tahliye_vanalari": {
+      "skor_1_10": 3.9,
+      "unsurlar": [
+        "Chaebol sanayi sektörüne hızlı geçiş",
+        "Yurtdışı postdoc fırsatları",
+        "Yüksek rekabetçi sınav tamponu"
+      ]
+    },
+    "sonuc_ve_kriz_profili": "Yoğun yayın baskısı, lab temelli krizler, 'Gapjil' yasası ile yükselen hesap verebilirlik."
+  },
+  {
+    "id": "jp",
+    "ulke": "Japonya",
+    "model": "Geleneksel Koza ve Hiyerarşik Sadakat Modeli",
+    "hukuki_statu": {
+      "tip": "Ulusal Üniversite Şirketleşmesi (Kokuritsu Daigaku Hojin)",
+      "is_guvencesi_skoru_1_10": 7.8,
+      "gorevden_alinabilirlik": "Kültürel ve kurumsal olarak zor",
+      "tenure_benzeri_yapi": "Fiili ömür boyu istihdam geleneği"
+    },
+    "guc_asimetrisi": {
+      "skor_1_10": 8.6,
+      "notlandirma_denetimi": "Çok Düşük (Kürsü hocasının mutlak inisiyatifi)",
+      "mobbing_savunmasi": "Gelişmekte olan Pawa-Hara masaları (ancak kültürel baskı yüksek)",
+      "akademik_angarya_riski": "Çok Yüksek (Laboratuvar ve kıdem hiyerarşisi)"
+    },
+    "denetim_ve_sikayet": {
+      "mekanizma": "Power Harassment (Pawa-Hara) Danışma Masaları",
+      "bagimsiz_ombudsman": false,
+      "harici_hakem_sistemi": false,
+      "sikayet_cezasizlik_orani_yuzde": 81.0
+    },
+    "tahliye_vanalari": {
+      "skor_1_10": 4.8,
+      "unsurlar": [
+        "Toplu mezun istihdam sistemi (Shinsotsu) baskısı",
+        "Akademik alandan ayrılıp kurumsal şirkete geçiş",
+        "Sosyal izolasyon toleransı"
+      ]
+    },
+    "sonuc_ve_kriz_profili": "Sessiz istifa, sosyal içe çekilme (Hikikomori), itaat veya akademik kariyeri terk."
   }
 ]

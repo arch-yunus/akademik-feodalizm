@@ -22,3 +22,5 @@ jobs:
       - name: Veri Bütünlüğünü Doğrula
         run: |
           python scripts/validate_data.py
+          python scripts/generate_report.py
+

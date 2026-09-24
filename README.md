@@ -35,9 +35,10 @@
 11. [Bütüncül Reform Paketi ve Somut Yasa Taslağı Önerisi](#-bütüncül-reform-paketi-ve-somut-yasa-taslağı-önerisi)
 12. [Hak Arama, Direnç ve Belgeleme Stratejileri](#-hak-arama-direnç-ve-belgeleme-stratejileri)
 13. [Dilekçe Şablonları ve Hak Arama Kütüphanesi](#-dilekçe-şablonları-ve-hak-arama-kütüphanesi)
-14. [Dizin Yapısı ve Belge Kütüphanesi](#-dizin-yapısı-ve-belge-kütüphanesi)
-15. [Veri Doğrulama ve Yerel Portal Çalıştırma](#-veri-doğrulama-ve-yerel-portal-çalıştırma)
-16. [Katkıda Bulunma ve Lisans](#-katkıda-bulunma-ve-lisans)
+14. [CLI Simülatörü ve Terminal Araçları](#-cli-simülatörü-ve-terminal-araçları)
+15. [Dizin Yapısı ve Belge Kütüphanesi](#-dizin-yapısı-ve-belge-kütüphanesi)
+16. [Veri Doğrulama ve Yerel Portal Çalıştırma](#-veri-doğrulama-ve-yerel-portal-çalıştırma)
+17. [Katkıda Bulunma ve Lisans](#-katkıda-bulunma-ve-lisans)
 
 ---
 
@@ -45,10 +46,13 @@
 
 Bu depoda yer alan analitik araçları, risk testini ve dilekçe üreticisini kullanmak için **[`index.html`](index.html)** portalını ziyaret edebilirsiniz:
 
-- **Fakülte Feodalizm Risk Testi:** Bölümünüzdeki mobbing ve feodalizm riskini hesaplayan 5 soruluk interaktif simülatör.
-- **Canlı Dilekçe Taslağı Üretici:** Sınav kâğıdı, barem inceleme ve bağımsız dış jüri talebi için anında dilekçe oluşturma.
-- **Karşılaştırmalı Ülke Radarı:** Türkiye, ABD, Almanya, İngiltere, Hollanda, İskandinavya, Japonya ve Fransa modelleri.
-- **Trend Grafikleri:** 2018–2025 şikâyet, takipsizlik ve AÖF sığınma oranları.
+- **Fakülte Feodalizm Risk Testi:** Bölümünüzdeki mobbing ve feodalizm riskini hesaplayan interaktif teşhis simülatörü.
+- **Canlı Dilekçe Stüdyosu:** 6 resmi şablon arasından seçim yaparak anında dilekçe oluşturma, panoya kopyalama ve `.txt` olarak indirme.
+- **Canlı Mobbing & Olay Kronolojisi:** 2018-2025 üniversite intihar, cinayet, tasfiye ve dava kararlarını kelime ve yıla göre filtreleme.
+- **Yasa Reformu Simülatörü:** Yasa teklifi maddelerini açıp kapatarak cezasızlık ve güç asimetrisinin düşüşünü canlı test etme.
+- **Karşılaştırmalı Ülke Radarı:** Türkiye, ABD, Almanya, İngiltere, Hollanda/İskandinavya, İsviçre, Fransa, Güney Kore ve Japonya modelleri (9 Ülke).
+- **Akademik Feodalizm Sözlüğü:** Temel kavramların (*Men-i Muhakeme, Coercive Authorship, Zweitprüfer, Gapjil vb.*) pratik açıklamaları.
+- **Trend Grafikleri:** 2018–2025 şikâyet, takipsizlik, AÖF sığınma ve beyin göçü istatistikleri.
 
 ---
 
@@ -349,13 +353,34 @@ Akademik mobbinge veya haksızlığa uğrayan bir öğrenci/araştırmacının i
 
 ## 📝 Dilekçe Şablonları ve Hak Arama Kütüphanesi
 
-Öğrenciler ve araştırmacılar için hazırlanmış hukuken geçerli resmi dilekçe taslakları:
+Öğrenciler ve araştırmacılar için hazırlanmış mevzuata ve Danıştay içtihatlarına uygun 6 resmi dilekçe taslağı:
 
-- 📄 [`01_sinav-kagidi-ve-barem-inceleme-talebi.md`](dilekce-sablonlari/01_sinav-kagidi-ve-barem-inceleme-talebi.md)
-- 📄 [`02_bagimsiz-dis-juri-itiraz-dilekcesi.md`](dilekce-sablonlari/02_bagimsiz-dis-juri-itiraz-dilekcesi.md)
-- 📄 [`03_akademik-mobbing-ve-gorevi-kotuye-kullanma-sikayeti.md`](dilekce-sablonlari/03_akademik-mobbing-ve-gorevi-kotuye-kullanma-sikayeti.md)
-- 📄 [`04_tez-danismani-degisikligi-talep-dilekcesi.md`](dilekce-sablonlari/04_tez-danismani-degisikligi-talep-dilekcesi.md)
-- 📄 [`05_savcilik-suc-duyurusu-taslagi.md`](dilekce-sablonlari/05_savcilik-suc-duyurusu-taslagi.md)
+- 📄 [`01_sinav-kagidi-ve-barem-inceleme-talebi.md`](dilekce-sablonlari/01_sinav-kagidi-ve-barem-inceleme-talebi.md) — Sınav kâğıdı, puan baremi ve cevap anahtarı talebi.
+- 📄 [`02_bagimsiz-dis-juri-itiraz-dilekcesi.md`](dilekce-sablonlari/02_bagimsiz-dis-juri-itiraz-dilekcesi.md) — Taraflı jüriye karşı üniversite dışı 3 kişilik bağımsız hakem talebi.
+- 📄 [`03_akademik-mobbing-ve-gorevi-kotuye-kullanma-sikayeti.md`](dilekce-sablonlari/03_akademik-mobbing-ve-gorevi-kotuye-kullanma-sikayeti.md) — TCK 94/257 kapsamında disiplin ve idari şikâyet.
+- 📄 [`04_tez-danismani-degisikligi-talep-dilekcesi.md`](dilekce-sablonlari/04_tez-danismani-degisikligi-talep-dilekcesi.md) — Lisansüstü danışman uyuşmazlığında re'sen yeni hoca atama talebi.
+- 📄 [`05_savcilik-suc-duyurusu-taslagi.md`](dilekce-sablonlari/05_savcilik-suc-duyurusu-taslagi.md) — Suç teşkil eden fiillerde doğrudan savcılık şikâyeti.
+- 📄 [`06_bilgi-edinme-kanunu-kapsaminda-juri-ve-mulakat-tutanaklari-talebi.md`](dilekce-sablonlari/06_bilgi-edinme-kanunu-kapsaminda-juri-ve-mulakat-tutanaklari-talebi.md) — 4982 Sayılı Kanun gereğince jüri not cetvelleri ve mülakat tutanaklarının onaylı suretleri talebi.
+
+---
+
+## 💻 CLI Simülatörü ve Terminal Araçları
+
+Depo içerisinde terminal üzerinden çalışan interaktif Python simülatörü yer almaktadır:
+
+```bash
+# 1. İnteraktif Feodalizm Risk Testini terminalde başlat
+python scripts/academic_simulator.py --test
+
+# 2. Ülkeler Hukuki Karşılaştırma Matrisini listele
+python scripts/academic_simulator.py --ulkeler
+
+# 3. Mobbing ve Vaka Kronolojisinde arama yap
+python scripts/academic_simulator.py --kronoloji --ara "Danıştay"
+
+# 4. Doğrudan terminalden kişiselleştirilmiş dilekçe üret ve kaydet
+python scripts/academic_simulator.py --dilekce 1 --uni "Ankara Üniversitesi" --fak "Hukuk Fakültesi" --ders "HUK101 Anayasa" --kaydet "dilekcem.txt"
+```
 
 ---
 
@@ -368,25 +393,28 @@ Akademik mobbinge veya haksızlığa uğrayan bir öğrenci/araştırmacının i
 │   ├── 03-milli-asistan-emek-banner.jpg              # Asistan, 50/d & Emek Gaspı
 │   ├── 04-milli-tahliye-vanalari-banner.jpg          # AÖF, KYK & Af Tahliye Vanaları
 │   └── 05-milli-demokratik-reform-banner.jpg         # Geleceğin Demokratik Türk Üniversitesi
-├── dilekce-sablonlari/                               # Hukuken Geçerli Resmi Dilekçe Şablonları
+├── dilekce-sablonlari/                               # Hukuken Geçerli Resmi Dilekçe Şablonları (6 Adet)
 │   ├── 01_sinav-kagidi-ve-barem-inceleme-talebi.md
 │   ├── 02_bagimsiz-dis-juri-itiraz-dilekcesi.md
 │   ├── 03_akademik-mobbing-ve-gorevi-kotuye-kullanma-sikayeti.md
 │   ├── 04_tez-danismani-degisikligi-talep-dilekcesi.md
-│   └── 05_savcilik-suc-duyurusu-taslagi.md
-├── index.html                                        # İnteraktif Web Portalı & Risk Testi
+│   ├── 05_savcilik-suc-duyurusu-taslagi.md
+│   └── 06_bilgi-edinme-kanunu-kapsaminda-juri-ve-mulakat-tutanaklari-talebi.md
+├── index.html                                        # İnteraktif Web Portalı, Dilekçe Stüdyosu & Kronoloji
 ├── RAPOR_2026.md                                     # Otomatik İstatistiksel Analitik Rapor
 ├── KATKI.md                                          # Katkı Kılavuzu ve Araştırma Etiği
 ├── LICENSE                                           # MIT Lisansı
 ├── .github/workflows/validate.yml                   # Otomatik Veri Doğrulama CI
 ├── scripts/
+│   ├── academic_simulator.py                         # İnteraktif CLI ve Dilekçe Simülatörü
 │   ├── generate_report.py                            # Rapor Üretici Betik
-│   └── validate_data.py                              # JSON/CSV Doğrulama Betiği
+│   └── validate_data.py                              # JSON/CSV Bütünlük ve Şema Doğrulama Betiği
 ├── veriler/
-│   ├── ulke-akademik-mevzuatlari.json                # Karşılaştırmalı ülke parametreleri
+│   ├── ulke-akademik-mevzuatlari.json                # Karşılaştırmalı ülke parametreleri (9 Ülke)
 │   ├── sorusturma-sonuclari-ve-ihrac-oranlari.csv    # Soruşturma ve cezasızlık istatistikleri
 │   ├── ogrenci-terk-ve-af-istatistikleri.csv         # Terk, AÖF ve af verileri
-│   └── universite-akademik-mobbing-ve-intihar-kronolojisi.csv # Olay kronolojisi
+│   ├── universite-akademik-mobbing-ve-intihar-kronolojisi.csv # Olay ve yargı kronolojisi
+│   └── akademik-beyin-gocu-ve-yurtdisi-kayiplari.csv # Doktoralı araştırmacı göçü ve maddi kayıp
 ├── alintilar-ve-dokumanlar/
 │   ├── burokratik-tahakkum-literaturu.md             # Kuramsal metinler ve sosyolojik analizler
 │   ├── ogrenci-dilekce-ornekleri-ve-akibeti.md        # Anonimleştirilmiş dilekçe vakaları
@@ -400,12 +428,15 @@ Akademik mobbinge veya haksızlığa uğrayan bir öğrenci/araştırmacının i
 │   ├── 06_kapsamli-reform-ve-yasa-taslagi-onerisi.md # Somut kanun teklifi maddeleri
 │   ├── 07_asistanlik-ve-arastirma-gorevlisi-somurusu.md # 50/d kadro güvencesizliği ve sömürü
 │   ├── 08_juri-ve-akademik-yukselme-yozlasmasi.md     # Adrese teslim kadro ve ahbap-çavuş jürileri
-│   └── 09_elenenlerin-anatomisi-ve-milli-kayip.md    # Elenen parlak zihinler ve milli maliyet analizi
+│   ├── 09_elenenlerin-anatomisi-ve-milli-kayip.md    # Elenen parlak zihinler ve milli maliyet analizi
+│   └── 10_akademik-beyin-gocu-ve-liderlik-krizi.md   # Beyin göçü dinamikleri ve kurumsal çöküş
 └── mevzuat-arsivi/
     ├── tr-kanun-2547-ve-disiplin-yonetmelikleri.md   # Türkiye yükseköğretim mevzuatı
     ├── abd-title-ix-ve-ombudsmanlik-yapisi.md        # ABD Title IX, FERPA ve Ombudsmanlık
     ├── de-hochschulrahmengesetz.md                   # Almanya HRG ve Prüfungsrecht
-    └── nl-dk-ombudsmanlik-ve-cbe-mevzuati.md         # Hollanda & Danimarka mevzuat arşivi
+    ├── nl-dk-ombudsmanlik-ve-cbe-mevzuati.md         # Hollanda & Danimarka mevzuat arşivi
+    ├── fr-code-de-leducation-ve-cnu.md               # Fransa Code de l'Éducation ve CNU
+    └── ch-isvicre-eth-ve-kanton-akademik-mevzuati.md # İsviçre ETH ve Kantonal Ombudsstelle
 ```
 
 ---

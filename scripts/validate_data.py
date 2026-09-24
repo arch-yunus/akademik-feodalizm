@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Data validator script for akademik-feodalizm datasets.
-Validates JSON schemas and CSV row integrity.
+Validates JSON schemas and CSV row integrity across all repository datasets.
 """
 import os
 import json
@@ -72,6 +72,7 @@ def main():
     csv1_path = os.path.join(veriler_dir, "sorusturma-sonuclari-ve-ihrac-oranlari.csv")
     csv2_path = os.path.join(veriler_dir, "ogrenci-terk-ve-af-istatistikleri.csv")
     csv3_path = os.path.join(veriler_dir, "universite-akademik-mobbing-ve-intihar-kronolojisi.csv")
+    csv4_path = os.path.join(veriler_dir, "akademik-beyin-gocu-ve-yurtdisi-kayiplari.csv")
     
     success = True
     success &= validate_json_file(json_path)
@@ -79,6 +80,8 @@ def main():
     success &= validate_csv_file(csv2_path, 8)
     if os.path.exists(csv3_path):
         success &= validate_csv_file(csv3_path, 7)
+    if os.path.exists(csv4_path):
+        success &= validate_csv_file(csv4_path, 6)
     
     if not success:
         print("\n[FAIL] Validation FAILED.")
